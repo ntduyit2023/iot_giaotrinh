@@ -1,0 +1,3621 @@
+[
+  {
+    "num": 2,
+    "chapter": "c4_updated",
+    "section": "4. Tổng quan",
+    "title": "Tổng quan các nền tảng phần cứng và phần mềm IoT",
+    "image": "slide_images/c4_updated/slide_2.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "4.1: Mạng cảm biến không dây (Wireless sensor networks)",
+        "en": "4.1: Mạng cảm biến không dây (Wireless sensor networks)"
+      },
+      {
+        "type": "bullet",
+        "vi": "4.2: Phân loại mạng cảm biến không dây (Class of wireless sensor networks)",
+        "en": "4.2: Phân loại mạng cảm biến không dây (Class of wireless sensor networks)"
+      },
+      {
+        "type": "bullet",
+        "vi": "4.3: Vai trò của mã nguồn mở trong IoT (The role of Open source in IoT)",
+        "en": "4.3: Vai trò của mã nguồn mở trong IoT (The role of Open source in IoT)"
+      },
+      {
+        "type": "bullet",
+        "vi": "4.4: Các nền tảng phần cứng IoT thông dụng",
+        "en": "4.4: Các nền tảng phần cứng IoT thông dụng"
+      },
+      {
+        "type": "bullet",
+        "vi": "4.5: Các nền tảng phần mềm IoT thông dụng",
+        "en": "4.5: Các nền tảng phần mềm IoT thông dụng"
+      }
+    ],
+    "raw_text_vi": "4.1: Mạng cảm biến không dây (Wireless sensor networks) 4.2: Phân loại mạng cảm biến không dây (Class of wireless sensor networks) 4.3: Vai trò của mã nguồn mở trong IoT (The role of Open source in IoT) 4.4: Các nền tảng phần cứng IoT thông dụng 4.5: Các nền tảng phần mềm IoT thông dụng",
+    "raw_text_en": "4.1: Mạng cảm biến không dây (Wireless sensor networks) 4.2: Phân loại mạng cảm biến không dây (Class of wireless sensor networks) 4.3: Vai trò của mã nguồn mở trong IoT (The role of Open source in IoT) 4.4: Các nền tảng phần cứng IoT thông dụng 4.5: Các nền tảng phần mềm IoT thông dụng"
+  },
+  {
+    "num": 3,
+    "chapter": "c4_updated",
+    "section": "4.1. Mạng cảm biến không dây",
+    "title": "Mạng cảm biến không dây (WSN)",
+    "image": "slide_images/c4_updated/slide_3.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Mạng cảm biến không dây (WSN - Wireless Sensor Networks), như tên cho thấy, là một mô hình mạng sử dụng các cảm biến phân bố theo không gian để thu thập thông tin liên quan đến môi trường xung quanh và gửi dữ liệu về trung tâm.",
+        "en": "Mạng cảm biến không dây (WSN - Wireless Sensor Networks), như tên cho thấy, là một mô hình mạng sử dụng các cảm biến phân bố theo không gian để thu thập thông tin liên quan đến môi trường xung quanh và gửi dữ liệu về trung tâm."
+      },
+      {
+        "type": "bullet",
+        "vi": "Tại đây, các cảm biến không phải là thiết bị độc lập mà là sự kết hợp của cảm biến, bộ xử lý và thiết bị vô tuyến (được gọi là các nút cảm biến — Sensor Nodes) — cảm nhận môi trường và truyền đạt dữ liệu cảm nhận không dây đến một địa điểm ở xa kết nối tới mạng đường trục.",
+        "en": "Tại đây, các cảm biến không phải là thiết bị độc lập mà là sự kết hợp của cảm biến, bộ xử lý và thiết bị vô tuyến (được gọi là các nút cảm biến — Sensor Nodes) — cảm nhận môi trường và truyền đạt dữ liệu cảm nhận không dây đến một địa điểm ở xa kết nối tới mạng đường trục."
+      }
+    ],
+    "raw_text_vi": "Mạng cảm biến không dây (WSN - Wireless Sensor Networks), như tên cho thấy, là một mô hình mạng sử dụng các cảm biến phân bố theo không gian để thu thập thông tin liên quan đến môi trường xung quanh và gửi dữ liệu về trung tâm. Tại đây, các cảm biến không phải là thiết bị độc lập mà là sự kết hợp của cảm biến, bộ xử lý và thiết bị vô tuyến (được gọi là các nút cảm biến — Sensor Nodes) — cảm nhận môi trường và truyền đạt dữ liệu cảm nhận không dây đến một địa điểm ở xa kết nối tới mạng đường trục.",
+    "raw_text_en": "Mạng cảm biến không dây (WSN - Wireless Sensor Networks), như tên cho thấy, là một mô hình mạng sử dụng các cảm biến phân bố theo không gian để thu thập thông tin liên quan đến môi trường xung quanh và gửi dữ liệu về trung tâm. Tại đây, các cảm biến không phải là thiết bị độc lập mà là sự kết hợp của cảm biến, bộ xử lý và thiết bị vô tuyến (được gọi là các nút cảm biến — Sensor Nodes) — cảm nhận môi trường và truyền đạt dữ liệu cảm nhận không dây đến một địa điểm ở xa kết nối tới mạng đường trục."
+  },
+  {
+    "num": 4,
+    "chapter": "c4_updated",
+    "section": "4.1. Mạng cảm biến không dây",
+    "title": "Các thành phần điển hình của nút mạng WSN",
+    "image": "slide_images/c4_updated/slide_4.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Kiến trúc cấu tạo của một nút mạng cảm biến (Sensor Node): gồm Cảm biến (Sensors), Bộ chuyển đổi ADC, Vi xử lý (Processor), Bộ nhớ (Memory), Bộ thu phát vô tuyến (Transceiver) và Nguồn năng lượng (Power Unit).",
+        "en": "Kiến trúc cấu tạo của một nút mạng cảm biến (Sensor Node): gồm Cảm biến (Sensors), Bộ chuyển đổi ADC, Vi xử lý (Processor), Bộ nhớ (Memory), Bộ thu phát vô tuyến (Transceiver) và Nguồn năng lượng (Power Unit)."
+      }
+    ],
+    "raw_text_vi": "Kiến trúc cấu tạo của một nút mạng cảm biến (Sensor Node): gồm Cảm biến (Sensors), Bộ chuyển đổi ADC, Vi xử lý (Processor), Bộ nhớ (Memory), Bộ thu phát vô tuyến (Transceiver) và Nguồn năng lượng (Power Unit).",
+    "raw_text_en": "Kiến trúc cấu tạo của một nút mạng cảm biến (Sensor Node): gồm Cảm biến (Sensors), Bộ chuyển đổi ADC, Vi xử lý (Processor), Bộ nhớ (Memory), Bộ thu phát vô tuyến (Transceiver) và Nguồn năng lượng (Power Unit)."
+  },
+  {
+    "num": 5,
+    "chapter": "c4_updated",
+    "section": "4.1. Mạng cảm biến không dây",
+    "title": "Mô hình triển khai mạng WSN điển hình",
+    "image": "slide_images/c4_updated/slide_5.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Mô hình triển khai WSN: Các nút cảm biến (Sensor Nodes) phân tán thu thập dữ liệu từ môi trường, truyền dữ liệu qua các nút chuyển tiếp (Relay Nodes) về trạm gốc (Base Station / Sink Node) và kết nối tới máy chủ Internet.",
+        "en": "Mô hình triển khai WSN: Các nút cảm biến (Sensor Nodes) phân tán thu thập dữ liệu từ môi trường, truyền dữ liệu qua các nút chuyển tiếp (Relay Nodes) về trạm gốc (Base Station / Sink Node) và kết nối tới máy chủ Internet."
+      }
+    ],
+    "raw_text_vi": "Mô hình triển khai WSN: Các nút cảm biến (Sensor Nodes) phân tán thu thập dữ liệu từ môi trường, truyền dữ liệu qua các nút chuyển tiếp (Relay Nodes) về trạm gốc (Base Station / Sink Node) và kết nối tới máy chủ Internet.",
+    "raw_text_en": "Mô hình triển khai WSN: Các nút cảm biến (Sensor Nodes) phân tán thu thập dữ liệu từ môi trường, truyền dữ liệu qua các nút chuyển tiếp (Relay Nodes) về trạm gốc (Base Station / Sink Node) và kết nối tới máy chủ Internet."
+  },
+  {
+    "num": 6,
+    "chapter": "c4_updated",
+    "section": "4.1. Mạng cảm biến không dây",
+    "title": "Đặc điểm của mạng WSN: Dung sai lỗi & Khả năng mở rộng",
+    "image": "slide_images/c4_updated/slide_6.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Dung sai lỗi (Fault Tolerance): Sự cố hoặc lỗi xảy ra tại một số nút WSN không làm sập toàn bộ hệ thống WSN, cũng như không cản trở việc truyền dữ liệu từ các nút không bị lỗi đến vị trí trung tâm.",
+        "en": "Dung sai lỗi (Fault Tolerance): Sự cố hoặc lỗi xảy ra tại một số nút WSN không làm sập toàn bộ hệ thống WSN, cũng như không cản trở việc truyền dữ liệu từ các nút không bị lỗi đến vị trí trung tâm."
+      },
+      {
+        "type": "bullet",
+        "vi": "Khả năng mở rộng (Scalability): Hệ thống WSN phải hỗ trợ mở rộng quy mô khi tăng hoặc giảm số lượng nút cảm biến trong tương lai mà không làm thay đổi toàn bộ kiến trúc hạ tầng.",
+        "en": "Khả năng mở rộng (Scalability): Hệ thống WSN phải hỗ trợ mở rộng quy mô khi tăng hoặc giảm số lượng nút cảm biến trong tương lai mà không làm thay đổi toàn bộ kiến trúc hạ tầng."
+      }
+    ],
+    "raw_text_vi": "Dung sai lỗi (Fault Tolerance): Sự cố hoặc lỗi xảy ra tại một số nút WSN không làm sập toàn bộ hệ thống WSN, cũng như không cản trở việc truyền dữ liệu từ các nút không bị lỗi đến vị trí trung tâm. Khả năng mở rộng (Scalability): Hệ thống WSN phải hỗ trợ mở rộng quy mô khi tăng hoặc giảm số lượng nút cảm biến trong tương lai mà không làm thay đổi toàn bộ kiến trúc hạ tầng.",
+    "raw_text_en": "Dung sai lỗi (Fault Tolerance): Sự cố hoặc lỗi xảy ra tại một số nút WSN không làm sập toàn bộ hệ thống WSN, cũng như không cản trở việc truyền dữ liệu từ các nút không bị lỗi đến vị trí trung tâm. Khả năng mở rộng (Scalability): Hệ thống WSN phải hỗ trợ mở rộng quy mô khi tăng hoặc giảm số lượng nút cảm biến trong tương lai mà không làm thay đổi toàn bộ kiến trúc hạ tầng."
+  },
+  {
+    "num": 7,
+    "chapter": "c4_updated",
+    "section": "4.1. Mạng cảm biến không dây",
+    "title": "Đặc điểm của mạng WSN: Tuổi thọ & Bảo mật",
+    "image": "slide_images/c4_updated/slide_7.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Tuổi thọ dài (Long Lifetime): Chu kỳ hoạt động hoặc chu kỳ bổ sung năng lượng phải đủ dài cho các ứng dụng quy mô lớn, nhất là tại môi trường khắc nghiệt, xa xôi khó thay pin.",
+        "en": "Tuổi thọ dài (Long Lifetime): Chu kỳ hoạt động hoặc chu kỳ bổ sung năng lượng phải đủ dài cho các ứng dụng quy mô lớn, nhất là tại môi trường khắc nghiệt, xa xôi khó thay pin."
+      },
+      {
+        "type": "bullet",
+        "vi": "Bảo mật (Security): Vấn đề bảo mật nếu không được quan tâm có thể làm tổn hại toàn bộ hệ thống đến tận máy chủ; bảo mật phải được xử lý hợp lý để ngăn chặn xâm nhập và duy trì tính toàn vẹn dữ liệu.",
+        "en": "Bảo mật (Security): Vấn đề bảo mật nếu không được quan tâm có thể làm tổn hại toàn bộ hệ thống đến tận máy chủ; bảo mật phải được xử lý hợp lý để ngăn chặn xâm nhập và duy trì tính toàn vẹn dữ liệu."
+      }
+    ],
+    "raw_text_vi": "Tuổi thọ dài (Long Lifetime): Chu kỳ hoạt động hoặc chu kỳ bổ sung năng lượng phải đủ dài cho các ứng dụng quy mô lớn, nhất là tại môi trường khắc nghiệt, xa xôi khó thay pin. Bảo mật (Security): Vấn đề bảo mật nếu không được quan tâm có thể làm tổn hại toàn bộ hệ thống đến tận máy chủ; bảo mật phải được xử lý hợp lý để ngăn chặn xâm nhập và duy trì tính toàn vẹn dữ liệu.",
+    "raw_text_en": "Tuổi thọ dài (Long Lifetime): Chu kỳ hoạt động hoặc chu kỳ bổ sung năng lượng phải đủ dài cho các ứng dụng quy mô lớn, nhất là tại môi trường khắc nghiệt, xa xôi khó thay pin. Bảo mật (Security): Vấn đề bảo mật nếu không được quan tâm có thể làm tổn hại toàn bộ hệ thống đến tận máy chủ; bảo mật phải được xử lý hợp lý để ngăn chặn xâm nhập và duy trì tính toàn vẹn dữ liệu."
+  },
+  {
+    "num": 8,
+    "chapter": "c4_updated",
+    "section": "4.1. Mạng cảm biến không dây",
+    "title": "Đặc điểm của mạng WSN: Khả năng lập trình & Giá thành",
+    "image": "slide_images/c4_updated/slide_8.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Khả năng lập trình (Programmability): Đảm bảo tính linh hoạt, cho phép tái sử dụng nút WSN cho các ứng dụng khác thông qua việc thay đổi cảm biến và cập nhật phần mềm.",
+        "en": "Khả năng lập trình (Programmability): Đảm bảo tính linh hoạt, cho phép tái sử dụng nút WSN cho các ứng dụng khác thông qua việc thay đổi cảm biến và cập nhật phần mềm."
+      },
+      {
+        "type": "bullet",
+        "vi": "Khả năng chi trả / Giá thành (Affordability): Vì WSN cần số lượng lớn từ hàng chục đến hàng trăm nút, chi phí hợp lý của các nút đóng vai trò quyết định khả năng ứng dụng thực tế.",
+        "en": "Khả năng chi trả / Giá thành (Affordability): Vì WSN cần số lượng lớn từ hàng chục đến hàng trăm nút, chi phí hợp lý của các nút đóng vai trò quyết định khả năng ứng dụng thực tế."
+      }
+    ],
+    "raw_text_vi": "Khả năng lập trình (Programmability): Đảm bảo tính linh hoạt, cho phép tái sử dụng nút WSN cho các ứng dụng khác thông qua việc thay đổi cảm biến và cập nhật phần mềm. Khả năng chi trả / Giá thành (Affordability): Vì WSN cần số lượng lớn từ hàng chục đến hàng trăm nút, chi phí hợp lý của các nút đóng vai trò quyết định khả năng ứng dụng thực tế.",
+    "raw_text_en": "Khả năng lập trình (Programmability): Đảm bảo tính linh hoạt, cho phép tái sử dụng nút WSN cho các ứng dụng khác thông qua việc thay đổi cảm biến và cập nhật phần mềm. Khả năng chi trả / Giá thành (Affordability): Vì WSN cần số lượng lớn từ hàng chục đến hàng trăm nút, chi phí hợp lý của các nút đóng vai trò quyết định khả năng ứng dụng thực tế."
+  },
+  {
+    "num": 9,
+    "chapter": "c4_updated",
+    "section": "4.1. Mạng cảm biến không dây",
+    "title": "Đặc điểm của mạng WSN: Tính không đồng nhất & Di động",
+    "image": "slide_images/c4_updated/slide_9.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Tính không đồng nhất (Heterogeneity): WSN phải hỗ trợ nhiều loại cảm biến và giải pháp khác nhau; nếu thiếu tính đa dạng, mạng sẽ bị phụ thuộc cứng nhắc vào một ứng dụng cụ thể.",
+        "en": "Tính không đồng nhất (Heterogeneity): WSN phải hỗ trợ nhiều loại cảm biến và giải pháp khác nhau; nếu thiếu tính đa dạng, mạng sẽ bị phụ thuộc cứng nhắc vào một ứng dụng cụ thể."
+      },
+      {
+        "type": "bullet",
+        "vi": "Tính di động (Mobility): Hỗ trợ các nút có khả năng di chuyển linh hoạt, đảm bảo việc triển khai nhanh chóng trong mọi môi trường địa hình.",
+        "en": "Tính di động (Mobility): Hỗ trợ các nút có khả năng di chuyển linh hoạt, đảm bảo việc triển khai nhanh chóng trong mọi môi trường địa hình."
+      }
+    ],
+    "raw_text_vi": "Tính không đồng nhất (Heterogeneity): WSN phải hỗ trợ nhiều loại cảm biến và giải pháp khác nhau; nếu thiếu tính đa dạng, mạng sẽ bị phụ thuộc cứng nhắc vào một ứng dụng cụ thể. Tính di động (Mobility): Hỗ trợ các nút có khả năng di chuyển linh hoạt, đảm bảo việc triển khai nhanh chóng trong mọi môi trường địa hình.",
+    "raw_text_en": "Tính không đồng nhất (Heterogeneity): WSN phải hỗ trợ nhiều loại cảm biến và giải pháp khác nhau; nếu thiếu tính đa dạng, mạng sẽ bị phụ thuộc cứng nhắc vào một ứng dụng cụ thể. Tính di động (Mobility): Hỗ trợ các nút có khả năng di chuyển linh hoạt, đảm bảo việc triển khai nhanh chóng trong mọi môi trường địa hình."
+  },
+  {
+    "num": 10,
+    "chapter": "c4_updated",
+    "section": "4.2. Phân loại mạng cảm biến không dây",
+    "title": "Các lĩnh vực ứng dụng của mạng WSN (Phần 1)",
+    "image": "slide_images/c4_updated/slide_10.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Ứng dụng quân sự (Military): Phát hiện đối phương, phương tiện cơ giới, cảnh báo xâm nhập và kiểm soát vũ khí.",
+        "en": "Ứng dụng quân sự (Military): Phát hiện đối phương, phương tiện cơ giới, cảnh báo xâm nhập và kiểm soát vũ khí."
+      },
+      {
+        "type": "bullet",
+        "vi": "Ứng dụng y tế (Health): Giám sát bệnh nhân tại bệnh viện, xe cấp cứu, thiết bị đeo theo dõi sức khỏe thu nhỏ (wearable devices).",
+        "en": "Ứng dụng y tế (Health): Giám sát bệnh nhân tại bệnh viện, xe cấp cứu, thiết bị đeo theo dõi sức khỏe thu nhỏ (wearable devices)."
+      },
+      {
+        "type": "bullet",
+        "vi": "Ứng dụng môi trường (Environmental): Giám sát ô nhiễm môi trường, cảnh báo cháy rừng, theo dõi đời sống hoang dã.",
+        "en": "Ứng dụng môi trường (Environmental): Giám sát ô nhiễm môi trường, cảnh báo cháy rừng, theo dõi đời sống hoang dã."
+      },
+      {
+        "type": "bullet",
+        "vi": "Ứng dụng gia đình (Home): Hệ thống tự động hóa nhà ở và nhà thông minh (Smart Home).",
+        "en": "Ứng dụng gia đình (Home): Hệ thống tự động hóa nhà ở và nhà thông minh (Smart Home)."
+      }
+    ],
+    "raw_text_vi": "Ứng dụng quân sự (Military): Phát hiện đối phương, phương tiện cơ giới, cảnh báo xâm nhập và kiểm soát vũ khí. Ứng dụng y tế (Health): Giám sát bệnh nhân tại bệnh viện, xe cấp cứu, thiết bị đeo theo dõi sức khỏe thu nhỏ (wearable devices). Ứng dụng môi trường (Environmental): Giám sát ô nhiễm môi trường, cảnh báo cháy rừng, theo dõi đời sống hoang dã. Ứng dụng gia đình (Home): Hệ thống tự động hóa nhà ở và nhà thông minh (Smart Home).",
+    "raw_text_en": "Ứng dụng quân sự (Military): Phát hiện đối phương, phương tiện cơ giới, cảnh báo xâm nhập và kiểm soát vũ khí. Ứng dụng y tế (Health): Giám sát bệnh nhân tại bệnh viện, xe cấp cứu, thiết bị đeo theo dõi sức khỏe thu nhỏ (wearable devices). Ứng dụng môi trường (Environmental): Giám sát ô nhiễm môi trường, cảnh báo cháy rừng, theo dõi đời sống hoang dã. Ứng dụng gia đình (Home): Hệ thống tự động hóa nhà ở và nhà thông minh (Smart Home)."
+  },
+  {
+    "num": 11,
+    "chapter": "c4_updated",
+    "section": "4.2. Phân loại mạng cảm biến không dây",
+    "title": "Các lĩnh vực ứng dụng của mạng WSN (Phần 2)",
+    "image": "slide_images/c4_updated/slide_11.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Ứng dụng thương mại (Commercial): Giám sát chuỗi cung ứng, theo dõi hàng hóa lưu kho, quản lý kho vận thông minh, theo dõi đội xe vận tải và phân tích môi trường dịch vụ thương mại.",
+        "en": "Ứng dụng thương mại (Commercial): Giám sát chuỗi cung ứng, theo dõi hàng hóa lưu kho, quản lý kho vận thông minh, theo dõi đội xe vận tải và phân tích môi trường dịch vụ thương mại."
+      }
+    ],
+    "raw_text_vi": "Ứng dụng thương mại (Commercial): Giám sát chuỗi cung ứng, theo dõi hàng hóa lưu kho, quản lý kho vận thông minh, theo dõi đội xe vận tải và phân tích môi trường dịch vụ thương mại.",
+    "raw_text_en": "Ứng dụng thương mại (Commercial): Giám sát chuỗi cung ứng, theo dõi hàng hóa lưu kho, quản lý kho vận thông minh, theo dõi đội xe vận tải và phân tích môi trường dịch vụ thương mại."
+  },
+  {
+    "num": 12,
+    "chapter": "c4_updated",
+    "section": "4.2. Phân loại mạng cảm biến không dây",
+    "title": "Phân loại mạng cảm biến WSN theo môi trường hoạt động",
+    "image": "slide_images/c4_updated/slide_12.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Mạng WSN có thể được phân loại thành 5 lĩnh vực chính theo môi trường: Trên mặt đất (Terrestrial), Dưới lòng đất (Underground), Dưới nước (Underwater), Đa phương tiện (Multimedia) và Di động (Mobile).",
+        "en": "Mạng WSN có thể được phân loại thành 5 lĩnh vực chính theo môi trường: Trên mặt đất (Terrestrial), Dưới lòng đất (Underground), Dưới nước (Underwater), Đa phương tiện (Multimedia) và Di động (Mobile)."
+      }
+    ],
+    "raw_text_vi": "Mạng WSN có thể được phân loại thành 5 lĩnh vực chính theo môi trường: Trên mặt đất (Terrestrial), Dưới lòng đất (Underground), Dưới nước (Underwater), Đa phương tiện (Multimedia) và Di động (Mobile).",
+    "raw_text_en": "Mạng WSN có thể được phân loại thành 5 lĩnh vực chính theo môi trường: Trên mặt đất (Terrestrial), Dưới lòng đất (Underground), Dưới nước (Underwater), Đa phương tiện (Multimedia) và Di động (Mobile)."
+  },
+  {
+    "num": 13,
+    "chapter": "c4_updated",
+    "section": "4.2. Phân loại mạng cảm biến không dây",
+    "title": "Mạng cảm biến WSN trên mặt đất (Terrestrial WSN)",
+    "image": "slide_images/c4_updated/slide_13.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Bao gồm hàng trăm đến hàng nghìn nút cảm biến được triển khai trên bề mặt đất theo mô hình có cấu trúc (được xếp đặt trước) hoặc phi cấu trúc (rải ngẫu nhiên, ví dụ thả từ máy bay).",
+        "en": "Bao gồm hàng trăm đến hàng nghìn nút cảm biến được triển khai trên bề mặt đất theo mô hình có cấu trúc (được xếp đặt trước) hoặc phi cấu trúc (rải ngẫu nhiên, ví dụ thả từ máy bay)."
+      }
+    ],
+    "raw_text_vi": "Bao gồm hàng trăm đến hàng nghìn nút cảm biến được triển khai trên bề mặt đất theo mô hình có cấu trúc (được xếp đặt trước) hoặc phi cấu trúc (rải ngẫu nhiên, ví dụ thả từ máy bay).",
+    "raw_text_en": "Bao gồm hàng trăm đến hàng nghìn nút cảm biến được triển khai trên bề mặt đất theo mô hình có cấu trúc (được xếp đặt trước) hoặc phi cấu trúc (rải ngẫu nhiên, ví dụ thả từ máy bay)."
+  },
+  {
+    "num": 14,
+    "chapter": "c4_updated",
+    "section": "4.2. Phân loại mạng cảm biến không dây",
+    "title": "Mạng cảm biến WSN dưới lòng đất (Underground WSN)",
+    "image": "slide_images/c4_updated/slide_14.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Bao gồm các nút cảm biến được chôn dưới mặt đất để theo dõi độ ẩm, địa chấn, rò rỉ đường ống; tín hiệu vô tuyến bị suy hao nhanh trong môi trường đất và đá.",
+        "en": "Bao gồm các nút cảm biến được chôn dưới mặt đất để theo dõi độ ẩm, địa chấn, rò rỉ đường ống; tín hiệu vô tuyến bị suy hao nhanh trong môi trường đất và đá."
+      }
+    ],
+    "raw_text_vi": "Bao gồm các nút cảm biến được chôn dưới mặt đất để theo dõi độ ẩm, địa chấn, rò rỉ đường ống; tín hiệu vô tuyến bị suy hao nhanh trong môi trường đất và đá.",
+    "raw_text_en": "Bao gồm các nút cảm biến được chôn dưới mặt đất để theo dõi độ ẩm, địa chấn, rò rỉ đường ống; tín hiệu vô tuyến bị suy hao nhanh trong môi trường đất và đá."
+  },
+  {
+    "num": 15,
+    "chapter": "c4_updated",
+    "section": "4.2. Phân loại mạng cảm biến không dây",
+    "title": "Mạng cảm biến WSN dưới nước (Underwater WSN)",
+    "image": "slide_images/c4_updated/slide_15.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Bao gồm các nút cảm biến và phương tiện tự hành dưới nước; sử dụng sóng âm (acoustic waves) để truyền tin do sóng vô tuyến bị nước hấp thụ rất mạnh.",
+        "en": "Bao gồm các nút cảm biến và phương tiện tự hành dưới nước; sử dụng sóng âm (acoustic waves) để truyền tin do sóng vô tuyến bị nước hấp thụ rất mạnh."
+      }
+    ],
+    "raw_text_vi": "Bao gồm các nút cảm biến và phương tiện tự hành dưới nước; sử dụng sóng âm (acoustic waves) để truyền tin do sóng vô tuyến bị nước hấp thụ rất mạnh.",
+    "raw_text_en": "Bao gồm các nút cảm biến và phương tiện tự hành dưới nước; sử dụng sóng âm (acoustic waves) để truyền tin do sóng vô tuyến bị nước hấp thụ rất mạnh."
+  },
+  {
+    "num": 16,
+    "chapter": "c4_updated",
+    "section": "4.2. Phân loại mạng cảm biến không dây",
+    "title": "Mạng cảm biến WSN đa phương tiện và di động",
+    "image": "slide_images/c4_updated/slide_16.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "WSN đa phương tiện (Multimedia WSN): Trang bị camera, micro thu nhận hình ảnh, âm thanh và video phục vụ giám sát nâng cao.",
+        "en": "WSN đa phương tiện (Multimedia WSN): Trang bị camera, micro thu nhận hình ảnh, âm thanh và video phục vụ giám sát nâng cao."
+      },
+      {
+        "type": "bullet",
+        "vi": "WSN di động (Mobile WSN): Các nút cảm biến gắn trên vật thể chuyển động (xe cộ, robot, người) có khả năng tự động cấu hình lại mạng khi di chuyển.",
+        "en": "WSN di động (Mobile WSN): Các nút cảm biến gắn trên vật thể chuyển động (xe cộ, robot, người) có khả năng tự động cấu hình lại mạng khi di chuyển."
+      }
+    ],
+    "raw_text_vi": "WSN đa phương tiện (Multimedia WSN): Trang bị camera, micro thu nhận hình ảnh, âm thanh và video phục vụ giám sát nâng cao. WSN di động (Mobile WSN): Các nút cảm biến gắn trên vật thể chuyển động (xe cộ, robot, người) có khả năng tự động cấu hình lại mạng khi di chuyển.",
+    "raw_text_en": "WSN đa phương tiện (Multimedia WSN): Trang bị camera, micro thu nhận hình ảnh, âm thanh và video phục vụ giám sát nâng cao. WSN di động (Mobile WSN): Các nút cảm biến gắn trên vật thể chuyển động (xe cộ, robot, người) có khả năng tự động cấu hình lại mạng khi di chuyển."
+  },
+  {
+    "num": 17,
+    "chapter": "c4_updated",
+    "section": "4.3. Mã nguồn mở trong IoT",
+    "title": "Khái niệm mã nguồn mở trong phát triển IoT",
+    "image": "slide_images/c4_updated/slide_17.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Mã nguồn mở (Open Source) là việc công khai mã nguồn hoặc bản thiết kế phần cứng cùng giấy phép cho phép tái sử dụng, chỉnh sửa, cải tiến và thương mại hóa.",
+        "en": "Mã nguồn mở (Open Source) là việc công khai mã nguồn hoặc bản thiết kế phần cứng cùng giấy phép cho phép tái sử dụng, chỉnh sửa, cải tiến và thương mại hóa."
+      },
+      {
+        "type": "bullet",
+        "vi": "Tiêu chí giấy phép thuận lợi: Tự do phân phối lại, cho phép tạo tác phẩm phái sinh, tính toàn vẹn mã nguồn của tác giả gốc và không phân biệt đối xử đối với người dùng hay nhóm người dùng.",
+        "en": "Tiêu chí giấy phép thuận lợi: Tự do phân phối lại, cho phép tạo tác phẩm phái sinh, tính toàn vẹn mã nguồn của tác giả gốc và không phân biệt đối xử đối với người dùng hay nhóm người dùng."
+      }
+    ],
+    "raw_text_vi": "Mã nguồn mở (Open Source) là việc công khai mã nguồn hoặc bản thiết kế phần cứng cùng giấy phép cho phép tái sử dụng, chỉnh sửa, cải tiến và thương mại hóa. Tiêu chí giấy phép thuận lợi: Tự do phân phối lại, cho phép tạo tác phẩm phái sinh, tính toàn vẹn mã nguồn của tác giả gốc và không phân biệt đối xử đối với người dùng hay nhóm người dùng.",
+    "raw_text_en": "Mã nguồn mở (Open Source) là việc công khai mã nguồn hoặc bản thiết kế phần cứng cùng giấy phép cho phép tái sử dụng, chỉnh sửa, cải tiến và thương mại hóa. Tiêu chí giấy phép thuận lợi: Tự do phân phối lại, cho phép tạo tác phẩm phái sinh, tính toàn vẹn mã nguồn của tác giả gốc và không phân biệt đối xử đối với người dùng hay nhóm người dùng."
+  },
+  {
+    "num": 18,
+    "chapter": "c4_updated",
+    "section": "4.3. Mã nguồn mở trong IoT",
+    "title": "Vai trò của cộng đồng trong dự án nguồn mở IoT",
+    "image": "slide_images/c4_updated/slide_18.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Bất kỳ hệ thống nào cũng có thể phát hành theo giấy phép nguồn mở, tuy nhiên thành công của dự án gắn liền với cộng đồng quan tâm và đóng góp phát triển.",
+        "en": "Bất kỳ hệ thống nào cũng có thể phát hành theo giấy phép nguồn mở, tuy nhiên thành công của dự án gắn liền với cộng đồng quan tâm và đóng góp phát triển."
+      },
+      {
+        "type": "bullet",
+        "vi": "Cộng đồng hỗ trợ phản hồi lỗi, cải tiến tính năng và xây dựng hệ sinh thái tài liệu phong phú.",
+        "en": "Cộng đồng hỗ trợ phản hồi lỗi, cải tiến tính năng và xây dựng hệ sinh thái tài liệu phong phú."
+      }
+    ],
+    "raw_text_vi": "Bất kỳ hệ thống nào cũng có thể phát hành theo giấy phép nguồn mở, tuy nhiên thành công của dự án gắn liền với cộng đồng quan tâm và đóng góp phát triển. Cộng đồng hỗ trợ phản hồi lỗi, cải tiến tính năng và xây dựng hệ sinh thái tài liệu phong phú.",
+    "raw_text_en": "Bất kỳ hệ thống nào cũng có thể phát hành theo giấy phép nguồn mở, tuy nhiên thành công của dự án gắn liền với cộng đồng quan tâm và đóng góp phát triển. Cộng đồng hỗ trợ phản hồi lỗi, cải tiến tính năng và xây dựng hệ sinh thái tài liệu phong phú."
+  },
+  {
+    "num": 19,
+    "chapter": "c4_updated",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Nền tảng vi điều khiển Arduino",
+    "image": "slide_images/c4_updated/slide_19.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Arduino cung cấp hệ thống bo mạch đa dạng từ đơn giản phục vụ thiết bị đeo đến các máy in 3D và robot tự hành.",
+        "en": "Arduino cung cấp hệ thống bo mạch đa dạng từ đơn giản phục vụ thiết bị đeo đến các máy in 3D và robot tự hành."
+      },
+      {
+        "type": "bullet",
+        "vi": "Cộng đồng lớn mạnh giúp sinh viên và kỹ sư tiếp cận kho thư viện phong phú, hướng dẫn chi tiết trực tuyến.",
+        "en": "Cộng đồng lớn mạnh giúp sinh viên và kỹ sư tiếp cận kho thư viện phong phú, hướng dẫn chi tiết trực tuyến."
+      },
+      {
+        "type": "bullet",
+        "vi": "Các dòng tiêu biểu: Arduino Uno, Arduino Mega, Arduino Yun, bo mạch tích hợp Wi-Fi và Ethernet.",
+        "en": "Các dòng tiêu biểu: Arduino Uno, Arduino Mega, Arduino Yun, bo mạch tích hợp Wi-Fi và Ethernet."
+      }
+    ],
+    "raw_text_vi": "Arduino cung cấp hệ thống bo mạch đa dạng từ đơn giản phục vụ thiết bị đeo đến các máy in 3D và robot tự hành. Cộng đồng lớn mạnh giúp sinh viên và kỹ sư tiếp cận kho thư viện phong phú, hướng dẫn chi tiết trực tuyến. Các dòng tiêu biểu: Arduino Uno, Arduino Mega, Arduino Yun, bo mạch tích hợp Wi-Fi và Ethernet.",
+    "raw_text_en": "Arduino cung cấp hệ thống bo mạch đa dạng từ đơn giản phục vụ thiết bị đeo đến các máy in 3D và robot tự hành. Cộng đồng lớn mạnh giúp sinh viên và kỹ sư tiếp cận kho thư viện phong phú, hướng dẫn chi tiết trực tuyến. Các dòng tiêu biểu: Arduino Uno, Arduino Mega, Arduino Yun, bo mạch tích hợp Wi-Fi và Ethernet."
+  },
+  {
+    "num": 20,
+    "chapter": "c4_updated",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Đặc tả phần cứng Arduino Uno / Mega",
+    "image": "slide_images/c4_updated/slide_20.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Sử dụng vi điều khiển ATmega, tần số thạch anh 16 MHz, tiết kiệm năng lượng.",
+        "en": "Sử dụng vi điều khiển ATmega, tần số thạch anh 16 MHz, tiết kiệm năng lượng."
+      },
+      {
+        "type": "bullet",
+        "vi": "Tích hợp các chân Digital I/O (hỗ trợ điều chế độ rộng xung PWM), các ngõ vào tương tự Analog, cổng nạp kết nối USB máy tính và jack nguồn ngoài.",
+        "en": "Tích hợp các chân Digital I/O (hỗ trợ điều chế độ rộng xung PWM), các ngõ vào tương tự Analog, cổng nạp kết nối USB máy tính và jack nguồn ngoài."
+      }
+    ],
+    "raw_text_vi": "Sử dụng vi điều khiển ATmega, tần số thạch anh 16 MHz, tiết kiệm năng lượng. Tích hợp các chân Digital I/O (hỗ trợ điều chế độ rộng xung PWM), các ngõ vào tương tự Analog, cổng nạp kết nối USB máy tính và jack nguồn ngoài.",
+    "raw_text_en": "Sử dụng vi điều khiển ATmega, tần số thạch anh 16 MHz, tiết kiệm năng lượng. Tích hợp các chân Digital I/O (hỗ trợ điều chế độ rộng xung PWM), các ngõ vào tương tự Analog, cổng nạp kết nối USB máy tính và jack nguồn ngoài."
+  },
+  {
+    "num": 21,
+    "chapter": "c4_updated",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Nền tảng nhúng GizmoSphere",
+    "image": "slide_images/c4_updated/slide_21.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "GizmoSphere là nền tảng phát triển mã nguồn mở dành cho cộng đồng thiết kế hệ thống nhúng.",
+        "en": "GizmoSphere là nền tảng phát triển mã nguồn mở dành cho cộng đồng thiết kế hệ thống nhúng."
+      },
+      {
+        "type": "bullet",
+        "vi": "Gizmo 2 tích hợp vi xử lý AMD G-Series SOC, cung cấp hiệu năng tính toán cao và đồ họa mạnh mẽ cho các thiết bị IoT thông minh.",
+        "en": "Gizmo 2 tích hợp vi xử lý AMD G-Series SOC, cung cấp hiệu năng tính toán cao và đồ họa mạnh mẽ cho các thiết bị IoT thông minh."
+      }
+    ],
+    "raw_text_vi": "GizmoSphere là nền tảng phát triển mã nguồn mở dành cho cộng đồng thiết kế hệ thống nhúng. Gizmo 2 tích hợp vi xử lý AMD G-Series SOC, cung cấp hiệu năng tính toán cao và đồ họa mạnh mẽ cho các thiết bị IoT thông minh.",
+    "raw_text_en": "GizmoSphere là nền tảng phát triển mã nguồn mở dành cho cộng đồng thiết kế hệ thống nhúng. Gizmo 2 tích hợp vi xử lý AMD G-Series SOC, cung cấp hiệu năng tính toán cao và đồ họa mạnh mẽ cho các thiết bị IoT thông minh."
+  },
+  {
+    "num": 22,
+    "chapter": "c4_updated",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Hệ thống mô-đun xếp chồng Tinkerforge",
+    "image": "slide_images/c4_updated/slide_22.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Tinkerforge là hệ thống các khối vi điều khiển dạng module có thể gắn xếp chồng lên nhau (Bricks & Bricklets).",
+        "en": "Tinkerforge là hệ thống các khối vi điều khiển dạng module có thể gắn xếp chồng lên nhau (Bricks & Bricklets)."
+      },
+      {
+        "type": "bullet",
+        "vi": "Cho phép điều khiển động cơ và đọc cảm biến bằng nhiều ngôn ngữ: C, C++, C#, Java, Python, PHP, Ruby qua USB hoặc Wi-Fi.",
+        "en": "Cho phép điều khiển động cơ và đọc cảm biến bằng nhiều ngôn ngữ: C, C++, C#, Java, Python, PHP, Ruby qua USB hoặc Wi-Fi."
+      },
+      {
+        "type": "bullet",
+        "vi": "Toàn bộ phần cứng được cấp phép theo tiêu chuẩn mở CERN OHL.",
+        "en": "Toàn bộ phần cứng được cấp phép theo tiêu chuẩn mở CERN OHL."
+      }
+    ],
+    "raw_text_vi": "Tinkerforge là hệ thống các khối vi điều khiển dạng module có thể gắn xếp chồng lên nhau (Bricks & Bricklets). Cho phép điều khiển động cơ và đọc cảm biến bằng nhiều ngôn ngữ: C, C++, C#, Java, Python, PHP, Ruby qua USB hoặc Wi-Fi. Toàn bộ phần cứng được cấp phép theo tiêu chuẩn mở CERN OHL.",
+    "raw_text_en": "Tinkerforge là hệ thống các khối vi điều khiển dạng module có thể gắn xếp chồng lên nhau (Bricks & Bricklets). Cho phép điều khiển động cơ và đọc cảm biến bằng nhiều ngôn ngữ: C, C++, C#, Java, Python, PHP, Ruby qua USB hoặc Wi-Fi. Toàn bộ phần cứng được cấp phép theo tiêu chuẩn mở CERN OHL."
+  },
+  {
+    "num": 23,
+    "chapter": "c4_updated",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Máy tính nhúng BeagleBoard & BeagleBone",
+    "image": "slide_images/c4_updated/slide_23.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Máy tính nhúng kích thước chỉ bằng thẻ tín dụng, có khả năng chạy hệ điều hành Linux và Android.",
+        "en": "Máy tính nhúng kích thước chỉ bằng thẻ tín dụng, có khả năng chạy hệ điều hành Linux và Android."
+      },
+      {
+        "type": "bullet",
+        "vi": "Mức tiêu thụ năng lượng thấp, thiết kế mở hoàn toàn, lý tưởng cho các giải pháp gateway IoT và tính toán biên.",
+        "en": "Mức tiêu thụ năng lượng thấp, thiết kế mở hoàn toàn, lý tưởng cho các giải pháp gateway IoT và tính toán biên."
+      }
+    ],
+    "raw_text_vi": "Máy tính nhúng kích thước chỉ bằng thẻ tín dụng, có khả năng chạy hệ điều hành Linux và Android. Mức tiêu thụ năng lượng thấp, thiết kế mở hoàn toàn, lý tưởng cho các giải pháp gateway IoT và tính toán biên.",
+    "raw_text_en": "Máy tính nhúng kích thước chỉ bằng thẻ tín dụng, có khả năng chạy hệ điều hành Linux và Android. Mức tiêu thụ năng lượng thấp, thiết kế mở hoàn toàn, lý tưởng cho các giải pháp gateway IoT và tính toán biên."
+  },
+  {
+    "num": 24,
+    "chapter": "c4_updated",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Máy tính biên Raspberry Pi",
+    "image": "slide_images/c4_updated/slide_24.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Raspberry Pi là máy tính biên (Edge Device) được sử dụng phổ biến nhất để xây dựng giải pháp IoT trong cộng đồng Maker và kỹ sư.",
+        "en": "Raspberry Pi là máy tính biên (Edge Device) được sử dụng phổ biến nhất để xây dựng giải pháp IoT trong cộng đồng Maker và kỹ sư."
+      },
+      {
+        "type": "bullet",
+        "vi": "Giá thành rẻ, khả năng tính toán mạnh mẽ, bộ nhớ RAM lớn, hỗ trợ hệ điều hành Linux hoàn chỉnh, cổng GPIO đa dạng cùng Wi-Fi và Bluetooth tích hợp sẵn.",
+        "en": "Giá thành rẻ, khả năng tính toán mạnh mẽ, bộ nhớ RAM lớn, hỗ trợ hệ điều hành Linux hoàn chỉnh, cổng GPIO đa dạng cùng Wi-Fi và Bluetooth tích hợp sẵn."
+      }
+    ],
+    "raw_text_vi": "Raspberry Pi là máy tính biên (Edge Device) được sử dụng phổ biến nhất để xây dựng giải pháp IoT trong cộng đồng Maker và kỹ sư. Giá thành rẻ, khả năng tính toán mạnh mẽ, bộ nhớ RAM lớn, hỗ trợ hệ điều hành Linux hoàn chỉnh, cổng GPIO đa dạng cùng Wi-Fi và Bluetooth tích hợp sẵn.",
+    "raw_text_en": "Raspberry Pi là máy tính biên (Edge Device) được sử dụng phổ biến nhất để xây dựng giải pháp IoT trong cộng đồng Maker và kỹ sư. Giá thành rẻ, khả năng tính toán mạnh mẽ, bộ nhớ RAM lớn, hỗ trợ hệ điều hành Linux hoàn chỉnh, cổng GPIO đa dạng cùng Wi-Fi và Bluetooth tích hợp sẵn."
+  },
+  {
+    "num": 25,
+    "chapter": "c4_updated",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Ngăn xếp kiến trúc phần cứng IoT (Hardware Stack)",
+    "image": "slide_images/c4_updated/slide_25.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Tầng cảm biến & truyền động (Sensors & Actuators): Tương tác trực tiếp với thế giới vật lý ở đáy ngăn xếp.",
+        "en": "Tầng cảm biến & truyền động (Sensors & Actuators): Tương tác trực tiếp với thế giới vật lý ở đáy ngăn xếp."
+      },
+      {
+        "type": "bullet",
+        "vi": "Tầng xử lý dữ liệu (Microcontroller / Processor): Đọc tín hiệu cảm biến, thực thi thuật toán điều khiển.",
+        "en": "Tầng xử lý dữ liệu (Microcontroller / Processor): Đọc tín hiệu cảm biến, thực thi thuật toán điều khiển."
+      },
+      {
+        "type": "bullet",
+        "vi": "Tầng truyền thông (Communication): Truyền tải dữ liệu không dây lên cổng Gateway hoặc dịch vụ Cloud.",
+        "en": "Tầng truyền thông (Communication): Truyền tải dữ liệu không dây lên cổng Gateway hoặc dịch vụ Cloud."
+      }
+    ],
+    "raw_text_vi": "Tầng cảm biến & truyền động (Sensors & Actuators): Tương tác trực tiếp với thế giới vật lý ở đáy ngăn xếp. Tầng xử lý dữ liệu (Microcontroller / Processor): Đọc tín hiệu cảm biến, thực thi thuật toán điều khiển. Tầng truyền thông (Communication): Truyền tải dữ liệu không dây lên cổng Gateway hoặc dịch vụ Cloud.",
+    "raw_text_en": "Tầng cảm biến & truyền động (Sensors & Actuators): Tương tác trực tiếp với thế giới vật lý ở đáy ngăn xếp. Tầng xử lý dữ liệu (Microcontroller / Processor): Đọc tín hiệu cảm biến, thực thi thuật toán điều khiển. Tầng truyền thông (Communication): Truyền tải dữ liệu không dây lên cổng Gateway hoặc dịch vụ Cloud."
+  },
+  {
+    "num": 26,
+    "chapter": "c4_updated",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Máy tính AI biên NVIDIA Jetson Nano",
+    "image": "slide_images/c4_updated/slide_26.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "NVIDIA Jetson Nano là nền tảng phát triển tính toán biên AI mạnh mẽ cho các ứng dụng IoT và thị giác máy tính.",
+        "en": "NVIDIA Jetson Nano là nền tảng phát triển tính toán biên AI mạnh mẽ cho các ứng dụng IoT và thị giác máy tính."
+      },
+      {
+        "type": "bullet",
+        "vi": "Trang bị CPU ARM Cortex-A57 1.43 GHz và GPU NVIDIA Maxwell 128 nhân, cho phép chạy song song nhiều mạng nơ-ron học sâu.",
+        "en": "Trang bị CPU ARM Cortex-A57 1.43 GHz và GPU NVIDIA Maxwell 128 nhân, cho phép chạy song song nhiều mạng nơ-ron học sâu."
+      }
+    ],
+    "raw_text_vi": "NVIDIA Jetson Nano là nền tảng phát triển tính toán biên AI mạnh mẽ cho các ứng dụng IoT và thị giác máy tính. Trang bị CPU ARM Cortex-A57 1.43 GHz và GPU NVIDIA Maxwell 128 nhân, cho phép chạy song song nhiều mạng nơ-ron học sâu.",
+    "raw_text_en": "NVIDIA Jetson Nano là nền tảng phát triển tính toán biên AI mạnh mẽ cho các ứng dụng IoT và thị giác máy tính. Trang bị CPU ARM Cortex-A57 1.43 GHz và GPU NVIDIA Maxwell 128 nhân, cho phép chạy song song nhiều mạng nơ-ron học sâu."
+  },
+  {
+    "num": 27,
+    "chapter": "c4_updated",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Mô-đun Wi-Fi ESP8266 giá rẻ",
+    "image": "slide_images/c4_updated/slide_27.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "ESP8266 là vi điều khiển SoC tích hợp Wi-Fi giá rẻ do Espressif Systems sản xuất, mở ra cuộc cách mạng cho thiết bị IoT tự chế.",
+        "en": "ESP8266 là vi điều khiển SoC tích hợp Wi-Fi giá rẻ do Espressif Systems sản xuất, mở ra cuộc cách mạng cho thiết bị IoT tự chế."
+      },
+      {
+        "type": "bullet",
+        "vi": "Có thể hoạt động độc lập để chạy chương trình hoặc đóng vai trò mô-đun truyền thông Wi-Fi cho các bo mạch khác.",
+        "en": "Có thể hoạt động độc lập để chạy chương trình hoặc đóng vai trò mô-đun truyền thông Wi-Fi cho các bo mạch khác."
+      }
+    ],
+    "raw_text_vi": "ESP8266 là vi điều khiển SoC tích hợp Wi-Fi giá rẻ do Espressif Systems sản xuất, mở ra cuộc cách mạng cho thiết bị IoT tự chế. Có thể hoạt động độc lập để chạy chương trình hoặc đóng vai trò mô-đun truyền thông Wi-Fi cho các bo mạch khác.",
+    "raw_text_en": "ESP8266 là vi điều khiển SoC tích hợp Wi-Fi giá rẻ do Espressif Systems sản xuất, mở ra cuộc cách mạng cho thiết bị IoT tự chế. Có thể hoạt động độc lập để chạy chương trình hoặc đóng vai trò mô-đun truyền thông Wi-Fi cho các bo mạch khác."
+  },
+  {
+    "num": 28,
+    "chapter": "c4_updated",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Vi điều khiển kết nối kép ESP32 DevKit",
+    "image": "slide_images/c4_updated/slide_28.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "ESP32 là vi điều khiển SoC thế hệ mới kế thừa ESP8266, tích hợp cả Wi-Fi 802.11 b/g/n và Bluetooth (BLE).",
+        "en": "ESP32 là vi điều khiển SoC thế hệ mới kế thừa ESP8266, tích hợp cả Wi-Fi 802.11 b/g/n và Bluetooth (BLE)."
+      },
+      {
+        "type": "bullet",
+        "vi": "Sở hữu CPU 32-bit lõi kép Xtensa LX6, bộ nhớ RAM lớn, nhiều chân ADC, DAC, PWM, cảm biến cảm ứng điện dung, bảo mật phần cứng cao.",
+        "en": "Sở hữu CPU 32-bit lõi kép Xtensa LX6, bộ nhớ RAM lớn, nhiều chân ADC, DAC, PWM, cảm biến cảm ứng điện dung, bảo mật phần cứng cao."
+      }
+    ],
+    "raw_text_vi": "ESP32 là vi điều khiển SoC thế hệ mới kế thừa ESP8266, tích hợp cả Wi-Fi 802.11 b/g/n và Bluetooth (BLE). Sở hữu CPU 32-bit lõi kép Xtensa LX6, bộ nhớ RAM lớn, nhiều chân ADC, DAC, PWM, cảm biến cảm ứng điện dung, bảo mật phần cứng cao.",
+    "raw_text_en": "ESP32 là vi điều khiển SoC thế hệ mới kế thừa ESP8266, tích hợp cả Wi-Fi 802.11 b/g/n và Bluetooth (BLE). Sở hữu CPU 32-bit lõi kép Xtensa LX6, bộ nhớ RAM lớn, nhiều chân ADC, DAC, PWM, cảm biến cảm ứng điện dung, bảo mật phần cứng cao."
+  },
+  {
+    "num": 29,
+    "chapter": "c4_updated",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Nền tảng phát triển thiết bị Zerynth IoT",
+    "image": "slide_images/c4_updated/slide_29.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Zerynth cung cấp bộ công cụ phần cứng và phần mềm hoàn chỉnh giúp lập trình nhúng bằng Python.",
+        "en": "Zerynth cung cấp bộ công cụ phần cứng và phần mềm hoàn chỉnh giúp lập trình nhúng bằng Python."
+      },
+      {
+        "type": "bullet",
+        "vi": "Giúp đơn giản hóa và tăng tốc quá trình chuyển đổi từ mẫu thử nghiệm (prototype) sang sản phẩm thương mại.",
+        "en": "Giúp đơn giản hóa và tăng tốc quá trình chuyển đổi từ mẫu thử nghiệm (prototype) sang sản phẩm thương mại."
+      }
+    ],
+    "raw_text_vi": "Zerynth cung cấp bộ công cụ phần cứng và phần mềm hoàn chỉnh giúp lập trình nhúng bằng Python. Giúp đơn giản hóa và tăng tốc quá trình chuyển đổi từ mẫu thử nghiệm (prototype) sang sản phẩm thương mại.",
+    "raw_text_en": "Zerynth cung cấp bộ công cụ phần cứng và phần mềm hoàn chỉnh giúp lập trình nhúng bằng Python. Giúp đơn giản hóa và tăng tốc quá trình chuyển đổi từ mẫu thử nghiệm (prototype) sang sản phẩm thương mại."
+  },
+  {
+    "num": 30,
+    "chapter": "c4_updated",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Hệ điều hành nhúng Zerynth OS",
+    "image": "slide_images/c4_updated/slide_30.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Zerynth OS là hệ điều hành thời gian thực (RTOS) đa luồng, hỗ trợ lập trình bằng Python trên các vi điều khiển 32-bit phổ biến.",
+        "en": "Zerynth OS là hệ điều hành thời gian thực (RTOS) đa luồng, hỗ trợ lập trình bằng Python trên các vi điều khiển 32-bit phổ biến."
+      },
+      {
+        "type": "bullet",
+        "vi": "Hỗ trợ kết nối bảo mật tới các dịch vụ Cloud IoT hàng đầu như AWS IoT, Google Cloud IoT, Microsoft Azure.",
+        "en": "Hỗ trợ kết nối bảo mật tới các dịch vụ Cloud IoT hàng đầu như AWS IoT, Google Cloud IoT, Microsoft Azure."
+      }
+    ],
+    "raw_text_vi": "Zerynth OS là hệ điều hành thời gian thực (RTOS) đa luồng, hỗ trợ lập trình bằng Python trên các vi điều khiển 32-bit phổ biến. Hỗ trợ kết nối bảo mật tới các dịch vụ Cloud IoT hàng đầu như AWS IoT, Google Cloud IoT, Microsoft Azure.",
+    "raw_text_en": "Zerynth OS là hệ điều hành thời gian thực (RTOS) đa luồng, hỗ trợ lập trình bằng Python trên các vi điều khiển 32-bit phổ biến. Hỗ trợ kết nối bảo mật tới các dịch vụ Cloud IoT hàng đầu như AWS IoT, Google Cloud IoT, Microsoft Azure."
+  },
+  {
+    "num": 31,
+    "chapter": "c4_updated",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Thiết bị đeo IoT hỗ trợ người bệnh Alzheimer",
+    "image": "slide_images/c4_updated/slide_31.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Ứng dụng thiết bị đeo thông minh (Wearables) tích hợp cảm biến vị trí GPS và sinh hiệu cho người bệnh suy giảm trí nhớ.",
+        "en": "Ứng dụng thiết bị đeo thông minh (Wearables) tích hợp cảm biến vị trí GPS và sinh hiệu cho người bệnh suy giảm trí nhớ."
+      },
+      {
+        "type": "bullet",
+        "vi": "Gửi cảnh báo tức thời cho gia đình và nhân viên y tế khi người bệnh đi ra ngoài vùng an toàn hoặc gặp sự cố bất thường.",
+        "en": "Gửi cảnh báo tức thời cho gia đình và nhân viên y tế khi người bệnh đi ra ngoài vùng an toàn hoặc gặp sự cố bất thường."
+      }
+    ],
+    "raw_text_vi": "Ứng dụng thiết bị đeo thông minh (Wearables) tích hợp cảm biến vị trí GPS và sinh hiệu cho người bệnh suy giảm trí nhớ. Gửi cảnh báo tức thời cho gia đình và nhân viên y tế khi người bệnh đi ra ngoài vùng an toàn hoặc gặp sự cố bất thường.",
+    "raw_text_en": "Ứng dụng thiết bị đeo thông minh (Wearables) tích hợp cảm biến vị trí GPS và sinh hiệu cho người bệnh suy giảm trí nhớ. Gửi cảnh báo tức thời cho gia đình và nhân viên y tế khi người bệnh đi ra ngoài vùng an toàn hoặc gặp sự cố bất thường."
+  },
+  {
+    "num": 32,
+    "chapter": "c4_updated",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Kính thực tế ảo nguồn mở Relativity VR",
+    "image": "slide_images/c4_updated/slide_32.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Dự án kính thực tế ảo mã nguồn mở hỗ trợ nền tảng SteamVR và công nghệ theo dõi chuyển động cơ thể.",
+        "en": "Dự án kính thực tế ảo mã nguồn mở hỗ trợ nền tảng SteamVR và công nghệ theo dõi chuyển động cơ thể."
+      },
+      {
+        "type": "bullet",
+        "vi": "Chứng minh khả năng tạo ra các thiết bị công nghệ cao với chi phí thấp nhờ cộng đồng phần cứng mở.",
+        "en": "Chứng minh khả năng tạo ra các thiết bị công nghệ cao với chi phí thấp nhờ cộng đồng phần cứng mở."
+      }
+    ],
+    "raw_text_vi": "Dự án kính thực tế ảo mã nguồn mở hỗ trợ nền tảng SteamVR và công nghệ theo dõi chuyển động cơ thể. Chứng minh khả năng tạo ra các thiết bị công nghệ cao với chi phí thấp nhờ cộng đồng phần cứng mở.",
+    "raw_text_en": "Dự án kính thực tế ảo mã nguồn mở hỗ trợ nền tảng SteamVR và công nghệ theo dõi chuyển động cơ thể. Chứng minh khả năng tạo ra các thiết bị công nghệ cao với chi phí thấp nhờ cộng đồng phần cứng mở."
+  },
+  {
+    "num": 33,
+    "chapter": "c4_updated",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Tổng quan giao thức MQTT",
+    "image": "slide_images/c4_updated/slide_33.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "MQTT (Message Queuing Telemetry Transport) được thiết kế chủ yếu để kết nối các thiết bị hạn chế tài nguyên trên đường truyền băng thông thấp.",
+        "en": "MQTT (Message Queuing Telemetry Transport) được thiết kế chủ yếu để kết nối các thiết bị hạn chế tài nguyên trên đường truyền băng thông thấp."
+      },
+      {
+        "type": "bullet",
+        "vi": "Mặc dù ra đời từ lâu, MQTT chỉ thực sự bùng nổ và trở thành chuẩn mực truyền thông khi làn sóng IoT và M2M phát triển mạnh mẽ.",
+        "en": "Mặc dù ra đời từ lâu, MQTT chỉ thực sự bùng nổ và trở thành chuẩn mực truyền thông khi làn sóng IoT và M2M phát triển mạnh mẽ."
+      }
+    ],
+    "raw_text_vi": "MQTT (Message Queuing Telemetry Transport) được thiết kế chủ yếu để kết nối các thiết bị hạn chế tài nguyên trên đường truyền băng thông thấp. Mặc dù ra đời từ lâu, MQTT chỉ thực sự bùng nổ và trở thành chuẩn mực truyền thông khi làn sóng IoT và M2M phát triển mạnh mẽ.",
+    "raw_text_en": "MQTT (Message Queuing Telemetry Transport) được thiết kế chủ yếu để kết nối các thiết bị hạn chế tài nguyên trên đường truyền băng thông thấp. Mặc dù ra đời từ lâu, MQTT chỉ thực sự bùng nổ và trở thành chuẩn mực truyền thông khi làn sóng IoT và M2M phát triển mạnh mẽ."
+  },
+  {
+    "num": 34,
+    "chapter": "c4_updated",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Mô hình Publish / Subscribe của MQTT",
+    "image": "slide_images/c4_updated/slide_34.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "MQTT hoạt động theo mô hình Xuất bản / Đăng ký (Publish/Subscribe), độ tin cậy cao và tối ưu cho môi trường mạng chập chờn.",
+        "en": "MQTT hoạt động theo mô hình Xuất bản / Đăng ký (Publish/Subscribe), độ tin cậy cao và tối ưu cho môi trường mạng chập chờn."
+      },
+      {
+        "type": "bullet",
+        "vi": "Các thành phần chính:",
+        "en": "Các thành phần chính:"
+      },
+      {
+        "type": "bullet",
+        "vi": "Client: Các thiết bị IoT đóng vai trò gửi (Publish) hoặc nhận (Subscribe) dữ liệu.",
+        "en": "Client: Các thiết bị IoT đóng vai trò gửi (Publish) hoặc nhận (Subscribe) dữ liệu."
+      },
+      {
+        "type": "bullet",
+        "vi": "Broker: Máy chủ trung tâm điều phối tiếp nhận và chuyển tiếp thông điệp.",
+        "en": "Broker: Máy chủ trung tâm điều phối tiếp nhận và chuyển tiếp thông điệp."
+      },
+      {
+        "type": "bullet",
+        "vi": "Topic: Tên chủ đề định tuyến thông điệp.",
+        "en": "Topic: Tên chủ đề định tuyến thông điệp."
+      },
+      {
+        "type": "bullet",
+        "vi": "Message: Dữ liệu thực tế truyền đi.",
+        "en": "Message: Dữ liệu thực tế truyền đi."
+      }
+    ],
+    "raw_text_vi": "MQTT hoạt động theo mô hình Xuất bản / Đăng ký (Publish/Subscribe), độ tin cậy cao và tối ưu cho môi trường mạng chập chờn. Các thành phần chính: Client: Các thiết bị IoT đóng vai trò gửi (Publish) hoặc nhận (Subscribe) dữ liệu. Broker: Máy chủ trung tâm điều phối tiếp nhận và chuyển tiếp thông điệp. Topic: Tên chủ đề định tuyến thông điệp. Message: Dữ liệu thực tế truyền đi.",
+    "raw_text_en": "MQTT hoạt động theo mô hình Xuất bản / Đăng ký (Publish/Subscribe), độ tin cậy cao và tối ưu cho môi trường mạng chập chờn. Các thành phần chính: Client: Các thiết bị IoT đóng vai trò gửi (Publish) hoặc nhận (Subscribe) dữ liệu. Broker: Máy chủ trung tâm điều phối tiếp nhận và chuyển tiếp thông điệp. Topic: Tên chủ đề định tuyến thông điệp. Message: Dữ liệu thực tế truyền đi."
+  },
+  {
+    "num": 35,
+    "chapter": "c4_updated",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Kiến trúc Client - Broker trong MQTT",
+    "image": "slide_images/c4_updated/slide_35.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Khác với mô hình Client-Server truyền thống, các thiết bị Client trong MQTT không giao tiếp trực tiếp với nhau.",
+        "en": "Khác với mô hình Client-Server truyền thống, các thiết bị Client trong MQTT không giao tiếp trực tiếp với nhau."
+      },
+      {
+        "type": "bullet",
+        "vi": "Máy chủ Broker là trung gian chịu trách nhiệm xử lý các yêu cầu nhận và phân phối dữ liệu chính xác tới các Client quan tâm.",
+        "en": "Máy chủ Broker là trung gian chịu trách nhiệm xử lý các yêu cầu nhận và phân phối dữ liệu chính xác tới các Client quan tâm."
+      }
+    ],
+    "raw_text_vi": "Khác với mô hình Client-Server truyền thống, các thiết bị Client trong MQTT không giao tiếp trực tiếp với nhau. Máy chủ Broker là trung gian chịu trách nhiệm xử lý các yêu cầu nhận và phân phối dữ liệu chính xác tới các Client quan tâm.",
+    "raw_text_en": "Khác với mô hình Client-Server truyền thống, các thiết bị Client trong MQTT không giao tiếp trực tiếp với nhau. Máy chủ Broker là trung gian chịu trách nhiệm xử lý các yêu cầu nhận và phân phối dữ liệu chính xác tới các Client quan tâm."
+  },
+  {
+    "num": 36,
+    "chapter": "c4_updated",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Quy trình truyền tin ví dụ trong MQTT",
+    "image": "slide_images/c4_updated/slide_36.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Thiết bị cảm biến đo nhiệt độ và Publish gói tin lên Broker với chủ đề topic 'temp'.",
+        "en": "Thiết bị cảm biến đo nhiệt độ và Publish gói tin lên Broker với chủ đề topic 'temp'."
+      },
+      {
+        "type": "bullet",
+        "vi": "Ứng dụng trên điện thoại di động đăng ký (Subscribe) chủ đề 'temp' sẽ ngay lập tức nhận được thông báo giá trị nhiệt độ vừa cập nhật từ Broker.",
+        "en": "Ứng dụng trên điện thoại di động đăng ký (Subscribe) chủ đề 'temp' sẽ ngay lập tức nhận được thông báo giá trị nhiệt độ vừa cập nhật từ Broker."
+      }
+    ],
+    "raw_text_vi": "Thiết bị cảm biến đo nhiệt độ và Publish gói tin lên Broker với chủ đề topic 'temp'. Ứng dụng trên điện thoại di động đăng ký (Subscribe) chủ đề 'temp' sẽ ngay lập tức nhận được thông báo giá trị nhiệt độ vừa cập nhật từ Broker.",
+    "raw_text_en": "Thiết bị cảm biến đo nhiệt độ và Publish gói tin lên Broker với chủ đề topic 'temp'. Ứng dụng trên điện thoại di động đăng ký (Subscribe) chủ đề 'temp' sẽ ngay lập tức nhận được thông báo giá trị nhiệt độ vừa cập nhật từ Broker."
+  },
+  {
+    "num": 37,
+    "chapter": "c4_updated",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Sơ đồ kiến trúc kết nối mạng MQTT",
+    "image": "slide_images/c4_updated/slide_37.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Sơ đồ minh họa trực quan luồng dữ liệu kết nối từ các nút Publisher (cảm biến), qua máy chủ MQTT Broker và truyền đến các Subscriber (ứng dụng di động, máy chủ giám sát).",
+        "en": "Sơ đồ minh họa trực quan luồng dữ liệu kết nối từ các nút Publisher (cảm biến), qua máy chủ MQTT Broker và truyền đến các Subscriber (ứng dụng di động, máy chủ giám sát)."
+      }
+    ],
+    "raw_text_vi": "Sơ đồ minh họa trực quan luồng dữ liệu kết nối từ các nút Publisher (cảm biến), qua máy chủ MQTT Broker và truyền đến các Subscriber (ứng dụng di động, máy chủ giám sát).",
+    "raw_text_en": "Sơ đồ minh họa trực quan luồng dữ liệu kết nối từ các nút Publisher (cảm biến), qua máy chủ MQTT Broker và truyền đến các Subscriber (ứng dụng di động, máy chủ giám sát)."
+  },
+  {
+    "num": 38,
+    "chapter": "c4_updated",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Các phần mềm triển khai MQTT Broker",
+    "image": "slide_images/c4_updated/slide_38.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Có nhiều phần mềm máy chủ triển khai giao thức MQTT, trong đó Mosquitto Broker là giải pháp mã nguồn mở phổ biến và thông dụng nhất.",
+        "en": "Có nhiều phần mềm máy chủ triển khai giao thức MQTT, trong đó Mosquitto Broker là giải pháp mã nguồn mở phổ biến và thông dụng nhất."
+      }
+    ],
+    "raw_text_vi": "Có nhiều phần mềm máy chủ triển khai giao thức MQTT, trong đó Mosquitto Broker là giải pháp mã nguồn mở phổ biến và thông dụng nhất.",
+    "raw_text_en": "Có nhiều phần mềm máy chủ triển khai giao thức MQTT, trong đó Mosquitto Broker là giải pháp mã nguồn mở phổ biến và thông dụng nhất."
+  },
+  {
+    "num": 39,
+    "chapter": "c4_updated",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Đặc điểm máy chủ Mosquitto Broker",
+    "image": "slide_images/c4_updated/slide_39.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Mosquitto là broker thông điệp nguồn mở gọn nhẹ, thích hợp chạy trên mọi phần cứng từ Arduino, ESP8266, ESP32, Raspberry Pi tới máy chủ Cloud.",
+        "en": "Mosquitto là broker thông điệp nguồn mở gọn nhẹ, thích hợp chạy trên mọi phần cứng từ Arduino, ESP8266, ESP32, Raspberry Pi tới máy chủ Cloud."
+      },
+      {
+        "type": "bullet",
+        "vi": "Có thể triển khai Mosquitto trên nền tảng đám mây để kiểm soát các dự án IoT từ xa qua Internet (ví dụ: HiveMQ Cloud, ThingMQ, Heroku, CloudMQTT).",
+        "en": "Có thể triển khai Mosquitto trên nền tảng đám mây để kiểm soát các dự án IoT từ xa qua Internet (ví dụ: HiveMQ Cloud, ThingMQ, Heroku, CloudMQTT)."
+      }
+    ],
+    "raw_text_vi": "Mosquitto là broker thông điệp nguồn mở gọn nhẹ, thích hợp chạy trên mọi phần cứng từ Arduino, ESP8266, ESP32, Raspberry Pi tới máy chủ Cloud. Có thể triển khai Mosquitto trên nền tảng đám mây để kiểm soát các dự án IoT từ xa qua Internet (ví dụ: HiveMQ Cloud, ThingMQ, Heroku, CloudMQTT).",
+    "raw_text_en": "Mosquitto là broker thông điệp nguồn mở gọn nhẹ, thích hợp chạy trên mọi phần cứng từ Arduino, ESP8266, ESP32, Raspberry Pi tới máy chủ Cloud. Có thể triển khai Mosquitto trên nền tảng đám mây để kiểm soát các dự án IoT từ xa qua Internet (ví dụ: HiveMQ Cloud, ThingMQ, Heroku, CloudMQTT)."
+  },
+  {
+    "num": 40,
+    "chapter": "c4_updated",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Nền tảng ứng dụng điều khiển Blynk IoT",
+    "image": "slide_images/c4_updated/slide_40.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Blynk là nền tảng với ứng dụng trên iOS và Android cho phép điều khiển Arduino, Raspberry Pi, ESP8266, ESP32 qua Internet.",
+        "en": "Blynk là nền tảng với ứng dụng trên iOS và Android cho phép điều khiển Arduino, Raspberry Pi, ESP8266, ESP32 qua Internet."
+      },
+      {
+        "type": "bullet",
+        "vi": "Cung cấp bảng điều khiển kỹ thuật số dạng kéo thả các Widget (nút bấm, thanh trượt, biểu đồ) để xây dựng giao diện ứng dụng nhanh chóng.",
+        "en": "Cung cấp bảng điều khiển kỹ thuật số dạng kéo thả các Widget (nút bấm, thanh trượt, biểu đồ) để xây dựng giao diện ứng dụng nhanh chóng."
+      },
+      {
+        "type": "bullet",
+        "vi": "Blynk không bó hẹp ở một phần cứng cụ thể, hỗ trợ kết nối linh hoạt qua Wi-Fi, Ethernet, Bluetooth hoặc mạng di động.",
+        "en": "Blynk không bó hẹp ở một phần cứng cụ thể, hỗ trợ kết nối linh hoạt qua Wi-Fi, Ethernet, Bluetooth hoặc mạng di động."
+      }
+    ],
+    "raw_text_vi": "Blynk là nền tảng với ứng dụng trên iOS và Android cho phép điều khiển Arduino, Raspberry Pi, ESP8266, ESP32 qua Internet. Cung cấp bảng điều khiển kỹ thuật số dạng kéo thả các Widget (nút bấm, thanh trượt, biểu đồ) để xây dựng giao diện ứng dụng nhanh chóng. Blynk không bó hẹp ở một phần cứng cụ thể, hỗ trợ kết nối linh hoạt qua Wi-Fi, Ethernet, Bluetooth hoặc mạng di động.",
+    "raw_text_en": "Blynk là nền tảng với ứng dụng trên iOS và Android cho phép điều khiển Arduino, Raspberry Pi, ESP8266, ESP32 qua Internet. Cung cấp bảng điều khiển kỹ thuật số dạng kéo thả các Widget (nút bấm, thanh trượt, biểu đồ) để xây dựng giao diện ứng dụng nhanh chóng. Blynk không bó hẹp ở một phần cứng cụ thể, hỗ trợ kết nối linh hoạt qua Wi-Fi, Ethernet, Bluetooth hoặc mạng di động."
+  },
+  {
+    "num": 41,
+    "chapter": "c4_updated",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Các tính năng và ứng dụng của Blynk",
+    "image": "slide_images/c4_updated/slide_41.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Triển khai hệ thống nhà thông minh (Smart Home), điều khiển và giám sát thiết bị từ xa qua Internet.",
+        "en": "Triển khai hệ thống nhà thông minh (Smart Home), điều khiển và giám sát thiết bị từ xa qua Internet."
+      },
+      {
+        "type": "bullet",
+        "vi": "Hệ thống Widget phong phú: Nút ấn, hiển thị giá trị, thanh kéo điều khiển GPIO vi điều khiển để đóng cắt relay, điều khiển thiết bị trong nhà.",
+        "en": "Hệ thống Widget phong phú: Nút ấn, hiển thị giá trị, thanh kéo điều khiển GPIO vi điều khiển để đóng cắt relay, điều khiển thiết bị trong nhà."
+      },
+      {
+        "type": "bullet",
+        "vi": "Hỗ trợ kết nối ở bất kỳ đâu có mạng Internet và chia sẻ bảng điều khiển cho nhiều người dùng chung.",
+        "en": "Hỗ trợ kết nối ở bất kỳ đâu có mạng Internet và chia sẻ bảng điều khiển cho nhiều người dùng chung."
+      }
+    ],
+    "raw_text_vi": "Triển khai hệ thống nhà thông minh (Smart Home), điều khiển và giám sát thiết bị từ xa qua Internet. Hệ thống Widget phong phú: Nút ấn, hiển thị giá trị, thanh kéo điều khiển GPIO vi điều khiển để đóng cắt relay, điều khiển thiết bị trong nhà. Hỗ trợ kết nối ở bất kỳ đâu có mạng Internet và chia sẻ bảng điều khiển cho nhiều người dùng chung.",
+    "raw_text_en": "Triển khai hệ thống nhà thông minh (Smart Home), điều khiển và giám sát thiết bị từ xa qua Internet. Hệ thống Widget phong phú: Nút ấn, hiển thị giá trị, thanh kéo điều khiển GPIO vi điều khiển để đóng cắt relay, điều khiển thiết bị trong nhà. Hỗ trợ kết nối ở bất kỳ đâu có mạng Internet và chia sẻ bảng điều khiển cho nhiều người dùng chung."
+  },
+  {
+    "num": 42,
+    "chapter": "c4_updated",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Cơ chế hoạt động của Blynk qua Cloud Token",
+    "image": "slide_images/c4_updated/slide_42.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Thiết bị phần cứng (Arduino, ESP8266, ESP32) điều khiển tải qua relay lắp vào các chân GPIO và kết nối mạng lên Blynk Cloud.",
+        "en": "Thiết bị phần cứng (Arduino, ESP8266, ESP32) điều khiển tải qua relay lắp vào các chân GPIO và kết nối mạng lên Blynk Cloud."
+      },
+      {
+        "type": "bullet",
+        "vi": "Ứng dụng Blynk trên smartphone giao tiếp với phần cứng thông qua mã Auth Token duy nhất được cấp trong quá trình tạo dự án.",
+        "en": "Ứng dụng Blynk trên smartphone giao tiếp với phần cứng thông qua mã Auth Token duy nhất được cấp trong quá trình tạo dự án."
+      }
+    ],
+    "raw_text_vi": "Thiết bị phần cứng (Arduino, ESP8266, ESP32) điều khiển tải qua relay lắp vào các chân GPIO và kết nối mạng lên Blynk Cloud. Ứng dụng Blynk trên smartphone giao tiếp với phần cứng thông qua mã Auth Token duy nhất được cấp trong quá trình tạo dự án.",
+    "raw_text_en": "Thiết bị phần cứng (Arduino, ESP8266, ESP32) điều khiển tải qua relay lắp vào các chân GPIO và kết nối mạng lên Blynk Cloud. Ứng dụng Blynk trên smartphone giao tiếp với phần cứng thông qua mã Auth Token duy nhất được cấp trong quá trình tạo dự án."
+  },
+  {
+    "num": 43,
+    "chapter": "c4_updated",
+    "section": "4. Tổng kết",
+    "title": "Tổng kết Chương 4",
+    "image": "slide_images/c4_updated/slide_43.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Kết thúc chương 4: Các nền tảng phần cứng và phần mềm IoT thông dụng.",
+        "en": "Kết thúc chương 4: Các nền tảng phần cứng và phần mềm IoT thông dụng."
+      },
+      {
+        "type": "bullet",
+        "vi": "Cảm ơn các bạn đã theo dõi bài giảng!",
+        "en": "Cảm ơn các bạn đã theo dõi bài giảng!"
+      }
+    ],
+    "raw_text_vi": "Kết thúc chương 4: Các nền tảng phần cứng và phần mềm IoT thông dụng. Cảm ơn các bạn đã theo dõi bài giảng!",
+    "raw_text_en": "Kết thúc chương 4: Các nền tảng phần cứng và phần mềm IoT thông dụng. Cảm ơn các bạn đã theo dõi bài giảng!"
+  },
+  {
+    "num": 44,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "chớp mắt",
+    "image": "slide_images/c4_updated/slide_44.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "5. Các nền tảng phần mềm",
+        "en": "5. Các nền tảng phần mềm"
+      },
+      {
+        "type": "title",
+        "vi": "chớp mắt",
+        "en": "Blynk"
+      },
+      {
+        "type": "bullet",
+        "vi": "Blynk là một nền tảng với các ứng dụng iOS và Android để điều",
+        "en": "Blynk là một nền tảng với các ứng dụng iOS và Android để điều"
+      },
+      {
+        "type": "paragraph",
+        "vi": "khiển Arduino, Raspberry Pi và các ứng dụng tương tựqua Internet.",
+        "en": "khiển Arduino, Raspberry Pi và các ứng dụng tương tựqua Internet."
+      },
+      {
+        "type": "bullet",
+        "vi": "Blynk là một bảng điều khiển kỹ thuật số nhờđó bạn có thể xây dựng",
+        "en": "Blynk là một bảng điều khiển kỹ thuật số nhờđó bạn có thể xây dựng"
+      },
+      {
+        "type": "title",
+        "vi": "giao diện đồ họa cho dựán của mình bằng cách kéo và thảcác",
+        "en": "giao diện đồ họa cho dựán của mình bằng cách kéo và thảcác"
+      },
+      {
+        "type": "title",
+        "vi": "widget.",
+        "en": "widget."
+      },
+      {
+        "type": "bullet",
+        "vi": "Blynk không bị ràng buộc với một",
+        "en": "Blynk không bị ràng buộc với một"
+      },
+      {
+        "type": "title",
+        "vi": "số board mạch hoặc shield cụ thể.",
+        "en": "số board mạch hoặc shield cụ thể."
+      },
+      {
+        "type": "title",
+        "vi": "Thay vào đó, nó hỗ trợphần cứng",
+        "en": "Thay vào đó, nó hỗ trợphần cứng"
+      },
+      {
+        "type": "title",
+        "vi": "mà bạn lựa chọn. Cho dù Arduino",
+        "en": "mà bạn lựa chọn. Cho dù Arduino"
+      },
+      {
+        "type": "title",
+        "vi": "hoặc Raspberry Pi của bạn được liên",
+        "en": "hoặc Raspberry Pi của bạn được liên"
+      },
+      {
+        "type": "title",
+        "vi": "kết với Internet qua Wi-Fi. Blynk sẽ",
+        "en": "kết với Internet qua Wi-Fi. Blynk sẽ"
+      },
+      {
+        "type": "title",
+        "vi": "giúp bạn online và sẵn sàng cho IoT.",
+        "en": "giúp bạn online và sẵn sàng cho IoT."
+      }
+    ],
+    "raw_text_vi": "5. Các nền tảng phần mềm chớp mắt Blynk là một nền tảng với các ứng dụng iOS và Android để điều khiển Arduino, Raspberry Pi và các ứng dụng tương tựqua Internet. Blynk là một bảng điều khiển kỹ thuật số nhờđó bạn có thể xây dựng giao diện đồ họa cho dựán của mình bằng cách kéo và thảcác widget. Blynk không bị ràng buộc với một số board mạch hoặc shield cụ thể. Thay vào đó, nó hỗ trợphần cứng mà bạn lựa chọn. Cho dù Arduino hoặc Raspberry Pi của bạn được liên kết với Internet qua Wi-Fi. Blynk sẽ giúp bạn online và sẵn sàng cho IoT.",
+    "raw_text_en": "5. Các nền tảng phần mềm Blynk Blynk là một nền tảng với các ứng dụng iOS và Android để điều khiển Arduino, Raspberry Pi và các ứng dụng tương tựqua Internet. Blynk là một bảng điều khiển kỹ thuật số nhờđó bạn có thể xây dựng giao diện đồ họa cho dựán của mình bằng cách kéo và thảcác widget. Blynk không bị ràng buộc với một số board mạch hoặc shield cụ thể. Thay vào đó, nó hỗ trợphần cứng mà bạn lựa chọn. Cho dù Arduino hoặc Raspberry Pi của bạn được liên kết với Internet qua Wi-Fi. Blynk sẽ giúp bạn online và sẵn sàng cho IoT."
+  },
+  {
+    "num": 45,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Blynk có thể làm được những gì?",
+    "image": "slide_images/c4_updated/slide_45.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "5. Các nền tảng phần mềm",
+        "en": "5. Các nền tảng phần mềm"
+      },
+      {
+        "type": "title",
+        "vi": "Blynk có thể làm được những gì?",
+        "en": "Blynk có thể làm được những gì?"
+      },
+      {
+        "type": "bullet",
+        "vi": "Triển khai một hệthống nhà thông minh, điều khiển giám sát từ xa,",
+        "en": "Triển khai một hệthống nhà thông minh, điều khiển giám sát từ xa,"
+      },
+      {
+        "type": "paragraph",
+        "vi": "v.v... Giới hạ n duy nhất là khảnăng cũng như sự sáng tạo của bạn.",
+        "en": "v.v... Giới hạ n duy nhất là khảnăng cũng như sự sáng tạo của bạn."
+      },
+      {
+        "type": "bullet",
+        "vi": "Các Widget như: nút ấn, hiện thị giá trị, thanh kéo giá trị, vẽsơ đồ,",
+        "en": "Các Widget như: nút ấn, hiện thị giá trị, thanh kéo giá trị, vẽsơ đồ,"
+      },
+      {
+        "type": "paragraph",
+        "vi": "v.v... Cho phép điều khiển GPIO của thiết bị bo mạch, từ đó bật tắt",
+        "en": "v.v... Cho phép điều khiển GPIO của thiết bị bo mạch, từ đó bật tắt"
+      },
+      {
+        "type": "title",
+        "vi": "relay, điều khiển các thiết bị trong nhà.",
+        "en": "relay, điều khiển các thiết bị trong nhà."
+      },
+      {
+        "type": "bullet",
+        "vi": "Điểm mạnh của Blynk là có thể kết nối ở bất kỳnơi nào có mạng.",
+        "en": "Điểm mạnh của Blynk là có thể kết nối ở bất kỳnơi nào có mạng."
+      },
+      {
+        "type": "bullet",
+        "vi": "Có thể chia sẻbảng điều khiển cho nhiều người dùng để sửdụng",
+        "en": "Có thể chia sẻbảng điều khiển cho nhiều người dùng để sửdụng"
+      },
+      {
+        "type": "title",
+        "vi": "chung 1 hệthống.",
+        "en": "chung 1 hệthống."
+      }
+    ],
+    "raw_text_vi": "5. Các nền tảng phần mềm Blynk có thể làm được những gì? Triển khai một hệthống nhà thông minh, điều khiển giám sát từ xa, v.v... Giới hạ n duy nhất là khảnăng cũng như sự sáng tạo của bạn. Các Widget như: nút ấn, hiện thị giá trị, thanh kéo giá trị, vẽsơ đồ, v.v... Cho phép điều khiển GPIO của thiết bị bo mạch, từ đó bật tắt relay, điều khiển các thiết bị trong nhà. Điểm mạnh của Blynk là có thể kết nối ở bất kỳnơi nào có mạng. Có thể chia sẻbảng điều khiển cho nhiều người dùng để sửdụng chung 1 hệthống.",
+    "raw_text_en": "5. Các nền tảng phần mềm Blynk có thể làm được những gì? Triển khai một hệthống nhà thông minh, điều khiển giám sát từ xa, v.v... Giới hạ n duy nhất là khảnăng cũng như sự sáng tạo của bạn. Các Widget như: nút ấn, hiện thị giá trị, thanh kéo giá trị, vẽsơ đồ, v.v... Cho phép điều khiển GPIO của thiết bị bo mạch, từ đó bật tắt relay, điều khiển các thiết bị trong nhà. Điểm mạnh của Blynk là có thể kết nối ở bất kỳnơi nào có mạng. Có thể chia sẻbảng điều khiển cho nhiều người dùng để sửdụng chung 1 hệthống."
+  },
+  {
+    "num": 46,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Blynk có thể làm được những gì?",
+    "image": "slide_images/c4_updated/slide_46.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "5. Các nền tảng phần mềm",
+        "en": "5. Các nền tảng phần mềm"
+      },
+      {
+        "type": "title",
+        "vi": "Blynk có thể làm được những gì?",
+        "en": "Blynk có thể làm được những gì?"
+      },
+      {
+        "type": "bullet",
+        "vi": "Thiết bị arduino chịu trách nhiệm điều khiển các thiết bị trong nhà thông qua relay lắp trực tiếp vào các GPIO của arduino, hoặc bất kì kiểu giao tiếp nào khác nếu bạn đủ khả năng (RF, Uart). Thiết bị này yêu cầu phải kết nối mạng (ESP8266, ESP32, …)",
+        "en": "Thiết bị arduino chịu trách nhiệm điều khiển các thiết bị trong nhà thông qua relay lắp trực tiếp vào các GPIO của arduino, hoặc bất kì kiểu giao tiếp nào khác nếu bạn đủ khả năng (RF, Uart). Thiết bị này yêu cầu phải kết nối mạng (ESP8266, ESP32, …)"
+      },
+      {
+        "type": "bullet",
+        "vi": "App Blynk từ điện thoại thông qua đám mây sẽ gửi tín hiệu đến board và ngược lại, các board arduino được đánh dấu bằng 1 token - chữ ký số, tạo ra trong quá trình setup ứng dụng.",
+        "en": "App Blynk từ điện thoại thông qua đám mây sẽ gửi tín hiệu đến board và ngược lại, các board arduino được đánh dấu bằng 1 token - chữ ký số, tạo ra trong quá trình setup ứng dụng."
+      }
+    ],
+    "raw_text_vi": "5. Các nền tảng phần mềm Blynk có thể làm được những gì? Thiết bị arduino chịu trách nhiệm điều khiển các thiết bị trong nhà thông qua relay lắp trực tiếp vào các GPIO của arduino, hoặc bất kì kiểu giao tiếp nào khác nếu bạn đủ khả năng (RF, Uart). Thiết bị này yêu cầu phải kết nối mạng (ESP8266, ESP32, …) App Blynk từ điện thoại thông qua đám mây sẽ gửi tín hiệu đến board và ngược lại, các board arduino được đánh dấu bằng 1 token - chữ ký số, tạo ra trong quá trình setup ứng dụng.",
+    "raw_text_en": "5. Các nền tảng phần mềm Blynk có thể làm được những gì? Thiết bị arduino chịu trách nhiệm điều khiển các thiết bị trong nhà thông qua relay lắp trực tiếp vào các GPIO của arduino, hoặc bất kì kiểu giao tiếp nào khác nếu bạn đủ khả năng (RF, Uart). Thiết bị này yêu cầu phải kết nối mạng (ESP8266, ESP32, …) App Blynk từ điện thoại thông qua đám mây sẽ gửi tín hiệu đến board và ngược lại, các board arduino được đánh dấu bằng 1 token - chữ ký số, tạo ra trong quá trình setup ứng dụng."
+  },
+  {
+    "num": 47,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Blynk có thể làm được những gì?",
+    "image": "slide_images/c4_updated/slide_47.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "5. Các nền tảng phần mềm",
+        "en": "5. Các nền tảng phần mềm"
+      },
+      {
+        "type": "title",
+        "vi": "Blynk có thể làm được những gì?",
+        "en": "Blynk có thể làm được những gì?"
+      }
+    ],
+    "raw_text_vi": "5. Các nền tảng phần mềm Blynk có thể làm được những gì?",
+    "raw_text_en": "5. Các nền tảng phần mềm Blynk có thể làm được những gì?"
+  },
+  {
+    "num": 48,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Lập trình Arduino",
+    "image": "slide_images/c4_updated/slide_48.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Lập trình Arduino",
+        "en": "Arduino Programming"
+      },
+      {
+        "type": "title",
+        "vi": "Ngôn ngữ",
+        "en": "Language"
+      }
+    ],
+    "raw_text_vi": "Lập trình Arduino Ngôn ngữ",
+    "raw_text_en": "Arduino Programming Language"
+  },
+  {
+    "num": 49,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_49.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Máy tính vật lý là gì?",
+        "en": "What is Physical Computing?"
+      },
+      {
+        "type": "bullet",
+        "vi": "Máy tính Vật lý sử dụng thiết bị điện tử để tạo nguyên mẫu vật liệu mới cho các nhà thiết kế và nghệ sĩ.",
+        "en": "Physical Computing uses electronics to prototype new materials for designers and artists."
+      },
+      {
+        "type": "bullet",
+        "vi": "Nó liên quan đến việc thiết kế các vật thể tương tác có thể giao tiếp với con người bằng cách sử dụng các cảm biến và bộ truyền động được điều khiển bởi hành vi được triển khai dưới dạng phần mềm chạy bên trong bộ vi điều khiển (một máy tính nhỏ trên một con chip).",
+        "en": "It involves the design of interactive objects that can communicate with humans using sensors and actuators controlled by a behaviour implemented as software running inside a microcontroller (a small computer on a single chip)."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Máy tính vật lý là gì? Máy tính Vật lý sử dụng thiết bị điện tử để tạo nguyên mẫu vật liệu mới cho các nhà thiết kế và nghệ sĩ. Nó liên quan đến việc thiết kế các vật thể tương tác có thể giao tiếp với con người bằng cách sử dụng các cảm biến và bộ truyền động được điều khiển bởi hành vi được triển khai dưới dạng phần mềm chạy bên trong bộ vi điều khiển (một máy tính nhỏ trên một con chip).",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT What is Physical Computing? Physical Computing uses electronics to prototype new materials for designers and artists. It involves the design of interactive objects that can communicate with humans using sensors and actuators controlled by a behaviour implemented as software running inside a microcontroller (a small computer on a single chip)."
+  },
+  {
+    "num": 50,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_50.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Máy tính vật lý là gì?",
+        "en": "What is Physical Computing?"
+      },
+      {
+        "type": "bullet",
+        "vi": "Trước đây, sử dụng thiết bị điện tử có nghĩa là phải làm việc liên tục với các kỹ sư và xây dựng mạch điện từ một bộ phận nhỏ vào thời điểm đó; những vấn đề này đã ngăn cản những người sáng tạo chơi đùa trực tiếp với phương tiện này. Hầu hết các công cụ này đều dành cho kỹ sư và cần có kiến ​​thức sâu rộng. Trong những năm gần đây, bộ vi điều khiển đã trở nên rẻ hơn và dễ sử dụng hơn, cho phép tạo ra các công cụ tốt hơn.",
+        "en": "In the past, using electronics meant having to deal with engineers all the time, and building circuits one small component at the time; these issues kept creative people from playing around with the medium directly. Most of the tools were meant for engineers and required extensive knowledge. In recent years, microcontrollers have become cheaper and easier to use, allowing the creation of better tools."
+      },
+      {
+        "type": "bullet",
+        "vi": "Tiến bộ mà chúng tôi đã đạt được với Arduino là đưa những công cụ này đến gần hơn một bước với người mới sử dụng, cho phép mọi người bắt đầu xây dựng công cụ chỉ sau hai hoặc ba ngày tham gia hội thảo.",
+        "en": "The progress that we have made with Arduino is to bring these tools one step closer to the novice, allowing people to start building stuff after only two or three days of a workshop."
+      },
+      {
+        "type": "bullet",
+        "vi": "Với Arduino, một nhà thiết kế hoặc nghệ sĩ có thể tìm hiểu những điều cơ bản về điện tử và cảm biến rất nhanh chóng và có thể bắt đầu xây dựng các nguyên mẫu với mức đầu tư rất ít.",
+        "en": "With Arduino, a designer or artist can get to know the basics of electronics and sensors very quickly and can start building prototypes with very little investment."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Máy tính vật lý là gì? Trước đây, sử dụng thiết bị điện tử có nghĩa là phải làm việc liên tục với các kỹ sư và xây dựng mạch điện từ một bộ phận nhỏ vào thời điểm đó; những vấn đề này đã ngăn cản những người sáng tạo chơi đùa trực tiếp với phương tiện này. Hầu hết các công cụ này đều dành cho kỹ sư và cần có kiến ​​thức sâu rộng. Trong những năm gần đây, bộ vi điều khiển đã trở nên rẻ hơn và dễ sử dụng hơn, cho phép tạo ra các công cụ tốt hơn. Tiến bộ mà chúng tôi đã đạt được với Arduino là đưa những công cụ này đến gần hơn một bước với người mới sử dụng, cho phép mọi người bắt đầu xây dựng công cụ chỉ sau hai hoặc ba ngày tham gia hội thảo. Với Arduino, một nhà thiết kế hoặc nghệ sĩ có thể tìm hiểu những điều cơ bản về điện tử và cảm biến rất nhanh chóng và có thể bắt đầu xây dựng các nguyên mẫu với mức đầu tư rất ít.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT What is Physical Computing? In the past, using electronics meant having to deal with engineers all the time, and building circuits one small component at the time; these issues kept creative people from playing around with the medium directly. Most of the tools were meant for engineers and required extensive knowledge. In recent years, microcontrollers have become cheaper and easier to use, allowing the creation of better tools. The progress that we have made with Arduino is to bring these tools one step closer to the novice, allowing people to start building stuff after only two or three days of a workshop. With Arduino, a designer or artist can get to know the basics of electronics and sensors very quickly and can start building prototypes with very little investment."
+  },
+  {
+    "num": 51,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_51.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Con đường Arduino",
+        "en": "The Arduino Way"
+      },
+      {
+        "type": "bullet",
+        "vi": "Triết lý Arduino dựa trên việc tạo ra các thiết kế hơn là nói về chúng. Đó là sự tìm kiếm liên tục những cách nhanh hơn và mạnh mẽ hơn để xây dựng các nguyên mẫu tốt hơn. Chúng tôi đã khám phá nhiều kỹ thuật tạo mẫu và phát triển cách suy nghĩ bằng đôi tay của mình.",
+        "en": "The Arduino philosophy is based on making designs rather than talking about them. It is a constant search for faster and more powerful ways to build better prototypes. We have explored many prototyping techniques and developed ways of thinking with our hands."
+      },
+      {
+        "type": "bullet",
+        "vi": "Kỹ thuật cổ điển dựa trên một quy trình nghiêm ngặt để đi từ A đến B; Arduino Way thích thú với khả năng bị lạc đường và tìm thấy C.",
+        "en": "Classic engineering relies on a strict process for getting from A to B; the Arduino Way delights in the possibility of getting lost on the way and finding C instead."
+      },
+      {
+        "type": "bullet",
+        "vi": "Đây là quá trình mày mò mà chúng tôi rất yêu thích—chơi với phương tiện theo cách mở và tìm ra điều bất ngờ. Trong quá trình tìm kiếm các cách để xây dựng các nguyên mẫu tốt hơn, chúng tôi cũng đã chọn một số gói phần mềm cho phép quá trình thao tác liên tục với phương tiện phần mềm và phần cứng.",
+        "en": "This is the tinkering process that we are so fond of—playing with the medium in an open-ended way and finding the unexpected. In this search for ways to build better prototypes, we also selected a number of software packages that enable the process of constant manipulation of the software and hardware medium."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Con đường Arduino Triết lý Arduino dựa trên việc tạo ra các thiết kế hơn là nói về chúng. Đó là sự tìm kiếm liên tục những cách nhanh hơn và mạnh mẽ hơn để xây dựng các nguyên mẫu tốt hơn. Chúng tôi đã khám phá nhiều kỹ thuật tạo mẫu và phát triển cách suy nghĩ bằng đôi tay của mình. Kỹ thuật cổ điển dựa trên một quy trình nghiêm ngặt để đi từ A đến B; Arduino Way thích thú với khả năng bị lạc đường và tìm thấy C. Đây là quá trình mày mò mà chúng tôi rất yêu thích—chơi với phương tiện theo cách mở và tìm ra điều bất ngờ. Trong quá trình tìm kiếm các cách để xây dựng các nguyên mẫu tốt hơn, chúng tôi cũng đã chọn một số gói phần mềm cho phép quá trình thao tác liên tục với phương tiện phần mềm và phần cứng.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT The Arduino Way The Arduino philosophy is based on making designs rather than talking about them. It is a constant search for faster and more powerful ways to build better prototypes. We have explored many prototyping techniques and developed ways of thinking with our hands. Classic engineering relies on a strict process for getting from A to B; the Arduino Way delights in the possibility of getting lost on the way and finding C instead. This is the tinkering process that we are so fond of—playing with the medium in an open-ended way and finding the unexpected. In this search for ways to build better prototypes, we also selected a number of software packages that enable the process of constant manipulation of the software and hardware medium."
+  },
+  {
+    "num": 52,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_52.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "nguyên mẫu",
+        "en": "Prototyping"
+      },
+      {
+        "type": "bullet",
+        "vi": "Tạo nguyên mẫu là trọng tâm của Phương thức Arduino: chúng tôi tạo ra mọi thứ và xây dựng các đối tượng tương tác với các đối tượng, con người và mạng khác. Chúng tôi cố gắng tìm ra cách đơn giản hơn và nhanh hơn để tạo nguyên mẫu theo cách rẻ nhất có thể.",
+        "en": "Prototyping is at the heart of the Arduino Way: we make things and build objects that interact with other objects, people, and networks. We strive to find a simpler and faster way to prototype in the cheapest possible way."
+      },
+      {
+        "type": "bullet",
+        "vi": "Rất nhiều người mới bắt đầu tiếp cận thiết bị điện tử lần đầu tiên nghĩ rằng họ phải học cách chế tạo mọi thứ từ đầu. Đây là một sự lãng phí năng lượng: điều bạn muốn là có thể xác nhận rằng thứ gì đó đang hoạt động rất nhanh để bạn có thể thúc đẩy bản thân thực hiện bước tiếp theo hoặc thậm chí có thể thúc đẩy người khác đưa cho bạn nhiều tiền mặt để làm việc đó.",
+        "en": "A lot of beginners approaching electronics for the first time think that they have to learn how to build everything from scratch. This is a waste of energy: what you want is to be able to confirm that something's working very quickly so that you can motivate yourself to take the next step or maybe even motivate somebody else to give you a lot of cash to do it."
+      },
+      {
+        "type": "bullet",
+        "vi": "Đây là lý do tại sao chúng tôi phát triển \"tạo mẫu cơ hội\": tại sao phải dành thời gian và sức lực để xây dựng lại từ đầu, một quá trình đòi hỏi thời gian và kiến ​​thức kỹ thuật chuyên sâu, khi chúng tôi có thể lấy các thiết bị làm sẵn và hack chúng để khai thác công sức của các công ty lớn và kỹ sư giỏi?",
+        "en": "This is why we developed \"opportunistic prototyping\": why spend time and energy building from scratch, a process that requires time and in-depth technical knowledge, when we can take ready-made devices and hack them in order to exploit the hard work done by large companies and good engineers?"
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT nguyên mẫu Tạo nguyên mẫu là trọng tâm của Phương thức Arduino: chúng tôi tạo ra mọi thứ và xây dựng các đối tượng tương tác với các đối tượng, con người và mạng khác. Chúng tôi cố gắng tìm ra cách đơn giản hơn và nhanh hơn để tạo nguyên mẫu theo cách rẻ nhất có thể. Rất nhiều người mới bắt đầu tiếp cận thiết bị điện tử lần đầu tiên nghĩ rằng họ phải học cách chế tạo mọi thứ từ đầu. Đây là một sự lãng phí năng lượng: điều bạn muốn là có thể xác nhận rằng thứ gì đó đang hoạt động rất nhanh để bạn có thể thúc đẩy bản thân thực hiện bước tiếp theo hoặc thậm chí có thể thúc đẩy người khác đưa cho bạn nhiều tiền mặt để làm việc đó. Đây là lý do tại sao chúng tôi phát triển \"tạo mẫu cơ hội\": tại sao phải dành thời gian và sức lực để xây dựng lại từ đầu, một quá trình đòi hỏi thời gian và kiến ​​thức kỹ thuật chuyên sâu, khi chúng tôi có thể lấy các thiết bị làm sẵn và hack chúng để khai thác công sức của các công ty lớn và kỹ sư giỏi?",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Prototyping Prototyping is at the heart of the Arduino Way: we make things and build objects that interact with other objects, people, and networks. We strive to find a simpler and faster way to prototype in the cheapest possible way. A lot of beginners approaching electronics for the first time think that they have to learn how to build everything from scratch. This is a waste of energy: what you want is to be able to confirm that something's working very quickly so that you can motivate yourself to take the next step or maybe even motivate somebody else to give you a lot of cash to do it. This is why we developed \"opportunistic prototyping\": why spend time and energy building from scratch, a process that requires time and in-depth technical knowledge, when we can take ready-made devices and hack them in order to exploit the hard work done by large companies and good engineers?"
+  },
+  {
+    "num": 53,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_53.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Nền tảng Arduino",
+        "en": "The Arduino Platform"
+      },
+      {
+        "type": "bullet",
+        "vi": "Arduino bao gồm hai phần chính: bo mạch Arduino, là phần cứng mà bạn làm việc khi xây dựng các đối tượng của mình; và Arduino IDE, phần mềm bạn chạy trên máy tính của mình.",
+        "en": "Arduino is composed of two major parts: the Arduino board, which is the piece of hardware you work on when you build your objects; and the Arduino IDE, the piece of software you run on your computer."
+      },
+      {
+        "type": "bullet",
+        "vi": "14 Chân IO kỹ thuật số (chân 0–13) Đây có thể là đầu vào hoặc đầu ra, được chỉ định bởi bản phác thảo bạn tạo trong IDE.",
+        "en": "14 Digital IO pins (pins 0–13) These can be inputs or outputs, which is specified by the sketch you create in the IDE."
+      },
+      {
+        "type": "bullet",
+        "vi": "6 Chân đầu vào tương tự (chân 0–5) Các chân đầu vào tương tự chuyên dụng này nhận các giá trị tương tự (tức là số đọc điện áp từ cảm biến) và chuyển đổi chúng thành một số trong khoảng từ 0 đến 1023.",
+        "en": "6 Analogue In pins (pins 0–5) These dedicated analogue input pins take analogue values (i.e., voltage readings from a sensor) and convert them into a number between 0 and 1023."
+      },
+      {
+        "type": "bullet",
+        "vi": "6 Chân đầu ra tương tự (chân 3, 5, 6, 9, 10 và 11) Đây thực tế là sáu chân kỹ thuật số có thể được lập trình lại cho đầu ra tương tự bằng cách sử dụng bản phác thảo bạn tạo trong IDE.",
+        "en": "6 Analogue Out pins (pins 3, 5, 6, 9, 10, and 11) These are actually six of the digital pins that can be reprogrammed for analogue output using the sketch you create in the IDE."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Nền tảng Arduino Arduino bao gồm hai phần chính: bo mạch Arduino, là phần cứng mà bạn làm việc khi xây dựng các đối tượng của mình; và Arduino IDE, phần mềm bạn chạy trên máy tính của mình. 14 Chân IO kỹ thuật số (chân 0–13) Đây có thể là đầu vào hoặc đầu ra, được chỉ định bởi bản phác thảo bạn tạo trong IDE. 6 Chân đầu vào tương tự (chân 0–5) Các chân đầu vào tương tự chuyên dụng này nhận các giá trị tương tự (tức là số đọc điện áp từ cảm biến) và chuyển đổi chúng thành một số trong khoảng từ 0 đến 1023. 6 Chân đầu ra tương tự (chân 3, 5, 6, 9, 10 và 11) Đây thực tế là sáu chân kỹ thuật số có thể được lập trình lại cho đầu ra tương tự bằng cách sử dụng bản phác thảo bạn tạo trong IDE.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT The Arduino Platform Arduino is composed of two major parts: the Arduino board, which is the piece of hardware you work on when you build your objects; and the Arduino IDE, the piece of software you run on your computer. 14 Digital IO pins (pins 0–13) These can be inputs or outputs, which is specified by the sketch you create in the IDE. 6 Analogue In pins (pins 0–5) These dedicated analogue input pins take analogue values (i.e., voltage readings from a sensor) and convert them into a number between 0 and 1023. 6 Analogue Out pins (pins 3, 5, 6, 9, 10, and 11) These are actually six of the digital pins that can be reprogrammed for analogue output using the sketch you create in the IDE."
+  },
+  {
+    "num": 54,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_54.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Nền tảng Arduino Arduino Uno Arduino Duemilanove",
+        "en": "The Arduino Platform The Arduino Uno The Arduino Duemilanove"
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Nền tảng Arduino Arduino Uno Arduino Duemilanove",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT The Arduino Platform The Arduino Uno The Arduino Duemilanove"
+  },
+  {
+    "num": 55,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_55.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Phần mềm (IDE)",
+        "en": "The Software (IDE)"
+      },
+      {
+        "type": "bullet",
+        "vi": "IDE (Môi trường phát triển tích hợp) là một chương trình đặc biệt chạy trên máy tính cho phép bạn viết bản phác thảo cho bo mạch Arduino bằng ngôn ngữ đơn giản được mô phỏng theo ngôn ngữ Xử lý (www.processing.org).",
+        "en": "The IDE (Integrated Development Environment) is a special program running on your computer that allows you to write sketches for the Arduino board in a simple language modeled after the Processing (www.processing.org) language."
+      },
+      {
+        "type": "paragraph",
+        "vi": "Chu trình lập trình trên Arduino cơ bản như sau:",
+        "en": "The programming cycle on Arduino is basically as follows:"
+      },
+      {
+        "type": "bullet",
+        "vi": "Cắm bo mạch của bạn vào cổng USB trên máy tính của bạn.",
+        "en": "Plug your board into a USB port on your computer."
+      },
+      {
+        "type": "bullet",
+        "vi": "Viết một bản phác thảo sẽ làm cho bảng trở nên sống động.",
+        "en": "Write a sketch that will bring the board to life."
+      },
+      {
+        "type": "bullet",
+        "vi": "Tải bản phác thảo này lên bảng thông qua kết nối USB và đợi vài giây để bảng khởi động lại.",
+        "en": "Upload this sketch to the board through the USB connection and wait a couple of seconds for the board to restart."
+      },
+      {
+        "type": "bullet",
+        "vi": "Bảng thực hiện bản phác thảo mà bạn đã viết.",
+        "en": "The board executes the sketch that you wrote."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Phần mềm (IDE) IDE (Môi trường phát triển tích hợp) là một chương trình đặc biệt chạy trên máy tính cho phép bạn viết bản phác thảo cho bo mạch Arduino bằng ngôn ngữ đơn giản được mô phỏng theo ngôn ngữ Xử lý (www.processing.org). Chu trình lập trình trên Arduino cơ bản như sau: Cắm bo mạch của bạn vào cổng USB trên máy tính của bạn. Viết một bản phác thảo sẽ làm cho bảng trở nên sống động. Tải bản phác thảo này lên bảng thông qua kết nối USB và đợi vài giây để bảng khởi động lại. Bảng thực hiện bản phác thảo mà bạn đã viết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT The Software (IDE) The IDE (Integrated Development Environment) is a special program running on your computer that allows you to write sketches for the Arduino board in a simple language modeled after the Processing (www.processing.org) language. The programming cycle on Arduino is basically as follows: Plug your board into a USB port on your computer. Write a sketch that will bring the board to life. Upload this sketch to the board through the USB connection and wait a couple of seconds for the board to restart. The board executes the sketch that you wrote."
+  },
+  {
+    "num": 56,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_56.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Cài đặt Arduino trên máy tính của bạn",
+        "en": "Installing Arduino on Your Computer"
+      },
+      {
+        "type": "bullet",
+        "vi": "Để lập trình bo mạch Arduino, trước tiên bạn phải tải xuống môi trường phát triển (IDE) từ đây: www.arduino.cc/en/Main/Software. Chọn phiên bản phù hợp cho hệ điều hành của bạn.",
+        "en": "To program the Arduino board, you must first download the development environment (the IDE) from here: www.arduino.cc/en/Main/Software. Choose the right version for your operating system."
+      },
+      {
+        "type": "paragraph",
+        "vi": "Arduino Arduino IDE",
+        "en": "Arduino Arduino IDE"
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Cài đặt Arduino trên máy tính của bạn Để lập trình bo mạch Arduino, trước tiên bạn phải tải xuống môi trường phát triển (IDE) từ đây: www.arduino.cc/en/Main/Software. Chọn phiên bản phù hợp cho hệ điều hành của bạn. Arduino Arduino IDE",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Installing Arduino on Your Computer To program the Arduino board, you must first download the development environment (the IDE) from here: www.arduino.cc/en/Main/Software. Choose the right version for your operating system. Arduino Arduino IDE"
+  },
+  {
+    "num": 57,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_57.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Giải phẫu của một thiết bị tương tác",
+        "en": "Anatomy of an Interactive Device"
+      },
+      {
+        "type": "bullet",
+        "vi": "Tất cả các đối tượng chúng tôi sẽ xây dựng bằng Arduino đều tuân theo một mẫu rất đơn giản mà chúng tôi gọi là “Thiết bị tương tác”. Thiết bị tương tác là một mạch điện tử có khả năng cảm nhận môi trường bằng cảm biến (các linh kiện điện tử chuyển đổi các phép đo trong thế giới thực thành tín hiệu điện).",
+        "en": "All of the objects we will build using Arduino follow a very simple pattern that we call the “Interactive Device”. The Interactive Device is an electronic circuit that is able to sense the environment using sensors (electronic components that convert real-world measurements into electrical signals)."
+      },
+      {
+        "type": "bullet",
+        "vi": "Thiết bị xử lý thông tin nhận được từ các cảm biến bằng hành vi được triển khai dưới dạng phần mềm. Sau đó, thiết bị sẽ có thể tương tác với thế giới bằng cách sử dụng bộ truyền động, linh kiện điện tử có thể chuyển đổi tín hiệu điện thành hành động vật lý.",
+        "en": "The device processes the information it gets from the sensors with behaviour that’s implemented as software. The device will then be able to interact with the world using actuators, electronic components that can convert an electric signal into a physical action."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Giải phẫu của một thiết bị tương tác Tất cả các đối tượng chúng tôi sẽ xây dựng bằng Arduino đều tuân theo một mẫu rất đơn giản mà chúng tôi gọi là “Thiết bị tương tác”. Thiết bị tương tác là một mạch điện tử có khả năng cảm nhận môi trường bằng cảm biến (các linh kiện điện tử chuyển đổi các phép đo trong thế giới thực thành tín hiệu điện). Thiết bị xử lý thông tin nhận được từ các cảm biến bằng hành vi được triển khai dưới dạng phần mềm. Sau đó, thiết bị sẽ có thể tương tác với thế giới bằng cách sử dụng bộ truyền động, linh kiện điện tử có thể chuyển đổi tín hiệu điện thành hành động vật lý.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Anatomy of an Interactive Device All of the objects we will build using Arduino follow a very simple pattern that we call the “Interactive Device”. The Interactive Device is an electronic circuit that is able to sense the environment using sensors (electronic components that convert real-world measurements into electrical signals). The device processes the information it gets from the sensors with behaviour that’s implemented as software. The device will then be able to interact with the world using actuators, electronic components that can convert an electric signal into a physical action."
+  },
+  {
+    "num": 58,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_58.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Cấu tạo của một thiết bị tương tác Thiết bị tương tác",
+        "en": "Anatomy of an Interactive Device The interactive device"
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Cấu tạo của một thiết bị tương tác Thiết bị tương tác",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Anatomy of an Interactive Device The interactive device"
+  },
+  {
+    "num": 59,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_59.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Cảm biến và thiết bị truyền động",
+        "en": "Sensors and Actuators"
+      },
+      {
+        "type": "bullet",
+        "vi": "Cảm biến và bộ truyền động là các linh kiện điện tử cho phép một thiết bị điện tử tương tác với thế giới.",
+        "en": "Sensors and actuators are electronic components that allow a piece of electronics to interact with the world."
+      },
+      {
+        "type": "bullet",
+        "vi": "Vì bộ vi điều khiển là một máy tính rất đơn giản nên nó chỉ có thể xử lý các tín hiệu điện (hơi giống các xung điện được gửi giữa các tế bào thần kinh trong não của chúng ta). Để cảm nhận được ánh sáng, nhiệt độ hoặc các đại lượng vật lý khác, nó cần thứ gì đó có thể chuyển đổi chúng thành điện năng. Ví dụ, trong cơ thể chúng ta, mắt chuyển đổi ánh sáng thành tín hiệu được gửi đến não bằng dây thần kinh. Trong điện tử, chúng ta có thể sử dụng một thiết bị đơn giản gọi là điện trở phụ thuộc ánh sáng (LDR hoặc điện trở quang) có thể đo lượng ánh sáng chiếu vào nó và báo cáo dưới dạng tín hiệu mà bộ vi điều khiển có thể hiểu được.",
+        "en": "As the microcontroller is a very simple computer, it can process only electric signals (a bit like the electric pulses that are sent between neurons in our brains). For it to sense light, temperature, or other physical quantities, it needs something that can convert them into electricity. In our body, for example, the eye converts light into signals that get sent to the brain using nerves. In electronics, we can use a simple device called a light-dependent resistor (an LDR or photoresistor) that can measure the amount of light that hits it and report it as a signal that can be understood by the microcontroller."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Cảm biến và thiết bị truyền động Cảm biến và bộ truyền động là các linh kiện điện tử cho phép một thiết bị điện tử tương tác với thế giới. Vì bộ vi điều khiển là một máy tính rất đơn giản nên nó chỉ có thể xử lý các tín hiệu điện (hơi giống các xung điện được gửi giữa các tế bào thần kinh trong não của chúng ta). Để cảm nhận được ánh sáng, nhiệt độ hoặc các đại lượng vật lý khác, nó cần thứ gì đó có thể chuyển đổi chúng thành điện năng. Ví dụ, trong cơ thể chúng ta, mắt chuyển đổi ánh sáng thành tín hiệu được gửi đến não bằng dây thần kinh. Trong điện tử, chúng ta có thể sử dụng một thiết bị đơn giản gọi là điện trở phụ thuộc ánh sáng (LDR hoặc điện trở quang) có thể đo lượng ánh sáng chiếu vào nó và báo cáo dưới dạng tín hiệu mà bộ vi điều khiển có thể hiểu được.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Sensors and Actuators Sensors and actuators are electronic components that allow a piece of electronics to interact with the world. As the microcontroller is a very simple computer, it can process only electric signals (a bit like the electric pulses that are sent between neurons in our brains). For it to sense light, temperature, or other physical quantities, it needs something that can convert them into electricity. In our body, for example, the eye converts light into signals that get sent to the brain using nerves. In electronics, we can use a simple device called a light-dependent resistor (an LDR or photoresistor) that can measure the amount of light that hits it and report it as a signal that can be understood by the microcontroller."
+  },
+  {
+    "num": 60,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_60.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 61,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_61.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 62,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_62.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 63,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_63.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 64,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_64.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 65,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_65.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 66,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_66.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 67,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_67.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 68,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_68.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 69,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_69.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 70,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_70.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 71,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_71.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 72,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_72.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 73,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_73.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 74,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_74.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 75,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_75.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 76,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_76.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 77,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_77.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 78,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_78.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 79,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_79.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 80,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_80.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 81,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_81.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 82,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_82.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Nhấp nháy một đèn LED",
+        "en": "Blinking an LED"
+      },
+      {
+        "type": "bullet",
+        "vi": "Bản phác thảo nhấp nháy LED là chương trình đầu tiên bạn nên chạy để kiểm tra xem bo mạch Arduino của bạn có hoạt động và được cấu hình đúng hay không. Đi-ốt phát sáng (LED) là một linh kiện điện tử nhỏ hơi giống bóng đèn nhưng hiệu quả hơn và yêu cầu điện áp thấp hơn để hoạt động.",
+        "en": "The LED blinking sketch is the first program that you should run to test whether your Arduino board is working and is configured correctly. A light- emitting diode (LED) is a small electronic component that’s a bit like a light bulb, but is more efficient and requires lower voltages to operate."
+      },
+      {
+        "type": "paragraph",
+        "vi": "Kết nối đèn LED với Arduino",
+        "en": "Connecting an LED to Arduino"
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Nhấp nháy một đèn LED Bản phác thảo nhấp nháy LED là chương trình đầu tiên bạn nên chạy để kiểm tra xem bo mạch Arduino của bạn có hoạt động và được cấu hình đúng hay không. Đi-ốt phát sáng (LED) là một linh kiện điện tử nhỏ hơi giống bóng đèn nhưng hiệu quả hơn và yêu cầu điện áp thấp hơn để hoạt động. Kết nối đèn LED với Arduino",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Blinking an LED The LED blinking sketch is the first program that you should run to test whether your Arduino board is working and is configured correctly. A light- emitting diode (LED) is a small electronic component that’s a bit like a light bulb, but is more efficient and requires lower voltages to operate. Connecting an LED to Arduino"
+  },
+  {
+    "num": 83,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_83.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Nhấp nháy đèn LED Arduino IDE với bản phác thảo đầu tiên của bạn được tải",
+        "en": "Blinking an LED The Arduino IDE with your first sketch loaded"
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Nhấp nháy đèn LED Arduino IDE với bản phác thảo đầu tiên của bạn được tải",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Blinking an LED The Arduino IDE with your first sketch loaded"
+  },
+  {
+    "num": 84,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_84.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 85,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_85.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Mã, từng bước",
+        "en": "The Code, Step by Step"
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Mã, từng bước",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT The Code, Step by Step"
+  },
+  {
+    "num": 86,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_86.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Mã, từng bước",
+        "en": "The Code, Step by Step"
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Mã, từng bước",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT The Code, Step by Step"
+  },
+  {
+    "num": 87,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_87.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Mã, từng bước",
+        "en": "The Code, Step by Step"
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Mã, từng bước",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT The Code, Step by Step"
+  },
+  {
+    "num": 88,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_88.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Mã, từng bước",
+        "en": "The Code, Step by Step"
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Mã, từng bước",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT The Code, Step by Step"
+  },
+  {
+    "num": 89,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_89.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Mã, từng bước",
+        "en": "The Code, Step by Step"
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Mã, từng bước",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT The Code, Step by Step"
+  },
+  {
+    "num": 90,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_90.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Sử dụng nút ấn để điều khiển đèn LED Kết nối nút nhấn",
+        "en": "Using a Pushbutton to Control the LED Hooking up a pushbutton"
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Sử dụng nút ấn để điều khiển đèn LED Kết nối nút nhấn",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Using a Pushbutton to Control the LED Hooking up a pushbutton"
+  },
+  {
+    "num": 91,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+    "image": "slide_images/c4_updated/slide_91.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT",
+        "en": "A Tour of Open-Source Activities in IoT"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Sử dụng nút ấn để điều khiển đèn LED",
+        "en": "Using a Pushbutton to Control the LED"
+      }
+    ],
+    "raw_text_vi": "Chuyến tham quan các hoạt động nguồn mở trong IoT Sử dụng nút ấn để điều khiển đèn LED",
+    "raw_text_en": "A Tour of Open-Source Activities in IoT Using a Pushbutton to Control the LED"
+  },
+  {
+    "num": 92,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_92.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Lập trình MicroPython",
+        "en": "MicroPython Programming"
+      },
+      {
+        "type": "title",
+        "vi": "với ESP32",
+        "en": "with ESP32"
+      }
+    ],
+    "raw_text_vi": "Lập trình MicroPython với ESP32",
+    "raw_text_en": "MicroPython Programming with ESP32"
+  },
+  {
+    "num": 93,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Môi trường phát triển tích hợp",
+    "image": "slide_images/c4_updated/slide_93.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Môi trường phát triển tích hợp",
+        "en": "Integrated Development Environment"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Môi trường phát triển tích hợp Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Integrated Development Environment Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 94,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Môi trường phát triển tích hợp",
+    "image": "slide_images/c4_updated/slide_94.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Môi trường phát triển tích hợp",
+        "en": "Integrated Development Environment"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Môi trường phát triển tích hợp Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Integrated Development Environment Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 95,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Môi trường phát triển tích hợp",
+    "image": "slide_images/c4_updated/slide_95.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Môi trường phát triển tích hợp",
+        "en": "Integrated Development Environment"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Môi trường phát triển tích hợp Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Integrated Development Environment Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 96,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Môi trường phát triển tích hợp",
+    "image": "slide_images/c4_updated/slide_96.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Môi trường phát triển tích hợp",
+        "en": "Integrated Development Environment"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Môi trường phát triển tích hợp Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Integrated Development Environment Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 97,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cài đặt uPyCraft IDE (Windows)",
+    "image": "slide_images/c4_updated/slide_97.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cài đặt uPyCraft IDE (Windows)",
+        "en": "Installing uPyCraft IDE (Windows)"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cài đặt uPyCraft IDE (Windows) Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Installing uPyCraft IDE (Windows) Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 98,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Môi trường phát triển tích hợp",
+    "image": "slide_images/c4_updated/slide_98.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Môi trường phát triển tích hợp",
+        "en": "Integrated Development Environment"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Môi trường phát triển tích hợp Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Integrated Development Environment Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 99,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Môi trường phát triển tích hợp",
+    "image": "slide_images/c4_updated/slide_99.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Môi trường phát triển tích hợp",
+        "en": "Integrated Development Environment"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Môi trường phát triển tích hợp Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Integrated Development Environment Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 100,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Môi trường phát triển tích hợp",
+    "image": "slide_images/c4_updated/slide_100.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Môi trường phát triển tích hợp",
+        "en": "Integrated Development Environment"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Môi trường phát triển tích hợp Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Integrated Development Environment Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 101,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Môi trường phát triển tích hợp",
+    "image": "slide_images/c4_updated/slide_101.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Môi trường phát triển tích hợp",
+        "en": "Integrated Development Environment"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Môi trường phát triển tích hợp Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Integrated Development Environment Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 102,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Môi trường phát triển tích hợp",
+    "image": "slide_images/c4_updated/slide_102.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Môi trường phát triển tích hợp",
+        "en": "Integrated Development Environment"
+      },
+      {
+        "type": "paragraph",
+        "vi": "https://randomnerdtutorials.com/uPyCraftWindows",
+        "en": "https://randomnerdtutorials.com/uPyCraftWindows"
+      }
+    ],
+    "raw_text_vi": "Môi trường phát triển tích hợp https://randomnerdtutorials.com/uPyCraftWindows",
+    "raw_text_en": "Integrated Development Environment https://randomnerdtutorials.com/uPyCraftWindows"
+  },
+  {
+    "num": 103,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Môi trường phát triển tích hợp",
+    "image": "slide_images/c4_updated/slide_103.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Môi trường phát triển tích hợp",
+        "en": "Integrated Development Environment"
+      },
+      {
+        "type": "paragraph",
+        "vi": "https://randomnerdtutorials.com/uPyCraftWindows",
+        "en": "https://randomnerdtutorials.com/uPyCraftWindows"
+      }
+    ],
+    "raw_text_vi": "Môi trường phát triển tích hợp https://randomnerdtutorials.com/uPyCraftWindows",
+    "raw_text_en": "Integrated Development Environment https://randomnerdtutorials.com/uPyCraftWindows"
+  },
+  {
+    "num": 104,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Môi trường phát triển tích hợp",
+    "image": "slide_images/c4_updated/slide_104.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Môi trường phát triển tích hợp",
+        "en": "Integrated Development Environment"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Môi trường phát triển tích hợp Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Integrated Development Environment Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 105,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tổng quan về uPyCraft IDE",
+    "image": "slide_images/c4_updated/slide_105.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tổng quan về uPyCraft IDE",
+        "en": "uPyCraft IDE Overview"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tổng quan về uPyCraft IDE Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "uPyCraft IDE Overview Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 106,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tổng quan về uPyCraft IDE",
+    "image": "slide_images/c4_updated/slide_106.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tổng quan về uPyCraft IDE",
+        "en": "uPyCraft IDE Overview"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Vỏ/thiết bị đầu cuối MicroPython",
+        "en": "MicroPython Shell/terminal"
+      }
+    ],
+    "raw_text_vi": "Tổng quan về uPyCraft IDE Vỏ/thiết bị đầu cuối MicroPython",
+    "raw_text_en": "uPyCraft IDE Overview MicroPython Shell/terminal"
+  },
+  {
+    "num": 107,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tổng quan về uPyCraft IDE",
+    "image": "slide_images/c4_updated/slide_107.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tổng quan về uPyCraft IDE",
+        "en": "uPyCraft IDE Overview"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Công cụ",
+        "en": "Tools"
+      }
+    ],
+    "raw_text_vi": "Tổng quan về uPyCraft IDE Công cụ",
+    "raw_text_en": "uPyCraft IDE Overview Tools"
+  },
+  {
+    "num": 108,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tổng quan về uPyCraft IDE",
+    "image": "slide_images/c4_updated/slide_108.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tổng quan về uPyCraft IDE",
+        "en": "uPyCraft IDE Overview"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Công cụ",
+        "en": "Tools"
+      }
+    ],
+    "raw_text_vi": "Tổng quan về uPyCraft IDE Công cụ",
+    "raw_text_en": "uPyCraft IDE Overview Tools"
+  },
+  {
+    "num": 109,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tổng quan về uPyCraft IDE",
+    "image": "slide_images/c4_updated/slide_109.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tổng quan về uPyCraft IDE",
+        "en": "uPyCraft IDE Overview"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Công cụ",
+        "en": "Tools"
+      }
+    ],
+    "raw_text_vi": "Tổng quan về uPyCraft IDE Công cụ",
+    "raw_text_en": "uPyCraft IDE Overview Tools"
+  },
+  {
+    "num": 110,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tổng quan về uPyCraft IDE",
+    "image": "slide_images/c4_updated/slide_110.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tổng quan về uPyCraft IDE",
+        "en": "uPyCraft IDE Overview"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tổng quan về uPyCraft IDE Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "uPyCraft IDE Overview Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 111,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tổng quan về uPyCraft IDE",
+    "image": "slide_images/c4_updated/slide_111.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tổng quan về uPyCraft IDE",
+        "en": "uPyCraft IDE Overview"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tổng quan về uPyCraft IDE Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "uPyCraft IDE Overview Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 112,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tổng quan về uPyCraft IDE",
+    "image": "slide_images/c4_updated/slide_112.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tổng quan về uPyCraft IDE",
+        "en": "uPyCraft IDE Overview"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tổng quan về uPyCraft IDE Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "uPyCraft IDE Overview Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 113,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tổng quan về uPyCraft IDE",
+    "image": "slide_images/c4_updated/slide_113.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tổng quan về uPyCraft IDE",
+        "en": "uPyCraft IDE Overview"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tổng quan về uPyCraft IDE Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "uPyCraft IDE Overview Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 114,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tổng quan về uPyCraft IDE",
+    "image": "slide_images/c4_updated/slide_114.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tổng quan về uPyCraft IDE",
+        "en": "uPyCraft IDE Overview"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tổng quan về uPyCraft IDE Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "uPyCraft IDE Overview Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 115,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tổng quan về uPyCraft IDE",
+    "image": "slide_images/c4_updated/slide_115.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tổng quan về uPyCraft IDE",
+        "en": "uPyCraft IDE Overview"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tổng quan về uPyCraft IDE Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "uPyCraft IDE Overview Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 116,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tổng quan về uPyCraft IDE",
+    "image": "slide_images/c4_updated/slide_116.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tổng quan về uPyCraft IDE",
+        "en": "uPyCraft IDE Overview"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tổng quan về uPyCraft IDE Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "uPyCraft IDE Overview Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 117,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tổng quan về uPyCraft IDE",
+    "image": "slide_images/c4_updated/slide_117.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tổng quan về uPyCraft IDE",
+        "en": "uPyCraft IDE Overview"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tổng quan về uPyCraft IDE Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "uPyCraft IDE Overview Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 118,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tổng quan về uPyCraft IDE",
+    "image": "slide_images/c4_updated/slide_118.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tổng quan về uPyCraft IDE",
+        "en": "uPyCraft IDE Overview"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tổng quan về uPyCraft IDE Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "uPyCraft IDE Overview Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 119,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_119.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 120,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_120.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 121,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_121.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 122,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_122.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 123,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_123.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 124,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_124.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 125,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_125.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 126,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_126.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 127,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_127.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 128,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_128.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 129,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_129.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 130,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_130.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 131,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_131.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 132,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_132.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 133,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_133.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 134,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_134.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 135,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_135.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 136,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_136.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 137,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_137.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 138,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_138.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 139,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_139.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 140,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_140.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 141,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_141.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 142,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_142.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 143,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_143.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 144,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cơ bản về lập trình MicroPython",
+    "image": "slide_images/c4_updated/slide_144.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cơ bản về lập trình MicroPython",
+        "en": "MicroPython Programming Basics"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cơ bản về lập trình MicroPython Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "MicroPython Programming Basics Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 145,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tương tác với GPIO – Nhấp nháy đèn LED",
+    "image": "slide_images/c4_updated/slide_145.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tương tác với GPIO – Nhấp nháy đèn LED",
+        "en": "Interacting with GPIOs – Blinking an LED"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tương tác với GPIO – Nhấp nháy đèn LED Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Interacting with GPIOs – Blinking an LED Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 146,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tương tác với GPIO – Nhấp nháy đèn LED",
+    "image": "slide_images/c4_updated/slide_146.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tương tác với GPIO – Nhấp nháy đèn LED",
+        "en": "Interacting with GPIOs – Blinking an LED"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tương tác với GPIO – Nhấp nháy đèn LED Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Interacting with GPIOs – Blinking an LED Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 147,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tương tác với GPIO – Nhấp nháy đèn LED",
+    "image": "slide_images/c4_updated/slide_147.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tương tác với GPIO – Nhấp nháy đèn LED",
+        "en": "Interacting with GPIOs – Blinking an LED"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tương tác với GPIO – Nhấp nháy đèn LED Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Interacting with GPIOs – Blinking an LED Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 148,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tương tác với GPIO – Nhấp nháy đèn LED",
+    "image": "slide_images/c4_updated/slide_148.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tương tác với GPIO – Nhấp nháy đèn LED",
+        "en": "Interacting with GPIOs – Blinking an LED"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tương tác với GPIO – Nhấp nháy đèn LED Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Interacting with GPIOs – Blinking an LED Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 149,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tương tác với GPIO – Nhấp nháy đèn LED",
+    "image": "slide_images/c4_updated/slide_149.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tương tác với GPIO – Nhấp nháy đèn LED",
+        "en": "Interacting with GPIOs – Blinking an LED"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tương tác với GPIO – Nhấp nháy đèn LED Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Interacting with GPIOs – Blinking an LED Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 150,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tương tác với GPIO – Nhấp nháy đèn LED",
+    "image": "slide_images/c4_updated/slide_150.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tương tác với GPIO – Nhấp nháy đèn LED",
+        "en": "Interacting with GPIOs – Blinking an LED"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tương tác với GPIO – Nhấp nháy đèn LED Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Interacting with GPIOs – Blinking an LED Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 151,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tương tác với GPIO – Nhấp nháy đèn LED",
+    "image": "slide_images/c4_updated/slide_151.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tương tác với GPIO – Nhấp nháy đèn LED",
+        "en": "Interacting with GPIOs – Blinking an LED"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tương tác với GPIO – Nhấp nháy đèn LED Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Interacting with GPIOs – Blinking an LED Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 152,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tương tác với GPIO – Nhấp nháy đèn LED",
+    "image": "slide_images/c4_updated/slide_152.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tương tác với GPIO – Nhấp nháy đèn LED",
+        "en": "Interacting with GPIOs – Blinking an LED"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tương tác với GPIO – Nhấp nháy đèn LED Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Interacting with GPIOs – Blinking an LED Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 153,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tương tác với GPIO – Nhấp nháy đèn LED",
+    "image": "slide_images/c4_updated/slide_153.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tương tác với GPIO – Nhấp nháy đèn LED",
+        "en": "Interacting with GPIOs – Blinking an LED"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tương tác với GPIO – Nhấp nháy đèn LED Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Interacting with GPIOs – Blinking an LED Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 154,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tương tác với GPIO – Nhấp nháy đèn LED",
+    "image": "slide_images/c4_updated/slide_154.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tương tác với GPIO – Nhấp nháy đèn LED",
+        "en": "Interacting with GPIOs – Blinking an LED"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tương tác với GPIO – Nhấp nháy đèn LED Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Interacting with GPIOs – Blinking an LED Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 155,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tương tác với GPIO – Nhấp nháy đèn LED",
+    "image": "slide_images/c4_updated/slide_155.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tương tác với GPIO – Nhấp nháy đèn LED",
+        "en": "Interacting with GPIOs – Blinking an LED"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tương tác với GPIO – Nhấp nháy đèn LED Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Interacting with GPIOs – Blinking an LED Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 156,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tương tác với GPIO – Nhấp nháy đèn LED",
+    "image": "slide_images/c4_updated/slide_156.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tương tác với GPIO – Nhấp nháy đèn LED",
+        "en": "Interacting with GPIOs – Blinking an LED"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tương tác với GPIO – Nhấp nháy đèn LED Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Interacting with GPIOs – Blinking an LED Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 157,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tương tác với GPIO – Nhấp nháy đèn LED",
+    "image": "slide_images/c4_updated/slide_157.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tương tác với GPIO – Nhấp nháy đèn LED",
+        "en": "Interacting with GPIOs – Blinking an LED"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tương tác với GPIO – Nhấp nháy đèn LED Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Interacting with GPIOs – Blinking an LED Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 158,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tương tác với GPIO – Nhấp nháy đèn LED",
+    "image": "slide_images/c4_updated/slide_158.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tương tác với GPIO – Nhấp nháy đèn LED",
+        "en": "Interacting with GPIOs – Blinking an LED"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tương tác với GPIO – Nhấp nháy đèn LED Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Interacting with GPIOs – Blinking an LED Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 159,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Tương tác với GPIO – Nhấp nháy đèn LED",
+    "image": "slide_images/c4_updated/slide_159.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Tương tác với GPIO – Nhấp nháy đèn LED",
+        "en": "Interacting with GPIOs – Blinking an LED"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tương tác với GPIO – Nhấp nháy đèn LED Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Interacting with GPIOs – Blinking an LED Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 160,
+    "chapter": "c4_updated",
+    "section": "",
+    "title": "Cảm ơn bạn đã lắng nghe!",
+    "image": "slide_images/c4_updated/slide_160.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "Cảm ơn bạn đã lắng nghe!",
+        "en": "Thanks for your listening!"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Cảm ơn bạn đã lắng nghe! Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Thanks for your listening! Slide contains technical diagrams and detailed illustrations."
+  }
+]

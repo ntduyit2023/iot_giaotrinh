@@ -1,0 +1,1674 @@
+[
+  {
+    "num": 6,
+    "chapter": "c1",
+    "section": "CHƯƠNG 1: GIỚI THIỆU",
+    "title": "CHƯƠNG 1: GIỚI THIỆU",
+    "image": "slide_images/c1/slide_6.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "1.1: Tổng quan về công nghệ Internet vạn vật",
+        "en": "1.1: Tổng quan về công nghệ Internet vạn vật"
+      },
+      {
+        "type": "bullet",
+        "vi": "1.2: Xu thế ứng dụng IoTs và các công nghệ liên quan cho đô thị thông minh ở Việt Nam",
+        "en": "1.2: Xu thế ứng dụng IoTs và các công nghệ liên quan cho đô thị thông minh ở Việt Nam"
+      },
+      {
+        "type": "bullet",
+        "vi": "BÀI TẬP CHƯƠNG 1",
+        "en": "BÀI TẬP CHƯƠNG 1"
+      }
+    ],
+    "raw_text_vi": "1.1: Tổng quan về công nghệ Internet vạn vật 1.2: Xu thế ứng dụng IoTs và các công nghệ liên quan cho đô thị thông minh ở Việt Nam BÀI TẬP CHƯƠNG 1",
+    "raw_text_en": "1.1: Tổng quan về công nghệ Internet vạn vật 1.2: Xu thế ứng dụng IoTs và các công nghệ liên quan cho đô thị thông minh ở Việt Nam BÀI TẬP CHƯƠNG 1"
+  },
+  {
+    "num": 7,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_7.jpg",
+    "elements": [
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 8,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_8.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Thế giới hiện có khoảng 20 tỷ thiết bị kết nối Internet và đang tăng trung bình 80 thiết bị mới mỗi giây. Tốc độ tăng này sẽ đạt 50 tỷ thiết bị vào năm 2020.",
+        "en": "Thế giới hiện có khoảng 20 tỷ thiết bị kết nối Internet và đang tăng trung bình 80 thiết bị mới mỗi giây. Tốc độ tăng này sẽ đạt 50 tỷ thiết bị vào năm 2020."
+      },
+      {
+        "type": "bullet",
+        "vi": "Đây là một trong những thống kê của Cisco về viễn cảnh “Internet vạn vật” (Internet of Things – IoTs).",
+        "en": "Đây là một trong những thống kê của Cisco về viễn cảnh “Internet vạn vật” (Internet of Things – IoTs)."
+      },
+      {
+        "type": "bullet",
+        "vi": "Công nghệ mạng IoTs hiện đang được phát triển để mọi thiết bị, đồ vật… đề u có thể kết nối và tương tác với nhau, giúp chúng ta có thể tra cứu thông tin về thực phẩm ngay trên tủ lạnh, điều khiển ô tô từ xa mà không cần trực tiếp lái xe, hoặc 4 – 5 triệu xe máy ở Hà Nội, hoặc TP. HCM được tích hợp cảm biến để nhà quản lý dễ dàng kiểm soát lưu lượng giao thông.",
+        "en": "Công nghệ mạng IoTs hiện đang được phát triển để mọi thiết bị, đồ vật… đề u có thể kết nối và tương tác với nhau, giúp chúng ta có thể tra cứu thông tin về thực phẩm ngay trên tủ lạnh, điều khiển ô tô từ xa mà không cần trực tiếp lái xe, hoặc 4 – 5 triệu xe máy ở Hà Nội, hoặc TP. HCM được tích hợp cảm biến để nhà quản lý dễ dàng kiểm soát lưu lượng giao thông."
+      }
+    ],
+    "raw_text_vi": "Thế giới hiện có khoảng 20 tỷ thiết bị kết nối Internet và đang tăng trung bình 80 thiết bị mới mỗi giây. Tốc độ tăng này sẽ đạt 50 tỷ thiết bị vào năm 2020. Đây là một trong những thống kê của Cisco về viễn cảnh “Internet vạn vật” (Internet of Things – IoTs). Công nghệ mạng IoTs hiện đang được phát triển để mọi thiết bị, đồ vật… đề u có thể kết nối và tương tác với nhau, giúp chúng ta có thể tra cứu thông tin về thực phẩm ngay trên tủ lạnh, điều khiển ô tô từ xa mà không cần trực tiếp lái xe, hoặc 4 – 5 triệu xe máy ở Hà Nội, hoặc TP. HCM được tích hợp cảm biến để nhà quản lý dễ dàng kiểm soát lưu lượng giao thông.",
+    "raw_text_en": "Thế giới hiện có khoảng 20 tỷ thiết bị kết nối Internet và đang tăng trung bình 80 thiết bị mới mỗi giây. Tốc độ tăng này sẽ đạt 50 tỷ thiết bị vào năm 2020. Đây là một trong những thống kê của Cisco về viễn cảnh “Internet vạn vật” (Internet of Things – IoTs). Công nghệ mạng IoTs hiện đang được phát triển để mọi thiết bị, đồ vật… đề u có thể kết nối và tương tác với nhau, giúp chúng ta có thể tra cứu thông tin về thực phẩm ngay trên tủ lạnh, điều khiển ô tô từ xa mà không cần trực tiếp lái xe, hoặc 4 – 5 triệu xe máy ở Hà Nội, hoặc TP. HCM được tích hợp cảm biến để nhà quản lý dễ dàng kiểm soát lưu lượng giao thông."
+  },
+  {
+    "num": 9,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Số liệu minh hoạsố lượng thiết bị IoTs cho đến năm 2020",
+    "image": "slide_images/c1/slide_9.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Số liệu minh hoạsố lượng thiết bị IoTs cho đến năm 2020",
+        "en": "Số liệu minh hoạsố lượng thiết bị IoTs cho đến năm 2020"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Số liệu minh hoạsố lượng thiết bị IoTs cho đến năm 2020 Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Số liệu minh hoạsố lượng thiết bị IoTs cho đến năm 2020 Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 10,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "IoT là mạng lưới vạn vật, có nhận dạng thành phần rõ ràng, được nhúng bằng",
+    "image": "slide_images/c1/slide_10.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Trước khi xác định IoT, có thể nên liệt kê các thành phần hỗ trợ chung nhất. Ở dạng đơn giản, IoT có thể được coi là một mạng lưới các yếu tố vật lý được hỗ trợ bởi:",
+        "en": "Before defining IoT, it may be worthwhile listing the most generic enablement components. In its simple form, IoT may be considered as a network of physical elements empowered by:"
+      },
+      {
+        "type": "bullet",
+        "vi": "Cảm biến: để thu thập thông tin.",
+        "en": "Sensors: to collect information."
+      },
+      {
+        "type": "bullet",
+        "vi": "Mã định danh: để xác định nguồn dữ liệu (ví dụ: cảm biến, thiết bị).",
+        "en": "Identifiers: to identify the source of data (e.g., sensors, devices)."
+      },
+      {
+        "type": "bullet",
+        "vi": "Phần mềm: phân tích dữ liệu",
+        "en": "Software: to analyze data."
+      },
+      {
+        "type": "bullet",
+        "vi": "Kết nối Internet: để liên lạc và thông báo.",
+        "en": "Internet connectivity: to communicate and notify."
+      },
+      {
+        "type": "title",
+        "vi": "IoT là mạng lưới vạn vật, có nhận dạng thành phần rõ ràng, được nhúng bằng",
+        "en": "IoT is the network of things, with clear element identification, embedded with"
+      },
+      {
+        "type": "title",
+        "vi": "phần mềm thông minh, cảm biến và kết nối khắp mọi nơi với Internet.",
+        "en": "software intelligence, sensors, and ubiquitous connectivity to the Internet."
+      }
+    ],
+    "raw_text_vi": "Trước khi xác định IoT, có thể nên liệt kê các thành phần hỗ trợ chung nhất. Ở dạng đơn giản, IoT có thể được coi là một mạng lưới các yếu tố vật lý được hỗ trợ bởi: Cảm biến: để thu thập thông tin. Mã định danh: để xác định nguồn dữ liệu (ví dụ: cảm biến, thiết bị). Phần mềm: phân tích dữ liệu Kết nối Internet: để liên lạc và thông báo. IoT là mạng lưới vạn vật, có nhận dạng thành phần rõ ràng, được nhúng bằng phần mềm thông minh, cảm biến và kết nối khắp mọi nơi với Internet.",
+    "raw_text_en": "Before defining IoT, it may be worthwhile listing the most generic enablement components. In its simple form, IoT may be considered as a network of physical elements empowered by: Sensors: to collect information. Identifiers: to identify the source of data (e.g., sensors, devices). Software: to analyze data. Internet connectivity: to communicate and notify. IoT is the network of things, with clear element identification, embedded with software intelligence, sensors, and ubiquitous connectivity to the Internet."
+  },
+  {
+    "num": 11,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Bối cảnh và định nghĩa IoT hoàn chỉnh hơn",
+    "image": "slide_images/c1/slide_11.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Bối cảnh và định nghĩa IoT hoàn chỉnh hơn",
+        "en": "Background and More Complete IoT Definition"
+      },
+      {
+        "type": "bullet",
+        "vi": "Trước khi chúng tôi đưa ra tổng quan về lịch sử của Internet và từ đó đi sâu vào Internet vạn vật, cần cung cấp định nghĩa và các yêu cầu cơ bản của IoT làm cơ sở cho người đọc thiếu kinh nghiệm.",
+        "en": "Before we give historical overview of the Internet and consequently delve into the Internet of Things, it is worthwhile providing a definition and the fundamental requirements of IoT as a basis for the inexperienced reader."
+      },
+      {
+        "type": "bullet",
+        "vi": "Chúng tôi giả định rằng Internet đã được nhiều người biết đến và không có định nghĩa gì thêm. Câu hỏi đặt ra là chúng ta thực sự muốn nói gì khi nói “Mọi thứ”? Chà, mọi thứ thực ra là “bất cứ thứ gì” và “mọi thứ” từ thiết bị, tòa nhà, ô tô, con người, động vật, cây cối đến thực vật, v.v.",
+        "en": "We assume that the Internet is well known and bears no further definition. The question is what do we really mean by “Things”? Well, things are actually “anything” and “everything” from appliances to buildings to cars to people to animals to trees to plants, etc."
+      },
+      {
+        "type": "paragraph",
+        "vi": "Định nghĩa IoT ở dạng đơn giản nhất",
+        "en": "IoT definition in its simplest form"
+      }
+    ],
+    "raw_text_vi": "Bối cảnh và định nghĩa IoT hoàn chỉnh hơn Trước khi chúng tôi đưa ra tổng quan về lịch sử của Internet và từ đó đi sâu vào Internet vạn vật, cần cung cấp định nghĩa và các yêu cầu cơ bản của IoT làm cơ sở cho người đọc thiếu kinh nghiệm. Chúng tôi giả định rằng Internet đã được nhiều người biết đến và không có định nghĩa gì thêm. Câu hỏi đặt ra là chúng ta thực sự muốn nói gì khi nói “Mọi thứ”? Chà, mọi thứ thực ra là “bất cứ thứ gì” và “mọi thứ” từ thiết bị, tòa nhà, ô tô, con người, động vật, cây cối đến thực vật, v.v. Định nghĩa IoT ở dạng đơn giản nhất",
+    "raw_text_en": "Background and More Complete IoT Definition Before we give historical overview of the Internet and consequently delve into the Internet of Things, it is worthwhile providing a definition and the fundamental requirements of IoT as a basis for the inexperienced reader. We assume that the Internet is well known and bears no further definition. The question is what do we really mean by “Things”? Well, things are actually “anything” and “everything” from appliances to buildings to cars to people to animals to trees to plants, etc. IoT definition in its simplest form"
+  },
+  {
+    "num": 12,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Định nghĩa đầy đủ hơn về IoT",
+    "image": "slide_images/c1/slide_12.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Bối cảnh và Định nghĩa IoT hoàn chỉnh hơn Chúng tôi tin rằng một định nghĩa đầy đủ hơn cũng nên bao gồm “Tiêu chuẩn” và “Quy trình” cho phép “Mọi thứ” được kết nối qua “Internet” để trao đổi “Dữ liệu” bằng cách sử dụng “Tiêu chuẩn” ngành đảm bảo khả năng tương tác và cho phép các “Quy trình” hữu ích và chủ yếu là tự động.",
+        "en": "Background and More Complete IoT Definition A more complete definition, we believe, should also include “Standards” and “Processes” allowing “Things” to be connected over the “Internet” to exchange “Data” using industry “Standards” that guarantee interoperability and enabling useful and mostly automated “Processes”."
+      },
+      {
+        "type": "bullet",
+        "vi": "Dữ liệu: Chuyển đổi dữ liệu thành thông tin để đưa ra quyết định tốt hơn.",
+        "en": "Data: Converting data into intelligence to make better decisions."
+      },
+      {
+        "type": "bullet",
+        "vi": "Quy trình: Cung cấp đúng thông tin cho đúng người hoặc đúng máy vào đúng thời điểm.",
+        "en": "Process: Delivering the right information to the right person or machine at the right time."
+      },
+      {
+        "type": "bullet",
+        "vi": "Vạn vật: Các thiết bị vật lý và đồ vật được kết nối với Internet và kết nối với nhau để đưa ra quyết định thông minh, thường được gọi là IoT.",
+        "en": "Things: Physical devices and objects connected to the Internet and each other for intelligent decision-making, often called IoT."
+      },
+      {
+        "type": "paragraph",
+        "vi": "Định nghĩa đầy đủ hơn về IoT",
+        "en": "IoT-more complete definition"
+      }
+    ],
+    "raw_text_vi": "Bối cảnh và Định nghĩa IoT hoàn chỉnh hơn Chúng tôi tin rằng một định nghĩa đầy đủ hơn cũng nên bao gồm “Tiêu chuẩn” và “Quy trình” cho phép “Mọi thứ” được kết nối qua “Internet” để trao đổi “Dữ liệu” bằng cách sử dụng “Tiêu chuẩn” ngành đảm bảo khả năng tương tác và cho phép các “Quy trình” hữu ích và chủ yếu là tự động. Dữ liệu: Chuyển đổi dữ liệu thành thông tin để đưa ra quyết định tốt hơn. Quy trình: Cung cấp đúng thông tin cho đúng người hoặc đúng máy vào đúng thời điểm. Vạn vật: Các thiết bị vật lý và đồ vật được kết nối với Internet và kết nối với nhau để đưa ra quyết định thông minh, thường được gọi là IoT. Định nghĩa đầy đủ hơn về IoT",
+    "raw_text_en": "Background and More Complete IoT Definition A more complete definition, we believe, should also include “Standards” and “Processes” allowing “Things” to be connected over the “Internet” to exchange “Data” using industry “Standards” that guarantee interoperability and enabling useful and mostly automated “Processes”. Data: Converting data into intelligence to make better decisions. Process: Delivering the right information to the right person or machine at the right time. Things: Physical devices and objects connected to the Internet and each other for intelligent decision-making, often called IoT. IoT-more complete definition"
+  },
+  {
+    "num": 13,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Làm cách nào để giám sát và kiểm soát mọi thứ từ mọi nơi trên thế giới?",
+    "image": "slide_images/c1/slide_13.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Làm cách nào để giám sát và kiểm soát mọi thứ từ mọi nơi trên thế giới?",
+        "en": "How to Monitor and Control Things from Anywhere in the World?"
+      },
+      {
+        "type": "bullet",
+        "vi": "Các yêu cầu cơ bản đối với IoT là danh tính duy nhất cho mỗi “vật” (ví dụ: địa chỉ IP), khả năng giao tiếp giữa các vật thể (ví dụ: liên lạc không dây) và khả năng cảm nhận thông tin cụ thể về vật thể (cảm biến).",
+        "en": "The basic requirements for IoT are the unique identity per “thing” (e.g., IP address), the ability to communicate between things (e.g., wireless communications), and the ability to sense specific information about the thing (sensors)."
+      },
+      {
+        "type": "bullet",
+        "vi": "Với ba yêu cầu này, người ta có thể giám sát mọi thứ từ mọi nơi trên thế giới. Một yêu cầu nền tảng khác là phương tiện để giao tiếp. Yêu cầu như vậy thường được xử lý bởi mạng viễn thông.",
+        "en": "With these three requirements, one should be able to monitor things from anywhere in the world. Another foundation requirement is a medium to communicate. Such requirement is typically handled by a telecommunications network."
+      },
+      {
+        "type": "paragraph",
+        "vi": "Yêu cầu cơ bản của một giải pháp IoT",
+        "en": "Yêu cầu cơ bản của một giải pháp IoT"
+      }
+    ],
+    "raw_text_vi": "Làm cách nào để giám sát và kiểm soát mọi thứ từ mọi nơi trên thế giới? Các yêu cầu cơ bản đối với IoT là danh tính duy nhất cho mỗi “vật” (ví dụ: địa chỉ IP), khả năng giao tiếp giữa các vật thể (ví dụ: liên lạc không dây) và khả năng cảm nhận thông tin cụ thể về vật thể (cảm biến). Với ba yêu cầu này, người ta có thể giám sát mọi thứ từ mọi nơi trên thế giới. Một yêu cầu nền tảng khác là phương tiện để giao tiếp. Yêu cầu như vậy thường được xử lý bởi mạng viễn thông. Yêu cầu cơ bản của một giải pháp IoT",
+    "raw_text_en": "How to Monitor and Control Things from Anywhere in the World? The basic requirements for IoT are the unique identity per “thing” (e.g., IP address), the ability to communicate between things (e.g., wireless communications), and the ability to sense specific information about the thing (sensors). With these three requirements, one should be able to monitor things from anywhere in the world. Another foundation requirement is a medium to communicate. Such requirement is typically handled by a telecommunications network. Yêu cầu cơ bản của một giải pháp IoT"
+  },
+  {
+    "num": 14,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Tại sao chúng ta muốn giám sát và kiểm soát mọi thứ?",
+    "image": "slide_images/c1/slide_14.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Tại sao chúng ta muốn giám sát và kiểm soát mọi thứ?",
+        "en": "Why Do We Want to Monitor and Control Things?"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Có nhiều lý do để giám sát và kiểm soát mọi thứ từ xa qua Internet:",
+        "en": "There are many reasons to monitor and control things remotely over the Internet:"
+      },
+      {
+        "type": "bullet",
+        "vi": "Các chuyên gia theo dõi và kiểm soát mọi thứ (ví dụ: nhiệt độ hoặc huyết áp của bệnh nhân khi bệnh nhân thoải mái ở nhà riêng của mình).",
+        "en": "Monitoring and controlling things by experts (e.g., a patient’s temperature or blood pressure while the patient is at the comfort of his or her own home)."
+      },
+      {
+        "type": "bullet",
+        "vi": "",
+        "en": "Learning about things by pointing a smartphone to a thing of interest, for instance; searching for things that search engines (e.g., Google) do not provide today (e.g., where are my car keys)."
+      },
+      {
+        "type": "bullet",
+        "vi": "",
+        "en": "Allowing authorities to manage things in smart cities in an optimal manner (e.g., energy, driver licenses, and other documents from Department Motor Vehicle, senior citizen."
+      },
+      {
+        "type": "bullet",
+        "vi": "Cung cấp các trò chơi và giải trí có giá cả phải chăng hơn cho trẻ em và người lớn. Tất cả những điều này đều là ví dụ về các cơ hội kinh doanh và dịch vụ to lớn nhằm tăng cường tác động kinh tế cho người tiêu dùng, doanh nghiệp, chính phủ, bệnh viện và nhiều tổ chức khác.",
+        "en": "Providing more affordable entertainment and games for children and adults. All of these are examples of huge business and service opportunities to boost the economic impact for consumers, businesses, governments, hospitals, and many other entities."
+      }
+    ],
+    "raw_text_vi": "Tại sao chúng ta muốn giám sát và kiểm soát mọi thứ? Có nhiều lý do để giám sát và kiểm soát mọi thứ từ xa qua Internet: Các chuyên gia theo dõi và kiểm soát mọi thứ (ví dụ: nhiệt độ hoặc huyết áp của bệnh nhân khi bệnh nhân thoải mái ở nhà riêng của mình).   Cung cấp các trò chơi và giải trí có giá cả phải chăng hơn cho trẻ em và người lớn. Tất cả những điều này đều là ví dụ về các cơ hội kinh doanh và dịch vụ to lớn nhằm tăng cường tác động kinh tế cho người tiêu dùng, doanh nghiệp, chính phủ, bệnh viện và nhiều tổ chức khác.",
+    "raw_text_en": "Why Do We Want to Monitor and Control Things? There are many reasons to monitor and control things remotely over the Internet: Monitoring and controlling things by experts (e.g., a patient’s temperature or blood pressure while the patient is at the comfort of his or her own home). Learning about things by pointing a smartphone to a thing of interest, for instance; searching for things that search engines (e.g., Google) do not provide today (e.g., where are my car keys). Allowing authorities to manage things in smart cities in an optimal manner (e.g., energy, driver licenses, and other documents from Department Motor Vehicle, senior citizen. Providing more affordable entertainment and games for children and adults. All of these are examples of huge business and service opportunities to boost the economic impact for consumers, businesses, governments, hospitals, and many other entities."
+  },
+  {
+    "num": 15,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Ai sẽ giám sát và kiểm soát?",
+    "image": "slide_images/c1/slide_15.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Ai sẽ giám sát và kiểm soát?",
+        "en": "Who will monitor and control?"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Nói chung, việc giám sát và kiểm soát các dịch vụ IoT có thể được thực hiện bởi bất kỳ người nào hoặc bất kỳ máy nào.",
+        "en": "Generally speaking, monitoring and control of IoT services may be done by any person or any machine."
+      },
+      {
+        "type": "bullet",
+        "vi": "Chủ nhà giám sát ngôi nhà của chính mình trên thiết bị di động dựa trên hệ thống bảo mật mà họ đã cài đặt và định cấu hình. Chủ nhà cũng có thể điều khiển đèn, bật điều hòa, tắt máy sưởi, v.v.",
+        "en": "Homeowner monitoring his own home on a mobile device based on a security system she or he has installed and configured. The homeowner may also control lights, turn on the air conditioning, shut off the heater, etc."
+      },
+      {
+        "type": "bullet",
+        "vi": "Một ví dụ khác là nhà cung cấp dịch vụ giám sát và kiểm soát các dịch vụ cho khách hàng của mình trong trung tâm điều hành mạng (NOC).",
+        "en": "Another example is for a service provider to monitor and control services for its customers in a network operations center (NOC) ."
+      }
+    ],
+    "raw_text_vi": "Ai sẽ giám sát và kiểm soát? Nói chung, việc giám sát và kiểm soát các dịch vụ IoT có thể được thực hiện bởi bất kỳ người nào hoặc bất kỳ máy nào. Chủ nhà giám sát ngôi nhà của chính mình trên thiết bị di động dựa trên hệ thống bảo mật mà họ đã cài đặt và định cấu hình. Chủ nhà cũng có thể điều khiển đèn, bật điều hòa, tắt máy sưởi, v.v. Một ví dụ khác là nhà cung cấp dịch vụ giám sát và kiểm soát các dịch vụ cho khách hàng của mình trong trung tâm điều hành mạng (NOC).",
+    "raw_text_en": "Who will monitor and control? Generally speaking, monitoring and control of IoT services may be done by any person or any machine. Homeowner monitoring his own home on a mobile device based on a security system she or he has installed and configured. The homeowner may also control lights, turn on the air conditioning, shut off the heater, etc. Another example is for a service provider to monitor and control services for its customers in a network operations center (NOC) ."
+  },
+  {
+    "num": 16,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Ai sẽ giám sát và kiểm soát?",
+    "image": "slide_images/c1/slide_16.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Ai sẽ giám sát và kiểm soát?",
+        "en": "Who Will Monitor and Control?"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Rõ ràng, bảo mật là mối quan tâm lớn để ngăn chặn sự truy cập của những người không có thẩm quyền và quan trọng hơn là ngăn chặn tin tặc độc hại truy cập vào hệ thống và gửi các chế độ xem cũ cho chủ nhà trong khi kẻ trộm đột nhập. Các lĩnh vực kiểm soát quan trọng hơn nhiều đối với các ứng dụng nhạy cảm với doanh nghiệp như giám sát chăm sóc sức khỏe của bệnh nhân và ứng dụng ngân hàng.",
+        "en": "Obviously, security is a major concern to prevent access by non-authorized people and, more importantly, prevent a malicious hacker from gaining access to the system and sending old views to the homeowner while a thief is breaking in. The areas of control are far more critical for enterprise-sensitive applications such as healthcare monitoring of patients and banking applications."
+      },
+      {
+        "type": "paragraph",
+        "vi": "Camera an ninh có thể trợ giúp như thế nào trong việc giám sát an ninh bệnh viện và chăm sóc bệnh nhân - Vulcan Security Systems",
+        "en": "How Security Cameras Can Help With Hospital Security and Patient Care Monitoring - Vulcan Security Systems"
+      }
+    ],
+    "raw_text_vi": "Ai sẽ giám sát và kiểm soát? Rõ ràng, bảo mật là mối quan tâm lớn để ngăn chặn sự truy cập của những người không có thẩm quyền và quan trọng hơn là ngăn chặn tin tặc độc hại truy cập vào hệ thống và gửi các chế độ xem cũ cho chủ nhà trong khi kẻ trộm đột nhập. Các lĩnh vực kiểm soát quan trọng hơn nhiều đối với các ứng dụng nhạy cảm với doanh nghiệp như giám sát chăm sóc sức khỏe của bệnh nhân và ứng dụng ngân hàng. Camera an ninh có thể trợ giúp như thế nào trong việc giám sát an ninh bệnh viện và chăm sóc bệnh nhân - Vulcan Security Systems",
+    "raw_text_en": "Who Will Monitor and Control? Obviously, security is a major concern to prevent access by non-authorized people and, more importantly, prevent a malicious hacker from gaining access to the system and sending old views to the homeowner while a thief is breaking in. The areas of control are far more critical for enterprise-sensitive applications such as healthcare monitoring of patients and banking applications. How Security Cameras Can Help With Hospital Security and Patient Care Monitoring - Vulcan Security Systems"
+  },
+  {
+    "num": 17,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "An ninh được đảm bảo như thế nào?",
+    "image": "slide_images/c1/slide_17.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "An ninh được đảm bảo như thế nào?",
+        "en": "How Is Security Guaranteed?"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Bảo mật IoT có lẽ là cơ hội lớn nhất cho các công ty công nghệ và sẽ còn tồn tại trong tương lai. Trước IoT, các chuyên gia bảo mật công nghệ thông tin đã làm việc trong bong bóng khi họ sở hữu và kiểm soát toàn bộ mạng của mình theo đúng nghĩa đen cũng như bảo mật tất cả các thiết bị phía sau tường lửa.",
+        "en": "Securing IoT is perhaps the biggest opportunity for technology companies and will remain so far some time in the future. Before IoT, information technology security professionals worked in a bubble as they literally owned and controlled their entire networks and secured all devices behind firewalls."
+      },
+      {
+        "type": "paragraph",
+        "vi": "Với IoT, dữ liệu sẽ được thu thập từ các cảm biến bên ngoài, thường là trên thiết bị di động, được đặt ở các địa điểm công cộng (ví dụ: đường phố) cho phép người lạ gửi dữ liệu có hại đến bất kỳ mạng nào.",
+        "en": "With IoT, data will be collected from external, often mobile, sensors that are placed in public sites (e.g., city streets) allowing strangers to send harmful data to any network."
+      },
+      {
+        "type": "paragraph",
+        "vi": "Mang theo thiết bị của riêng bạn (BYOD) là một ví dụ khác trong đó các thiết bị của bên thứ ba và do đó các nguồn dữ liệu không phải của công ty được phép truy cập vào mạng.",
+        "en": "Bring your own device (BYOD) is another example where third-party devices and hence noncorporate data sources are allowed to enter the network."
+      }
+    ],
+    "raw_text_vi": "An ninh được đảm bảo như thế nào? Bảo mật IoT có lẽ là cơ hội lớn nhất cho các công ty công nghệ và sẽ còn tồn tại trong tương lai. Trước IoT, các chuyên gia bảo mật công nghệ thông tin đã làm việc trong bong bóng khi họ sở hữu và kiểm soát toàn bộ mạng của mình theo đúng nghĩa đen cũng như bảo mật tất cả các thiết bị phía sau tường lửa. Với IoT, dữ liệu sẽ được thu thập từ các cảm biến bên ngoài, thường là trên thiết bị di động, được đặt ở các địa điểm công cộng (ví dụ: đường phố) cho phép người lạ gửi dữ liệu có hại đến bất kỳ mạng nào. Mang theo thiết bị của riêng bạn (BYOD) là một ví dụ khác trong đó các thiết bị của bên thứ ba và do đó các nguồn dữ liệu không phải của công ty được phép truy cập vào mạng.",
+    "raw_text_en": "How Is Security Guaranteed? Securing IoT is perhaps the biggest opportunity for technology companies and will remain so far some time in the future. Before IoT, information technology security professionals worked in a bubble as they literally owned and controlled their entire networks and secured all devices behind firewalls. With IoT, data will be collected from external, often mobile, sensors that are placed in public sites (e.g., city streets) allowing strangers to send harmful data to any network. Bring your own device (BYOD) is another example where third-party devices and hence noncorporate data sources are allowed to enter the network."
+  },
+  {
+    "num": 18,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "An ninh được đảm bảo như thế nào?",
+    "image": "slide_images/c1/slide_18.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "An ninh được đảm bảo như thế nào?",
+        "en": "How Is Security Guaranteed?"
+      },
+      {
+        "type": "paragraph",
+        "vi": "",
+        "en": "IoT areas that are considered to be most vulnerable include:"
+      },
+      {
+        "type": "bullet",
+        "vi": "Truy cập dữ liệu trong quá trình vận chuyển (bảo mật mạng và vận chuyển). Dữ liệu sẽ được vận chuyển trong mạng IoT mọi lúc, ví dụ, từ cảm biến đến cổng và từ cổng đến trung tâm dữ liệu trong doanh nghiệp hoặc từ cảm biến đến cổng cho các dịch vụ dân cư như video từ hệ thống giám sát tại nhà đến điện thoại thông minh của chủ nhà khi anh ta đang ở quán cà phê. Dữ liệu này có thể bị người đứng giữa đánh hơi trừ khi các giao thức truyền tải được bảo mật và mã hóa hoàn toàn.",
+        "en": "Accessing data during transport (network and transport security). Data will be transported in IoT networks at all time, for example, from sensors to gateways and from gateways to data centers in enterprises or from sensors to gateways for residential services such as video from home monitoring system to the homeowner’s smartphone while he is in a coffee shop. This data may be sniffed by the man in the middle unless the transport protocols are fully secured and encrypted."
+      },
+      {
+        "type": "bullet",
+        "vi": "Việc có quyền kiểm soát các thiết bị IoT (kiểm soát API) cho phép những người không có thẩm quyền có toàn quyền kiểm soát toàn bộ mạng. Ví dụ bao gồm tắt camera tại nhà và tắt hệ thống theo dõi bệnh nhân",
+        "en": "Having control of IoT devices (control of the APIs) allows unauthorized persons to take full control of entire networks. Examples include shutting down cameras at home and shutting down patient monitoring systems"
+      }
+    ],
+    "raw_text_vi": "An ninh được đảm bảo như thế nào?  Truy cập dữ liệu trong quá trình vận chuyển (bảo mật mạng và vận chuyển). Dữ liệu sẽ được vận chuyển trong mạng IoT mọi lúc, ví dụ, từ cảm biến đến cổng và từ cổng đến trung tâm dữ liệu trong doanh nghiệp hoặc từ cảm biến đến cổng cho các dịch vụ dân cư như video từ hệ thống giám sát tại nhà đến điện thoại thông minh của chủ nhà khi anh ta đang ở quán cà phê. Dữ liệu này có thể bị người đứng giữa đánh hơi trừ khi các giao thức truyền tải được bảo mật và mã hóa hoàn toàn. Việc có quyền kiểm soát các thiết bị IoT (kiểm soát API) cho phép những người không có thẩm quyền có toàn quyền kiểm soát toàn bộ mạng. Ví dụ bao gồm tắt camera tại nhà và tắt hệ thống theo dõi bệnh nhân",
+    "raw_text_en": "How Is Security Guaranteed? IoT areas that are considered to be most vulnerable include: Accessing data during transport (network and transport security). Data will be transported in IoT networks at all time, for example, from sensors to gateways and from gateways to data centers in enterprises or from sensors to gateways for residential services such as video from home monitoring system to the homeowner’s smartphone while he is in a coffee shop. This data may be sniffed by the man in the middle unless the transport protocols are fully secured and encrypted. Having control of IoT devices (control of the APIs) allows unauthorized persons to take full control of entire networks. Examples include shutting down cameras at home and shutting down patient monitoring systems"
+  },
+  {
+    "num": 19,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "An ninh được đảm bảo như thế nào?",
+    "image": "slide_images/c1/slide_19.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "An ninh được đảm bảo như thế nào?",
+        "en": "How Is Security Guaranteed?"
+      },
+      {
+        "type": "paragraph",
+        "vi": "",
+        "en": "IoT areas that are considered to be most vulnerable include:"
+      },
+      {
+        "type": "bullet",
+        "vi": "Có quyền truy cập vào dữ liệu IoT. Dữ liệu có dễ dàng truy cập không? Nó có được lưu trữ mã hóa không?",
+        "en": "Having access to the IoT data itself. Is the data easily accessible? Is it stored encrypted?"
+      },
+      {
+        "type": "paragraph",
+        "vi": "Lưu trữ chia sẻ trên đám mây là một vấn đề khác trong đó khách hàng có thể đăng nhập với tư cách khách hàng B và xem dữ liệu của mình. Một vấn đề phổ biến khác là giả mạo dữ liệu qua Bluetooth. Nhiều công ty đang bổ sung hỗ trợ Bluetooth cho thiết bị của họ để giúp những người không được phép truy cập dữ liệu của thiết bị trở nên khả thi hơn.",
+        "en": "Shared storage in the cloud is another problem where customer may log in as customer B and look at his data. Another common problem is spoofing data via Bluetooth. Many companies are adding Bluetooth support to their devices making it more feasible for unauthorized persons to access the device’s data."
+      },
+      {
+        "type": "bullet",
+        "vi": "",
+        "en": "Stealing official user or network identity (stealing user or network credentials). Many websites provide default passwords for vendors."
+      }
+    ],
+    "raw_text_vi": "An ninh được đảm bảo như thế nào?  Có quyền truy cập vào dữ liệu IoT. Dữ liệu có dễ dàng truy cập không? Nó có được lưu trữ mã hóa không? Lưu trữ chia sẻ trên đám mây là một vấn đề khác trong đó khách hàng có thể đăng nhập với tư cách khách hàng B và xem dữ liệu của mình. Một vấn đề phổ biến khác là giả mạo dữ liệu qua Bluetooth. Nhiều công ty đang bổ sung hỗ trợ Bluetooth cho thiết bị của họ để giúp những người không được phép truy cập dữ liệu của thiết bị trở nên khả thi hơn. ",
+    "raw_text_en": "How Is Security Guaranteed? IoT areas that are considered to be most vulnerable include: Having access to the IoT data itself. Is the data easily accessible? Is it stored encrypted? Shared storage in the cloud is another problem where customer may log in as customer B and look at his data. Another common problem is spoofing data via Bluetooth. Many companies are adding Bluetooth support to their devices making it more feasible for unauthorized persons to access the device’s data. Stealing official user or network identity (stealing user or network credentials). Many websites provide default passwords for vendors."
+  },
+  {
+    "num": 20,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_20.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Cấp độ thiết bị IoT bao gồm tất cả các cảm biến và bộ truyền động IoT (tức là Những thứ trong IoT).",
+        "en": "IoT Device Level includes all IoT sensors and actuators (i.e., the Things in IoT)."
+      },
+      {
+        "type": "bullet",
+        "vi": "Cấp độ mạng IoT bao gồm tất cả các thành phần mạng IoT bao gồm cổng IoT, bộ định tuyến, bộ chuyển mạch, v.v.",
+        "en": "IoT Network Level includes all IoT network components including IoT gateways, routers, switches, etc."
+      },
+      {
+        "type": "bullet",
+        "vi": "Cấp độ nền tảng dịch vụ ứng dụng IoT Các chức năng của Nền tảng dịch vụ IoT bao gồm khả năng triển khai, định cấu hình, khắc phục sự cố, bảo mật, quản lý và giám sát các thiết bị IoT.",
+        "en": "IoT Application Services Platform Level The functions of the IoT Services Platform include the ability to deploy, configure, troubleshoot, secure, manage, and monitor IoT devices."
+      },
+      {
+        "type": "bullet",
+        "vi": "Cấp độ ứng dụng IoT bao gồm tất cả các ứng dụng hoạt động trong mạng IoT.",
+        "en": "IoT Application Level includes all applications operating in the IoT network."
+      }
+    ],
+    "raw_text_vi": "Cấp độ thiết bị IoT bao gồm tất cả các cảm biến và bộ truyền động IoT (tức là Những thứ trong IoT). Cấp độ mạng IoT bao gồm tất cả các thành phần mạng IoT bao gồm cổng IoT, bộ định tuyến, bộ chuyển mạch, v.v. Cấp độ nền tảng dịch vụ ứng dụng IoT Các chức năng của Nền tảng dịch vụ IoT bao gồm khả năng triển khai, định cấu hình, khắc phục sự cố, bảo mật, quản lý và giám sát các thiết bị IoT. Cấp độ ứng dụng IoT bao gồm tất cả các ứng dụng hoạt động trong mạng IoT.",
+    "raw_text_en": "IoT Device Level includes all IoT sensors and actuators (i.e., the Things in IoT). IoT Network Level includes all IoT network components including IoT gateways, routers, switches, etc. IoT Application Services Platform Level The functions of the IoT Services Platform include the ability to deploy, configure, troubleshoot, secure, manage, and monitor IoT devices. IoT Application Level includes all applications operating in the IoT network."
+  },
+  {
+    "num": 21,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Ưu điểm của mô hình bốn cấp IoT được đề xuất bao gồm:",
+    "image": "slide_images/c1/slide_21.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Ưu điểm của mô hình bốn cấp IoT được đề xuất bao gồm:",
+        "en": "Advantages of the proposed IoT four-level model include:"
+      },
+      {
+        "type": "bullet",
+        "vi": "Giảm độ phức tạp: Nó chia các phần tử IoT và quy trình giao tiếp thành các thành phần nhỏ hơn và đơn giản hơn, từ đó giúp phát triển, thiết kế và xử lý sự cố thành phần IoT.",
+        "en": "Reduced Complexity: It breaks IoT elements and communication processes into smaller and simpler components, thereby helping IoT component development, design, and troubleshooting."
+      },
+      {
+        "type": "bullet",
+        "vi": "Các thành phần và giao diện được tiêu chuẩn hóa: Mô hình này tiêu chuẩn hóa các thành phần cụ thể trong từng cấp độ (ví dụ: các thành phần chính cho Nền tảng dịch vụ IoT chung là gì) cũng như các giao diện giữa các cấp độ khác nhau. This would allow different vendors to develop joint solutions and common support models.",
+        "en": "Standardized Components and Interfaces: The model standardizes the specific components within each level (e.g., what are the key components for general IoT Services Platform) as well as the interfaces between the various levels. This would allow different vendors to develop joint solutions and common support models."
+      },
+      {
+        "type": "bullet",
+        "vi": "Kỹ thuật mô-đun: Nó cho phép nhiều loại hệ thống phần cứng và phần mềm IoT khác nhau giao tiếp với nhau.",
+        "en": "Module Engineering: It allows various types of IoT hardware and software systems to communicate with each other."
+      }
+    ],
+    "raw_text_vi": "Ưu điểm của mô hình bốn cấp IoT được đề xuất bao gồm: Giảm độ phức tạp: Nó chia các phần tử IoT và quy trình giao tiếp thành các thành phần nhỏ hơn và đơn giản hơn, từ đó giúp phát triển, thiết kế và xử lý sự cố thành phần IoT. Các thành phần và giao diện được tiêu chuẩn hóa: Mô hình này tiêu chuẩn hóa các thành phần cụ thể trong từng cấp độ (ví dụ: các thành phần chính cho Nền tảng dịch vụ IoT chung là gì) cũng như các giao diện giữa các cấp độ khác nhau. This would allow different vendors to develop joint solutions and common support models. Kỹ thuật mô-đun: Nó cho phép nhiều loại hệ thống phần cứng và phần mềm IoT khác nhau giao tiếp với nhau.",
+    "raw_text_en": "Advantages of the proposed IoT four-level model include: Reduced Complexity: It breaks IoT elements and communication processes into smaller and simpler components, thereby helping IoT component development, design, and troubleshooting. Standardized Components and Interfaces: The model standardizes the specific components within each level (e.g., what are the key components for general IoT Services Platform) as well as the interfaces between the various levels. This would allow different vendors to develop joint solutions and common support models. Module Engineering: It allows various types of IoT hardware and software systems to communicate with each other."
+  },
+  {
+    "num": 22,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_22.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Khả năng tương tác giữa các nhà cung cấp bằng cách đảm bảo các khối xây dựng công nghệ khác nhau có thể hoạt động và tương tác với nhau.",
+        "en": "Interoperability between vendors by ensuring the various technology building blocks can interwork and interoperate."
+      },
+      {
+        "type": "bullet",
+        "vi": "Tăng tốc đổi mới: Nó cho phép các nhà phát triển tập trung vào giải quyết vấn đề chính trước mắt mà không phải lo lắng về các chức năng cơ bản có thể được triển khai một lần trên các ngành kinh doanh khác nhau.",
+        "en": "Accelerate Innovation: It allows developers to focus on solving the main problem at hand without worrying about basic functions that can be implemented once across different business verticals."
+      },
+      {
+        "type": "bullet",
+        "vi": "Giáo dục đơn giản hóa: Nó chia giải pháp IoT phức tạp tổng thể thành các thành phần nhỏ hơn dễ quản lý hơn để giúp việc học dễ dàng hơn.",
+        "en": "Simplified Education: It breaks down the overall complex IoT solution into smaller more manageable components to make learning easier."
+      }
+    ],
+    "raw_text_vi": "Khả năng tương tác giữa các nhà cung cấp bằng cách đảm bảo các khối xây dựng công nghệ khác nhau có thể hoạt động và tương tác với nhau. Tăng tốc đổi mới: Nó cho phép các nhà phát triển tập trung vào giải quyết vấn đề chính trước mắt mà không phải lo lắng về các chức năng cơ bản có thể được triển khai một lần trên các ngành kinh doanh khác nhau. Giáo dục đơn giản hóa: Nó chia giải pháp IoT phức tạp tổng thể thành các thành phần nhỏ hơn dễ quản lý hơn để giúp việc học dễ dàng hơn.",
+    "raw_text_en": "Interoperability between vendors by ensuring the various technology building blocks can interwork and interoperate. Accelerate Innovation: It allows developers to focus on solving the main problem at hand without worrying about basic functions that can be implemented once across different business verticals. Simplified Education: It breaks down the overall complex IoT solution into smaller more manageable components to make learning easier."
+  },
+  {
+    "num": 23,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Yếu tố thúc đẩy IoT 12",
+    "image": "slide_images/c1/slide_23.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "IoT đã trở thành một động lực mạnh mẽ cho việc chuyển đổi kinh doanh và tác động mang tính đột phá của nó đã được cảm nhận rõ ràng trên tất cả các ngành và mọi lĩnh vực của xã hội.",
+        "en": "IoT has already become a powerful force for business transformation, and its disruptive impact is already felt across all industries and all areas of society."
+      },
+      {
+        "type": "bullet",
+        "vi": "Có một cơn bão hoàn hảo về sự gián đoạn thị trường đang diễn ra với tốc độ chưa từng có được kích hoạt bởi công nghệ cũng như các yêu cầu xã hội và kinh doanh mới.",
+        "en": "There is a perfect storm of market disruptions happening at an unprecedented pace triggered by technology as well as new business and social requirements."
+      },
+      {
+        "type": "paragraph",
+        "vi": "Yếu tố thúc đẩy IoT 12",
+        "en": "IoT 12 driving factors"
+      }
+    ],
+    "raw_text_vi": "IoT đã trở thành một động lực mạnh mẽ cho việc chuyển đổi kinh doanh và tác động mang tính đột phá của nó đã được cảm nhận rõ ràng trên tất cả các ngành và mọi lĩnh vực của xã hội. Có một cơn bão hoàn hảo về sự gián đoạn thị trường đang diễn ra với tốc độ chưa từng có được kích hoạt bởi công nghệ cũng như các yêu cầu xã hội và kinh doanh mới. Yếu tố thúc đẩy IoT 12",
+    "raw_text_en": "IoT has already become a powerful force for business transformation, and its disruptive impact is already felt across all industries and all areas of society. There is a perfect storm of market disruptions happening at an unprecedented pace triggered by technology as well as new business and social requirements. IoT 12 driving factors"
+  },
+  {
+    "num": 24,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Sự hội tụ của IT và OT",
+    "image": "slide_images/c1/slide_24.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Sự hội tụ của IT và OT",
+        "en": "Convergence of IT and OT"
+      },
+      {
+        "type": "bullet",
+        "vi": "Công nghệ vận hành (OT) là thế giới của các nhà máy công nghiệp, thiết bị điều khiển và tự động hóa công nghiệp bao gồm máy móc và hệ thống để vận hành doanh nghiệp, bộ điều khiển, cảm biến và bộ truyền động.",
+        "en": "Operation technology (OT) is the world of industrial plants and industrial control and automation equipment that include machines and systems to run the business, controllers, sensors, and actuators."
+      },
+      {
+        "type": "bullet",
+        "vi": "Công nghệ thông tin (IT) là thế giới của các hệ thống thông tin đầu cuối tập trung vào tính toán, lưu trữ dữ liệu và kết nối mạng để hỗ trợ hoạt động kinh doanh trong một số bối cảnh như hệ thống tự động hóa quy trình kinh doanh, hệ thống quản lý quan hệ khách hàng (CRM), hệ thống quản lý chuỗi cung ứng, hệ thống hậu cần và hệ thống nhân sự.",
+        "en": "Information technology (IT) is the world of end- to-end information systems focusing on compute, data storage, and networking to support business operation in some context such as business process automation systems, customer relation management (CRM) systems, supply chain management systems, logistics systems, and human resources systems."
+      }
+    ],
+    "raw_text_vi": "Sự hội tụ của IT và OT Công nghệ vận hành (OT) là thế giới của các nhà máy công nghiệp, thiết bị điều khiển và tự động hóa công nghiệp bao gồm máy móc và hệ thống để vận hành doanh nghiệp, bộ điều khiển, cảm biến và bộ truyền động. Công nghệ thông tin (IT) là thế giới của các hệ thống thông tin đầu cuối tập trung vào tính toán, lưu trữ dữ liệu và kết nối mạng để hỗ trợ hoạt động kinh doanh trong một số bối cảnh như hệ thống tự động hóa quy trình kinh doanh, hệ thống quản lý quan hệ khách hàng (CRM), hệ thống quản lý chuỗi cung ứng, hệ thống hậu cần và hệ thống nhân sự.",
+    "raw_text_en": "Convergence of IT and OT Operation technology (OT) is the world of industrial plants and industrial control and automation equipment that include machines and systems to run the business, controllers, sensors, and actuators. Information technology (IT) is the world of end- to-end information systems focusing on compute, data storage, and networking to support business operation in some context such as business process automation systems, customer relation management (CRM) systems, supply chain management systems, logistics systems, and human resources systems."
+  },
+  {
+    "num": 25,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Sự hội tụ của IT và OT",
+    "image": "slide_images/c1/slide_25.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Sự hội tụ của IT và OT",
+        "en": "Convergence of IT and OT"
+      },
+      {
+        "type": "bullet",
+        "vi": "Trong lịch sử, IT và OT luôn được quản lý bởi hai tổ chức riêng biệt với nền văn hóa, triết lý và bộ công nghệ khác nhau.",
+        "en": "Historically, IT and OT were always managed by two separate organizations with different cultures, philosophies, and set of technologies."
+      },
+      {
+        "type": "bullet",
+        "vi": "Các bộ phận CNTT ban đầu được các công ty tạo ra để tạo ra các hình thức liên lạc qua điện thoại hiệu quả và hiệu quả giữa các bộ phận khác nhau. Sau đó, chúng được mở rộng để cung cấp các hội nghị qua video và web cũng như mạng lưới liên lạc nội bộ và bảo mật các liên lạc điện tử bên ngoài như email. Thông thường, quyết định cuối cùng về việc lựa chọn hệ thống liên lạc, lưu trữ trang web và máy chủ dự phòng là trách nhiệm của bộ phận CNTT.",
+        "en": "IT departments were originally created by companies to create efficient and effective forms of telephony communication among various departments. Then they were extended to provide video and web conferences and network internal communications and secure external electronic communications such as emails. Often the final decision with the selection of communication systems, website hosting, and backup servers was the responsibility of the IT department."
+      },
+      {
+        "type": "bullet",
+        "vi": "OT dựa vào dữ liệu thời gian thực để thúc đẩy sự an toàn, bảo mật và kiểm soát. Nó phụ thuộc vào các quy trình được xác định rõ ràng, được thử nghiệm và đáng tin cậy. Nhiều nhà máy cần chạy 24 × 7 mà không có thời gian ngừng hoạt động (ví dụ: Hệ thống lọc nước thành phố) và do đó các quy trình công nghiệp không thể cho phép ngừng hoạt động để cập nhật phần mềm. CNTT nhẹ nhàng hơn với việc cập nhật phần mềm, giới thiệu công nghệ mới, v.v.",
+        "en": "OT relies on real-time data that drives safety, security, and control. It depends on very well- defined, tested, and trusted processes. Many plants need to run 24 × 7 with zero downtime (e.g., City Water Filtration System), and thus industrial processes cannot tolerate shutdown for software updates. IT is more lenient with software updates, introduction of new technologies, etc."
+      }
+    ],
+    "raw_text_vi": "Sự hội tụ của IT và OT Trong lịch sử, IT và OT luôn được quản lý bởi hai tổ chức riêng biệt với nền văn hóa, triết lý và bộ công nghệ khác nhau. Các bộ phận CNTT ban đầu được các công ty tạo ra để tạo ra các hình thức liên lạc qua điện thoại hiệu quả và hiệu quả giữa các bộ phận khác nhau. Sau đó, chúng được mở rộng để cung cấp các hội nghị qua video và web cũng như mạng lưới liên lạc nội bộ và bảo mật các liên lạc điện tử bên ngoài như email. Thông thường, quyết định cuối cùng về việc lựa chọn hệ thống liên lạc, lưu trữ trang web và máy chủ dự phòng là trách nhiệm của bộ phận CNTT. OT dựa vào dữ liệu thời gian thực để thúc đẩy sự an toàn, bảo mật và kiểm soát. Nó phụ thuộc vào các quy trình được xác định rõ ràng, được thử nghiệm và đáng tin cậy. Nhiều nhà máy cần chạy 24 × 7 mà không có thời gian ngừng hoạt động (ví dụ: Hệ thống lọc nước thành phố) và do đó các quy trình công nghiệp không thể cho phép ngừng hoạt động để cập nhật phần mềm. CNTT nhẹ nhàng hơn với việc cập nhật phần mềm, giới thiệu công nghệ mới, v.v.",
+    "raw_text_en": "Convergence of IT and OT Historically, IT and OT were always managed by two separate organizations with different cultures, philosophies, and set of technologies. IT departments were originally created by companies to create efficient and effective forms of telephony communication among various departments. Then they were extended to provide video and web conferences and network internal communications and secure external electronic communications such as emails. Often the final decision with the selection of communication systems, website hosting, and backup servers was the responsibility of the IT department. OT relies on real-time data that drives safety, security, and control. It depends on very well- defined, tested, and trusted processes. Many plants need to run 24 × 7 with zero downtime (e.g., City Water Filtration System), and thus industrial processes cannot tolerate shutdown for software updates. IT is more lenient with software updates, introduction of new technologies, etc."
+  },
+  {
+    "num": 26,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+    "image": "slide_images/c1/slide_26.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+        "en": "The Astonishing Introduction of Creative Internet-Based Businesses"
+      },
+      {
+        "type": "bullet",
+        "vi": "Uber Thành phần chính trong giải pháp của Uber là nền tảng dựa trên Internet kết nối khách hàng",
+        "en": "Uber The key component of Uber’s solution is the Internet-based platform connecting customers"
+      },
+      {
+        "type": "bullet",
+        "vi": "với các nhà cung cấp dịch vụ (tài xế ô tô). Bởi vì người tiêu dùng không phải là nhân viên của Uber và vì thực tế có vô số ô tô có thể tham gia Uber, Uber có yêu cầu mở rộng quy mô với tốc độ cực nhanh với chi phí biên bằng 0.",
+        "en": "with the service providers (car drivers). Because the consumers are not Uber’s employees and because there is practically an infinite number of cars that could potentially join Uber, Uber has the requirement to scale at an incredibly fast rate at zero marginal cost."
+      }
+    ],
+    "raw_text_vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet Uber Thành phần chính trong giải pháp của Uber là nền tảng dựa trên Internet kết nối khách hàng với các nhà cung cấp dịch vụ (tài xế ô tô). Bởi vì người tiêu dùng không phải là nhân viên của Uber và vì thực tế có vô số ô tô có thể tham gia Uber, Uber có yêu cầu mở rộng quy mô với tốc độ cực nhanh với chi phí biên bằng 0.",
+    "raw_text_en": "The Astonishing Introduction of Creative Internet-Based Businesses Uber The key component of Uber’s solution is the Internet-based platform connecting customers with the service providers (car drivers). Because the consumers are not Uber’s employees and because there is practically an infinite number of cars that could potentially join Uber, Uber has the requirement to scale at an incredibly fast rate at zero marginal cost."
+  },
+  {
+    "num": 27,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+    "image": "slide_images/c1/slide_27.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+        "en": "The Astonishing Introduction of Creative Internet-Based Businesses"
+      },
+      {
+        "type": "bullet",
+        "vi": "Uber Uber sử dụng công nghệ cảm biến trong điện thoại thông minh của tài xế để theo dõi hành vi của họ. Nếu bạn đi cùng Uber và tài xế của bạn chạy quá tốc độ, bẻ lái quá mạnh hoặc đưa bạn đi một chặng đường cực kỳ dài để đến đích, thì bạn không còn có thể chống lại họ nữa. Uber đang sử dụng dữ liệu Gyrometer và GPS để theo dõi hành vi của tài xế. Con quay hồi chuyển trong điện thoại thông minh đo các chuyển động nhỏ, trong khi GPS kết hợp với gia tốc kế cho biết tần suất xe khởi động và dừng cũng như tốc độ tổng thể.",
+        "en": "Uber Uber uses sensor technologies in driver’s smartphones to track their behaviors. If you ride with Uber and your driver speeds, breaks too hard, or takes you on a wildly lengthy route to your destination, it is no longer your word against theirs. Uber is using Gyrometer and GPS data to track the behavior of their drivers. Gyrometers in smartphones measure small movements, while GPS combined with accelerometers shows how often a vehicle starts and stops and the overall speed."
+      }
+    ],
+    "raw_text_vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet Uber Uber sử dụng công nghệ cảm biến trong điện thoại thông minh của tài xế để theo dõi hành vi của họ. Nếu bạn đi cùng Uber và tài xế của bạn chạy quá tốc độ, bẻ lái quá mạnh hoặc đưa bạn đi một chặng đường cực kỳ dài để đến đích, thì bạn không còn có thể chống lại họ nữa. Uber đang sử dụng dữ liệu Gyrometer và GPS để theo dõi hành vi của tài xế. Con quay hồi chuyển trong điện thoại thông minh đo các chuyển động nhỏ, trong khi GPS kết hợp với gia tốc kế cho biết tần suất xe khởi động và dừng cũng như tốc độ tổng thể.",
+    "raw_text_en": "The Astonishing Introduction of Creative Internet-Based Businesses Uber Uber uses sensor technologies in driver’s smartphones to track their behaviors. If you ride with Uber and your driver speeds, breaks too hard, or takes you on a wildly lengthy route to your destination, it is no longer your word against theirs. Uber is using Gyrometer and GPS data to track the behavior of their drivers. Gyrometers in smartphones measure small movements, while GPS combined with accelerometers shows how often a vehicle starts and stops and the overall speed."
+  },
+  {
+    "num": 28,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+    "image": "slide_images/c1/slide_28.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+        "en": "The Astonishing Introduction of Creative Internet-Based Businesses"
+      },
+      {
+        "type": "bullet",
+        "vi": "Uber Eat Today Uber là một trong những dịch vụ vận tải hàng đầu thế giới với giá trị thị trường trên 20 tỷ USD.",
+        "en": "Uber Eat Today Uber is one of the leading transportation services in the world with a market value over 20 billion dollars."
+      }
+    ],
+    "raw_text_vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet Uber Eat Today Uber là một trong những dịch vụ vận tải hàng đầu thế giới với giá trị thị trường trên 20 tỷ USD.",
+    "raw_text_en": "The Astonishing Introduction of Creative Internet-Based Businesses Uber Eat Today Uber is one of the leading transportation services in the world with a market value over 20 billion dollars."
+  },
+  {
+    "num": 29,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+    "image": "slide_images/c1/slide_29.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+        "en": "The Astonishing Introduction of Creative Internet-Based Businesses"
+      },
+      {
+        "type": "bullet",
+        "vi": "Airbnb Airbnb là một dịch vụ dựa trên Internet để mọi người liệt kê, tìm và thuê chỗ ở. Nó được thành lập vào năm 2008 tại San Francisco, California bởi Brian Check và Joe Gebbia ngay sau khi tạo ra AirBed and Breakfast trong một hội nghị. Trang web ban đầu cung cấp phòng nghỉ, bữa sáng và cơ hội kết nối kinh doanh cho những người tham dự hội nghị không thể tìm được khách sạn. Ngay sau đó, công ty mới thành lập tập trung vào các sự kiện nổi tiếng, nơi có rất ít chỗ ở thay thế.",
+        "en": "Airbnb Airbnb is an Internet-based service for people to list, find, and rent lodging. It was founded in 2008 in San Francisco, California, by Brian Check and Joe Gebbia shortly after creating AirBed and Breakfast during a conference. The original site offered rooms, breakfast, and business networking opportunity for the conference attendees who were unable to find a hotel. Shortly thereafter, the newly created company focused on high- profile events where alternative lodging was very limited."
+      }
+    ],
+    "raw_text_vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet Airbnb Airbnb là một dịch vụ dựa trên Internet để mọi người liệt kê, tìm và thuê chỗ ở. Nó được thành lập vào năm 2008 tại San Francisco, California bởi Brian Check và Joe Gebbia ngay sau khi tạo ra AirBed and Breakfast trong một hội nghị. Trang web ban đầu cung cấp phòng nghỉ, bữa sáng và cơ hội kết nối kinh doanh cho những người tham dự hội nghị không thể tìm được khách sạn. Ngay sau đó, công ty mới thành lập tập trung vào các sự kiện nổi tiếng, nơi có rất ít chỗ ở thay thế.",
+    "raw_text_en": "The Astonishing Introduction of Creative Internet-Based Businesses Airbnb Airbnb is an Internet-based service for people to list, find, and rent lodging. It was founded in 2008 in San Francisco, California, by Brian Check and Joe Gebbia shortly after creating AirBed and Breakfast during a conference. The original site offered rooms, breakfast, and business networking opportunity for the conference attendees who were unable to find a hotel. Shortly thereafter, the newly created company focused on high- profile events where alternative lodging was very limited."
+  },
+  {
+    "num": 30,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+    "image": "slide_images/c1/slide_30.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+        "en": "The Astonishing Introduction of Creative Internet-Based Businesses"
+      },
+      {
+        "type": "bullet",
+        "vi": "Amazon Amazon.com là công ty bán lẻ Internet lớn nhất thế giới, được thành lập vào năm 1994 với tư cách là công ty bán sách trên Internet và nhanh chóng mở rộng sang âm nhạc, phim ảnh, đồ điện tử và hàng gia dụng; Amazon tận dụng Internet để phá vỡ mô hình bán lẻ truyền thống. Họ không cần phải dự trữ nhiều hàng hóa đang bán trên trang web của mình. Thay vào đó, nó xác định các công ty đối tác phù hợp và đưa ra các đơn đặt hàng cho khách hàng trên nền tảng an toàn dựa trên Internet.",
+        "en": "Amazon Amazon.com is the largest Internet retailer company in the world started, in 1994, as an Internet-based book seller and swiftly expanded into music, movies, electronics, and household goods; Amazon utilized the Internet to break the traditional retailer model. It did not need to stock many of the merchandises it was selling on its website. Instead, it identified matching partner companies and issued customer orders over a secure Internet- based platform."
+      }
+    ],
+    "raw_text_vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet Amazon Amazon.com là công ty bán lẻ Internet lớn nhất thế giới, được thành lập vào năm 1994 với tư cách là công ty bán sách trên Internet và nhanh chóng mở rộng sang âm nhạc, phim ảnh, đồ điện tử và hàng gia dụng; Amazon tận dụng Internet để phá vỡ mô hình bán lẻ truyền thống. Họ không cần phải dự trữ nhiều hàng hóa đang bán trên trang web của mình. Thay vào đó, nó xác định các công ty đối tác phù hợp và đưa ra các đơn đặt hàng cho khách hàng trên nền tảng an toàn dựa trên Internet.",
+    "raw_text_en": "The Astonishing Introduction of Creative Internet-Based Businesses Amazon Amazon.com is the largest Internet retailer company in the world started, in 1994, as an Internet-based book seller and swiftly expanded into music, movies, electronics, and household goods; Amazon utilized the Internet to break the traditional retailer model. It did not need to stock many of the merchandises it was selling on its website. Instead, it identified matching partner companies and issued customer orders over a secure Internet- based platform."
+  },
+  {
+    "num": 31,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+    "image": "slide_images/c1/slide_31.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+        "en": "The Astonishing Introduction of Creative Internet-Based Businesses"
+      },
+      {
+        "type": "bullet",
+        "vi": "Amazon",
+        "en": "Amazon"
+      }
+    ],
+    "raw_text_vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet Amazon",
+    "raw_text_en": "The Astonishing Introduction of Creative Internet-Based Businesses Amazon"
+  },
+  {
+    "num": 32,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+    "image": "slide_images/c1/slide_32.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+        "en": "The Astonishing Introduction of Creative Internet-Based Businesses"
+      },
+      {
+        "type": "bullet",
+        "vi": "Tesla Tesla Motors được thành lập vào năm 2003 bởi một nhóm kỹ sư ở Thung lũng Silicon với sứ mệnh phát triển một chiếc ô tô điện sang trọng thành công và sau đó đầu tư lợi nhuận thu được để tạo ra một chiếc ô tô điện rẻ hơn. Với mô-men xoắn tức thời, công suất đáng kinh ngạc và lượng khí thải bằng không, các sản phẩm của Tesla sẽ là những chiếc ô tô hoàn hảo.",
+        "en": "Tesla Tesla Motors was founded in 2003 by a group of engineers in Silicon Valley with a mission to develop a successful luxurious electrical car and then invest the resulting profits to make a less expensive electric car. With instant torque, incredible power, and zero emissions, Tesla’s products would be cars without compromise."
+      }
+    ],
+    "raw_text_vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet Tesla Tesla Motors được thành lập vào năm 2003 bởi một nhóm kỹ sư ở Thung lũng Silicon với sứ mệnh phát triển một chiếc ô tô điện sang trọng thành công và sau đó đầu tư lợi nhuận thu được để tạo ra một chiếc ô tô điện rẻ hơn. Với mô-men xoắn tức thời, công suất đáng kinh ngạc và lượng khí thải bằng không, các sản phẩm của Tesla sẽ là những chiếc ô tô hoàn hảo.",
+    "raw_text_en": "The Astonishing Introduction of Creative Internet-Based Businesses Tesla Tesla Motors was founded in 2003 by a group of engineers in Silicon Valley with a mission to develop a successful luxurious electrical car and then invest the resulting profits to make a less expensive electric car. With instant torque, incredible power, and zero emissions, Tesla’s products would be cars without compromise."
+  },
+  {
+    "num": 33,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+    "image": "slide_images/c1/slide_33.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+        "en": "The Astonishing Introduction of Creative Internet-Based Businesses"
+      },
+      {
+        "type": "bullet",
+        "vi": "Các kỹ sư của Tesla Tesla lần đầu tiên thiết kế hệ thống truyền lực cho ô tô thể thao được chế tạo dựa trên động cơ cảm ứng xoay chiều, được cấp bằng sáng chế vào năm 1888 bởi Nikola Tesla, nhà phát minh đã truyền cảm hứng cho tên công ty.",
+        "en": "Tesla Tesla’s engineers first designed a power train for a sports car built around an AC induction motor, patented in 1888 by Nikola Tesla, the inventor who inspired the company’s name."
+      },
+      {
+        "type": "paragraph",
+        "vi": "Kết quả là Tesla Roadster được ra mắt vào năm 2008 với phạm vi hoạt động đáng kinh ngạc là 245 dặm sau mỗi lần sạc pin lithium-ion. Roadster đã có thể thiết lập một tiêu chuẩn mới cho phương tiện di chuyển bằng điện. Năm 2012, Tesla ra mắt Model S, mẫu sedan chạy điện cao cấp đầu tiên trên thế giới.",
+        "en": "The resulting Tesla Roadster was launched in 2008 with an incredible range of 245 miles per charge of its lithium ion battery. The Roadster was able to set a new standard for electric mobility. In 2012, Tesla launched Model S, the world’s first premium electric sedan."
+      }
+    ],
+    "raw_text_vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet Các kỹ sư của Tesla Tesla lần đầu tiên thiết kế hệ thống truyền lực cho ô tô thể thao được chế tạo dựa trên động cơ cảm ứng xoay chiều, được cấp bằng sáng chế vào năm 1888 bởi Nikola Tesla, nhà phát minh đã truyền cảm hứng cho tên công ty. Kết quả là Tesla Roadster được ra mắt vào năm 2008 với phạm vi hoạt động đáng kinh ngạc là 245 dặm sau mỗi lần sạc pin lithium-ion. Roadster đã có thể thiết lập một tiêu chuẩn mới cho phương tiện di chuyển bằng điện. Năm 2012, Tesla ra mắt Model S, mẫu sedan chạy điện cao cấp đầu tiên trên thế giới.",
+    "raw_text_en": "The Astonishing Introduction of Creative Internet-Based Businesses Tesla Tesla’s engineers first designed a power train for a sports car built around an AC induction motor, patented in 1888 by Nikola Tesla, the inventor who inspired the company’s name. The resulting Tesla Roadster was launched in 2008 with an incredible range of 245 miles per charge of its lithium ion battery. The Roadster was able to set a new standard for electric mobility. In 2012, Tesla launched Model S, the world’s first premium electric sedan."
+  },
+  {
+    "num": 34,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+    "image": "slide_images/c1/slide_34.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+        "en": "The Astonishing Introduction of Creative Internet-Based Businesses"
+      },
+      {
+        "type": "bullet",
+        "vi": "Tesla Tesla được coi là ví dụ điển hình nhất về IoT. Nó không chỉ biến mô hình sản xuất công nghiệp truyền thống sang mô hình dựa trên Internet với hàng nghìn cảm biến.",
+        "en": "Tesla Tesla is considered as the best example yet of IoT. It did not only bend the traditional industry manufacturing model to Internet-based model with thousands of sensors."
+      }
+    ],
+    "raw_text_vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet Tesla Tesla được coi là ví dụ điển hình nhất về IoT. Nó không chỉ biến mô hình sản xuất công nghiệp truyền thống sang mô hình dựa trên Internet với hàng nghìn cảm biến.",
+    "raw_text_en": "The Astonishing Introduction of Creative Internet-Based Businesses Tesla Tesla is considered as the best example yet of IoT. It did not only bend the traditional industry manufacturing model to Internet-based model with thousands of sensors."
+  },
+  {
+    "num": 35,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+    "image": "slide_images/c1/slide_35.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+        "en": "The Astonishing Introduction of Creative Internet-Based Businesses"
+      },
+      {
+        "type": "bullet",
+        "vi": "Ô tô tự lái Ô tô tự lái có thể được chia thành hai loại chính: bán tự động và tự động hoàn toàn. Một chiếc ô tô bán tự động thực hiện một số nhiệm vụ tự lái nhất định (ví dụ: phanh hoàn toàn khi đến quá gần một vật thể, tự lái trên đường cao tốc), trong khi một chiếc ô tô hoàn toàn tự lái sẽ tự lái từ điểm xuất phát đến điểm đến mà không có bất kỳ sự tương tác nào của người lái. Ôtô tự động hoàn toàn được chia thành ô tô do người dùng vận hành và ô tô không người lái.",
+        "en": "Self-Driving Cars Self-driving cars can be divided into two main categories: semiautonomous and fully autonomous. A semiautonomous car performs certain self-driving tasks (e.g., fully brakes when it gets too close to an object, drives itself on the freeway), while a fully autonomous car drives itself from origin to destination without any driver interaction. Fully autonomous cars are further divided into user-operated and driverless."
+      }
+    ],
+    "raw_text_vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet Ô tô tự lái Ô tô tự lái có thể được chia thành hai loại chính: bán tự động và tự động hoàn toàn. Một chiếc ô tô bán tự động thực hiện một số nhiệm vụ tự lái nhất định (ví dụ: phanh hoàn toàn khi đến quá gần một vật thể, tự lái trên đường cao tốc), trong khi một chiếc ô tô hoàn toàn tự lái sẽ tự lái từ điểm xuất phát đến điểm đến mà không có bất kỳ sự tương tác nào của người lái. Ôtô tự động hoàn toàn được chia thành ô tô do người dùng vận hành và ô tô không người lái.",
+    "raw_text_en": "The Astonishing Introduction of Creative Internet-Based Businesses Self-Driving Cars Self-driving cars can be divided into two main categories: semiautonomous and fully autonomous. A semiautonomous car performs certain self-driving tasks (e.g., fully brakes when it gets too close to an object, drives itself on the freeway), while a fully autonomous car drives itself from origin to destination without any driver interaction. Fully autonomous cars are further divided into user-operated and driverless."
+  },
+  {
+    "num": 36,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+    "image": "slide_images/c1/slide_36.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+        "en": "The Astonishing Introduction of Creative Internet-Based Businesses"
+      },
+      {
+        "type": "bullet",
+        "vi": "An toàn của ô tô tự lái được coi là một trong những ưu điểm lớn nhất của ô tô tự lái. Nhìn chung, ô tô tự lái được trang bị một số lượng lớn cảm biến bao gồm máy đo khoảng cách bằng laser (để đo khoảng cách của đối tượng và chụp ảnh rõ nét), radar và máy quay video thu thập thông tin từ đường đi. Chúng cũng được trang bị bộ truyền động để điều khiển lái và phanh. Dữ liệu thu thập được (từ cảm biến, radar và video) được xử lý nhanh chóng cùng với thông tin vị trí từ thiết bị GPS của ô tô và hệ thống định vị để xác định vị trí của ô tô và xây dựng mô hình ba chiều về môi trường xung quanh.",
+        "en": "Self-Driving Cars Safety is considered one of the biggest advantages of self-driving cars. In general, self- driving cars are equipped with a large number of sensors including laser range finders (to measure a subject’s distance and take photos that are in sharp focus), radars, and video cameras collecting information from the road. They are also equipped with actuators to control steering and braking. The collected data (from sensors, radars, and video) is promptly processed with the positional information from the car’s GPS unit and the navigation system to determine its position and to build a three-dimensional model of its surroundings."
+      }
+    ],
+    "raw_text_vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet An toàn của ô tô tự lái được coi là một trong những ưu điểm lớn nhất của ô tô tự lái. Nhìn chung, ô tô tự lái được trang bị một số lượng lớn cảm biến bao gồm máy đo khoảng cách bằng laser (để đo khoảng cách của đối tượng và chụp ảnh rõ nét), radar và máy quay video thu thập thông tin từ đường đi. Chúng cũng được trang bị bộ truyền động để điều khiển lái và phanh. Dữ liệu thu thập được (từ cảm biến, radar và video) được xử lý nhanh chóng cùng với thông tin vị trí từ thiết bị GPS của ô tô và hệ thống định vị để xác định vị trí của ô tô và xây dựng mô hình ba chiều về môi trường xung quanh.",
+    "raw_text_en": "The Astonishing Introduction of Creative Internet-Based Businesses Self-Driving Cars Safety is considered one of the biggest advantages of self-driving cars. In general, self- driving cars are equipped with a large number of sensors including laser range finders (to measure a subject’s distance and take photos that are in sharp focus), radars, and video cameras collecting information from the road. They are also equipped with actuators to control steering and braking. The collected data (from sensors, radars, and video) is promptly processed with the positional information from the car’s GPS unit and the navigation system to determine its position and to build a three-dimensional model of its surroundings."
+  },
+  {
+    "num": 37,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+    "image": "slide_images/c1/slide_37.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet",
+        "en": "The Astonishing Introduction of Creative Internet-Based Businesses"
+      },
+      {
+        "type": "bullet",
+        "vi": "Self-Driving Cars The resulting model is then processed by the car’s control system to make navigation decisions. Hệ thống điều khiển ô tô tự lái thường sử dụng bản đồ được lưu trữ để tìm đường đi tối ưu đến đích, tránh chướng ngại vật và gửi quyết định đến bộ truyền động của ô tô. IoT áp dụng cho các tương tác và liên lạc giữa các bộ phận chăm sóc xe tự lái, giữa ô tô và cơ sở hạ tầng bên đường, cũng như giữa các ô tô tự lái.",
+        "en": "Self-Driving Cars The resulting model is then processed by the car’s control system to make navigation decisions. Self-driving car control systems typically use stored maps to find optimal path to destination, avoid obstacles, and send decisions to the car’s actuators. IoT applies to interactions and communications between self-driving care components, between the car and roadside infrastructure, as well as among self- driving cars."
+      }
+    ],
+    "raw_text_vi": "Sự ra đời đáng kinh ngạc của các doanh nghiệp sáng tạo dựa trên Internet Self-Driving Cars The resulting model is then processed by the car’s control system to make navigation decisions. Hệ thống điều khiển ô tô tự lái thường sử dụng bản đồ được lưu trữ để tìm đường đi tối ưu đến đích, tránh chướng ngại vật và gửi quyết định đến bộ truyền động của ô tô. IoT áp dụng cho các tương tác và liên lạc giữa các bộ phận chăm sóc xe tự lái, giữa ô tô và cơ sở hạ tầng bên đường, cũng như giữa các ô tô tự lái.",
+    "raw_text_en": "The Astonishing Introduction of Creative Internet-Based Businesses Self-Driving Cars The resulting model is then processed by the car’s control system to make navigation decisions. Self-driving car control systems typically use stored maps to find optimal path to destination, avoid obstacles, and send decisions to the car’s actuators. IoT applies to interactions and communications between self-driving care components, between the car and roadside infrastructure, as well as among self- driving cars."
+  },
+  {
+    "num": 38,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Lưu lượng điện thoại thông minh theo thời gian",
+    "image": "slide_images/c1/slide_38.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Sự bùng nổ của thiết bị di động Lưu lượng dữ liệu di động đã tăng gấp 18 lần trong vài năm qua. Sự gia tăng lưu lượng dữ liệu di động được thúc đẩy bởi hai yếu tố: sự gia tăng số lượng người dùng và mức tiêu thụ dữ liệu trên mỗi người dùng. Điện thoại thông minh trung bình tạo ra 4 GB lưu lượng truy cập mỗi tháng trong",
+        "en": "Mobile Device Explosion Mobile data traffic has grown 18-fold in the last few years. The increase in mobile data traffic is driven by two factors: the increase in the number of users and the data consumption per user. The average smartphone generated 4 GB of traffic per month in"
+      },
+      {
+        "type": "bullet",
+        "vi": "Sự tăng trưởng này được thúc đẩy bởi IoT kết nối mọi thứ với con người và quan trọng hơn là cho phép mọi người giám sát và kiểm soát mọi thứ từ mọi nơi trên thế giới trong thời gian thực.",
+        "en": "This growth is fueled by IoT connecting things with people and more importantly allowing people to monitor and control things from anywhere in the world in real time."
+      },
+      {
+        "type": "paragraph",
+        "vi": "Lưu lượng điện thoại thông minh theo thời gian",
+        "en": "Smartphone traffic over time"
+      }
+    ],
+    "raw_text_vi": "Sự bùng nổ của thiết bị di động Lưu lượng dữ liệu di động đã tăng gấp 18 lần trong vài năm qua. Sự gia tăng lưu lượng dữ liệu di động được thúc đẩy bởi hai yếu tố: sự gia tăng số lượng người dùng và mức tiêu thụ dữ liệu trên mỗi người dùng. Điện thoại thông minh trung bình tạo ra 4 GB lưu lượng truy cập mỗi tháng trong Sự tăng trưởng này được thúc đẩy bởi IoT kết nối mọi thứ với con người và quan trọng hơn là cho phép mọi người giám sát và kiểm soát mọi thứ từ mọi nơi trên thế giới trong thời gian thực. Lưu lượng điện thoại thông minh theo thời gian",
+    "raw_text_en": "Mobile Device Explosion Mobile data traffic has grown 18-fold in the last few years. The increase in mobile data traffic is driven by two factors: the increase in the number of users and the data consumption per user. The average smartphone generated 4 GB of traffic per month in This growth is fueled by IoT connecting things with people and more importantly allowing people to monitor and control things from anywhere in the world in real time. Smartphone traffic over time"
+  },
+  {
+    "num": 39,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_39.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Sự bùng nổ mạng xã hội Các mạng xã hội như Facebook, Instagram, Twitter và YouTube cũng như việc áp dụng các dịch vụ dựa trên đám mây như AWS và Salesforce.com của Amazon đều là những ví dụ về quá trình di chuyển quy mô lớn sang đám mây ở hầu hết mọi ngành. Trên thực tế, 2/3 tổng lưu lượng truy cập của trung tâm dữ liệu sẽ đến từ đám mây trong 3 năm tới. Tất cả những điều này dẫn đến sự bùng nổ dữ liệu, trong đó dữ liệu được tạo ra trên Internet mỗi ngày đã bằng một nửa tổng số dữ liệu đã được tích lũy kể từ buổi bình minh của nhân loại. https://aws.amazon.com/vi/what-is-aws/",
+        "en": "Social Network Explosion Social networks, such as Facebook, Instagram, Twitter, and YouTube, and the adoption of cloud-based services, such as Amazon’s AWS and Salesforce.com, are all examples of the large-scale migration to the cloud across virtually every industry. In fact, two-thirds of all data center traffic will be from the cloud in 3 years. All of this leads to data explosion, where, already, the data being created on the Internet each day is equal to half of all the data that has been accumulated since the dawn of humanity. https://aws.amazon.com/vi/what-is-aws/"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Sự bùng nổ mạng xã hội Các mạng xã hội như Facebook, Instagram, Twitter và YouTube cũng như việc áp dụng các dịch vụ dựa trên đám mây như AWS và Salesforce.com của Amazon đều là những ví dụ về quá trình di chuyển quy mô lớn sang đám mây ở hầu hết mọi ngành. Trên thực tế, 2/3 tổng lưu lượng truy cập của trung tâm dữ liệu sẽ đến từ đám mây trong 3 năm tới. Tất cả những điều này dẫn đến sự bùng nổ dữ liệu, trong đó dữ liệu được tạo ra trên Internet mỗi ngày đã bằng một nửa tổng số dữ liệu đã được tích lũy kể từ buổi bình minh của nhân loại. https://aws.amazon.com/vi/what-is-aws/ Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Social Network Explosion Social networks, such as Facebook, Instagram, Twitter, and YouTube, and the adoption of cloud-based services, such as Amazon’s AWS and Salesforce.com, are all examples of the large-scale migration to the cloud across virtually every industry. In fact, two-thirds of all data center traffic will be from the cloud in 3 years. All of this leads to data explosion, where, already, the data being created on the Internet each day is equal to half of all the data that has been accumulated since the dawn of humanity. https://aws.amazon.com/vi/what-is-aws/ Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 40,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_40.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Phân tích ở biên Trước khi giới thiệu các phiên bản phân tích khác nhau, điều quan trọng là phải xác định các thuật ngữ: dữ liệu lớn, dữ liệu có cấu trúc và dữ liệu phi cấu trúc. Dữ liệu lớn đề cập đến lượng dữ liệu cực lớn được tạo ra và tích lũy bởi các hệ thống CNTT do hoạt động của một hệ thống liên kết. Cái sau có thể là một sản phẩm, quy trình, dịch vụ, v.v.",
+        "en": "Analytics at the Edge Before introducing the different versions of analytics, it is important to define the terms: big data, structured data, and unstructured data. Big data refers to the extremely large amount of data being generated and accumulated by IT systems as the result of the operation of an associated system. The latter could be a product, process, service, etc."
+      },
+      {
+        "type": "paragraph",
+        "vi": "Lượng dữ liệu khổng lồ này có thể được phân tích để xác định các mẫu và hiểu rõ hơn về hoạt động của hệ thống liên quan. Việc phân tích thường liên quan đến việc áp dụng các kỹ thuật thống kê vì việc xử lý của con người không khả thi do khối lượng dữ liệu quá lớn.",
+        "en": "This massive amount of data can be analyzed to identify patterns and gain insights into the operation of the associated system. The analysis often involves applying statistical techniques since human processing is not viable due to the sheer volume of the data."
+      }
+    ],
+    "raw_text_vi": "Phân tích ở biên Trước khi giới thiệu các phiên bản phân tích khác nhau, điều quan trọng là phải xác định các thuật ngữ: dữ liệu lớn, dữ liệu có cấu trúc và dữ liệu phi cấu trúc. Dữ liệu lớn đề cập đến lượng dữ liệu cực lớn được tạo ra và tích lũy bởi các hệ thống CNTT do hoạt động của một hệ thống liên kết. Cái sau có thể là một sản phẩm, quy trình, dịch vụ, v.v. Lượng dữ liệu khổng lồ này có thể được phân tích để xác định các mẫu và hiểu rõ hơn về hoạt động của hệ thống liên quan. Việc phân tích thường liên quan đến việc áp dụng các kỹ thuật thống kê vì việc xử lý của con người không khả thi do khối lượng dữ liệu quá lớn.",
+    "raw_text_en": "Analytics at the Edge Before introducing the different versions of analytics, it is important to define the terms: big data, structured data, and unstructured data. Big data refers to the extremely large amount of data being generated and accumulated by IT systems as the result of the operation of an associated system. The latter could be a product, process, service, etc. This massive amount of data can be analyzed to identify patterns and gain insights into the operation of the associated system. The analysis often involves applying statistical techniques since human processing is not viable due to the sheer volume of the data."
+  },
+  {
+    "num": 41,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_41.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Phân tích ở biên Dữ liệu có cấu trúc đề cập đến dữ liệu có tổ chức có thể vừa với các hàng và cột. Ví dụ về dữ liệu đó bao gồm dữ liệu khách hàng, dữ liệu bán hàng và hồ sơ chứng khoán. Dữ liệu có cấu trúc thường có giá trị cao, được làm sạch và lập chỉ mục. Mặt khác, dữ liệu phi cấu trúc rất khó tổ chức hoặc tập hợp lại với nhau. Ví dụ về dữ liệu phi cấu trúc bao gồm hình ảnh, tia X, video, dữ liệu mạng xã hội và một số đầu ra của máy được trộn lẫn với văn bản.",
+        "en": "Analytics at the Edge Structured data refers to organized data that can fit in rows and columns. Examples of such data include customer data, sales data, and stock records. Structured data is often high value, cleansed, and indexed. Unstructured data, on the other hand, is difficult to organize or bring together. Examples of unstructured data include images, X-rays, video, social media data, and some machine outputs mixed with text."
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Phân tích ở biên Dữ liệu có cấu trúc đề cập đến dữ liệu có tổ chức có thể vừa với các hàng và cột. Ví dụ về dữ liệu đó bao gồm dữ liệu khách hàng, dữ liệu bán hàng và hồ sơ chứng khoán. Dữ liệu có cấu trúc thường có giá trị cao, được làm sạch và lập chỉ mục. Mặt khác, dữ liệu phi cấu trúc rất khó tổ chức hoặc tập hợp lại với nhau. Ví dụ về dữ liệu phi cấu trúc bao gồm hình ảnh, tia X, video, dữ liệu mạng xã hội và một số đầu ra của máy được trộn lẫn với văn bản. Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Analytics at the Edge Structured data refers to organized data that can fit in rows and columns. Examples of such data include customer data, sales data, and stock records. Structured data is often high value, cleansed, and indexed. Unstructured data, on the other hand, is difficult to organize or bring together. Examples of unstructured data include images, X-rays, video, social media data, and some machine outputs mixed with text. Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 42,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_42.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "So sánh các yếu tố chính của Analytics 1.0, 2.0 và 3.0 Analytics 1.0, 2.0 và 3.0",
+        "en": "Comparison of key factors for Analytics 1.0, 2.0, and 3.0 Analytics 1.0, 2.0, and 3.0"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "So sánh các yếu tố chính của Analytics 1.0, 2.0 và 3.0 Analytics 1.0, 2.0 và 3.0 Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Comparison of key factors for Analytics 1.0, 2.0, and 3.0 Analytics 1.0, 2.0, and 3.0 Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 43,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_43.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Điện toán đám mây và ảo hóa Điện toán đám mây, được giới thiệu vào năm 2008, cho phép các doanh nghiệp thuê ngoài toàn bộ hoặc một phần cơ sở hạ tầng điện toán của họ từ các nhà cung cấp đám mây công cộng (ví dụ: Amazon AWS, Microsoft Azure, Google Computer Engine).",
+        "en": "Cloud Computing and Virtualization Cloud computing, which was introduced in 2008, allows enterprises to outsource their computing infrastructure fully or partially to public cloud provides (e.g., Amazon AWS, Microsoft Azure, Google Compute Engine)."
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Điện toán đám mây và ảo hóa Điện toán đám mây, được giới thiệu vào năm 2008, cho phép các doanh nghiệp thuê ngoài toàn bộ hoặc một phần cơ sở hạ tầng điện toán của họ từ các nhà cung cấp đám mây công cộng (ví dụ: Amazon AWS, Microsoft Azure, Google Computer Engine). Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Cloud Computing and Virtualization Cloud computing, which was introduced in 2008, allows enterprises to outsource their computing infrastructure fully or partially to public cloud provides (e.g., Amazon AWS, Microsoft Azure, Google Compute Engine). Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 44,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Raspberry Pi B+ Raspberry Pi Zero Arduino",
+    "image": "slide_images/c1/slide_44.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Bùng nổ công nghệ Phần cứng IoT (ví dụ: cảm biến, máy tính rẻ tiền như Raspberry Pi, bộ vi điều khiển nguồn mở như Arduino) và công nghệ phần mềm không chỉ được phát triển nhanh hơn bao giờ hết mà còn có giá thấp hơn nhiều. Những thiết bị như vậy đã thay đổi hành vi của người dùng và tạo ra những cơ hội kinh doanh mới.",
+        "en": "Technology Explosion IoT hardware (e.g., sensors, inexpensive computers such as Raspberry Pi, open - source microcontrollers such as Arduino) and software technologies are not only being developed faster than ever before but with much lower prices. Such devices are already transforming user behaviors and creating new business opportunities."
+      },
+      {
+        "type": "paragraph",
+        "vi": "Raspberry Pi B+ Raspberry Pi Zero Arduino",
+        "en": "Raspberry Pi B+ Raspberry Pi Zero Arduino"
+      }
+    ],
+    "raw_text_vi": "Bùng nổ công nghệ Phần cứng IoT (ví dụ: cảm biến, máy tính rẻ tiền như Raspberry Pi, bộ vi điều khiển nguồn mở như Arduino) và công nghệ phần mềm không chỉ được phát triển nhanh hơn bao giờ hết mà còn có giá thấp hơn nhiều. Những thiết bị như vậy đã thay đổi hành vi của người dùng và tạo ra những cơ hội kinh doanh mới. Raspberry Pi B+ Raspberry Pi Zero Arduino",
+    "raw_text_en": "Technology Explosion IoT hardware (e.g., sensors, inexpensive computers such as Raspberry Pi, open - source microcontrollers such as Arduino) and software technologies are not only being developed faster than ever before but with much lower prices. Such devices are already transforming user behaviors and creating new business opportunities. Raspberry Pi B+ Raspberry Pi Zero Arduino"
+  },
+  {
+    "num": 45,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_45.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Hội tụ/Chuyển đổi Kỹ thuật số Hội tụ kỹ thuật số ban đầu đã bắt đầu với một phạm vi hạn chế: chuyển sang vận hành “không cần giấy tờ” và cứu cây xanh.",
+        "en": "Digital Convergence/Transformation Digital convergence has initially started with a limited scope: move to “paperless” operation and save trees."
+      },
+      {
+        "type": "paragraph",
+        "vi": "Hội tụ là một khái niệm mô tả cách kết hợp các công nghệ, quy trình và dữ liệu riêng biệt trước đây để tạo ra các sản phẩm, dịch vụ mới và trải nghiệm cuối cùng nhằm định hình lại các ngành công nghiệp.",
+        "en": "Convergence is a concept that describes how previously separate technologies, processes, and data combine to create new products, services, end experiences that reshape industries."
+      },
+      {
+        "type": "paragraph",
+        "vi": "Điện thoại thông minh là một ví dụ cổ điển về sự hội tụ. Đó là máy ảnh, sổ địa chỉ, bản đồ và trình phát đa phương tiện.",
+        "en": "The smartphone is a classic example of convergence. It’s a camera, address book, map, and media player."
+      }
+    ],
+    "raw_text_vi": "Hội tụ/Chuyển đổi Kỹ thuật số Hội tụ kỹ thuật số ban đầu đã bắt đầu với một phạm vi hạn chế: chuyển sang vận hành “không cần giấy tờ” và cứu cây xanh. Hội tụ là một khái niệm mô tả cách kết hợp các công nghệ, quy trình và dữ liệu riêng biệt trước đây để tạo ra các sản phẩm, dịch vụ mới và trải nghiệm cuối cùng nhằm định hình lại các ngành công nghiệp. Điện thoại thông minh là một ví dụ cổ điển về sự hội tụ. Đó là máy ảnh, sổ địa chỉ, bản đồ và trình phát đa phương tiện.",
+    "raw_text_en": "Digital Convergence/Transformation Digital convergence has initially started with a limited scope: move to “paperless” operation and save trees. Convergence is a concept that describes how previously separate technologies, processes, and data combine to create new products, services, end experiences that reshape industries. The smartphone is a classic example of convergence. It’s a camera, address book, map, and media player."
+  },
+  {
+    "num": 46,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Giao diện người dùng nâng cao",
+    "image": "slide_images/c1/slide_46.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Giao diện người dùng nâng cao",
+        "en": "Enhanced User Interfaces"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Giao diện người dùng nâng cao Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Enhanced User Interfaces Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 47,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_47.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Tốc độ áp dụng công nghệ IoT nhanh chóng (Gấp 5 lần so với điện và điện thoại) Tăng trưởng lưu lượng IP toàn cầu, 2015–2020.",
+        "en": "Fast Rate of IoT Technology Adoption (Five Times More than Electricity and Telephony) Global IP traffic growth, 2015–2020."
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Tốc độ áp dụng công nghệ IoT nhanh chóng (Gấp 5 lần so với điện và điện thoại) Tăng trưởng lưu lượng IP toàn cầu, 2015–2020. Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Fast Rate of IoT Technology Adoption (Five Times More than Electricity and Telephony) Global IP traffic growth, 2015–2020. Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 48,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_48.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Sự trỗi dậy của các yêu cầu bảo mật Việc bảo vệ dữ liệu và hệ thống kinh doanh, cá nhân đã là một vấn đề kể từ khi mạng dữ liệu ra đời. Với việc thương mại hóa Internet, các mối lo ngại về bảo mật được mở rộng để bao gồm quyền riêng tư cá nhân, giao dịch tài chính và mối đe dọa cướp trên mạng. Ngày nay, bảo mật của mạng đang được mở rộng để bao gồm an toàn hoặc bảo mật vật lý.",
+        "en": "The Rise of Security Requirements Protection of business and personal data and systems has been an issue since the inception of data networks. With the commercialization of the Internet, security concerns expanded to cover personal privacy, financial transactions, and the threat of cyber robbery. Today, security of the network is being expanded to include safety or physical security."
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Sự trỗi dậy của các yêu cầu bảo mật Việc bảo vệ dữ liệu và hệ thống kinh doanh, cá nhân đã là một vấn đề kể từ khi mạng dữ liệu ra đời. Với việc thương mại hóa Internet, các mối lo ngại về bảo mật được mở rộng để bao gồm quyền riêng tư cá nhân, giao dịch tài chính và mối đe dọa cướp trên mạng. Ngày nay, bảo mật của mạng đang được mở rộng để bao gồm an toàn hoặc bảo mật vật lý. Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "The Rise of Security Requirements Protection of business and personal data and systems has been an issue since the inception of data networks. With the commercialization of the Internet, security concerns expanded to cover personal privacy, financial transactions, and the threat of cyber robbery. Today, security of the network is being expanded to include safety or physical security. Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 49,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_49.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Định luật Moore không ngừng nghỉ Có thể tóm tắt tác động của Định luật Moore bằng ba nhận xét chính:",
+        "en": "The Nonstop Moore’s Law It is possible to summarize Moore’s Law impact with three key observation:"
+      },
+      {
+        "type": "bullet",
+        "vi": "Trong lịch sử phần cứng máy tính, sức mạnh máy tính đã tăng gấp đôi sau mỗi 18 tháng.",
+        "en": "Over the history of computing hardware, computer power has been doubling approximately every 18 months."
+      },
+      {
+        "type": "bullet",
+        "vi": "Kích thước công nghệ lưu trữ bóng bán dẫn silicon đã tiếp tục thu hẹp trong những năm qua và đang tiến đến mức nguyên tử. Trong nhiều năm nay, chúng tôi đã cung cấp nhiều năng lượng hơn và nhiều bộ nhớ hơn trên cùng một thiết bị có cùng kích thước.",
+        "en": "Silicon transistor storage technology size has continued to shrink over the years and is approaching atomic level. For years now, we have been putting more power and more storage on the same size device."
+      },
+      {
+        "type": "bullet",
+        "vi": "The price of the transistor is being reduced by more than 50% every year. https://vi.wikipedia.org/wiki/Định_luật_Moore",
+        "en": "The price of the transistor is being reduced by more than 50% every year. https://vi.wikipedia.org/wiki/Định_luật_Moore"
+      }
+    ],
+    "raw_text_vi": "Định luật Moore không ngừng nghỉ Có thể tóm tắt tác động của Định luật Moore bằng ba nhận xét chính: Trong lịch sử phần cứng máy tính, sức mạnh máy tính đã tăng gấp đôi sau mỗi 18 tháng. Kích thước công nghệ lưu trữ bóng bán dẫn silicon đã tiếp tục thu hẹp trong những năm qua và đang tiến đến mức nguyên tử. Trong nhiều năm nay, chúng tôi đã cung cấp nhiều năng lượng hơn và nhiều bộ nhớ hơn trên cùng một thiết bị có cùng kích thước. The price of the transistor is being reduced by more than 50% every year. https://vi.wikipedia.org/wiki/Định_luật_Moore",
+    "raw_text_en": "The Nonstop Moore’s Law It is possible to summarize Moore’s Law impact with three key observation: Over the history of computing hardware, computer power has been doubling approximately every 18 months. Silicon transistor storage technology size has continued to shrink over the years and is approaching atomic level. For years now, we have been putting more power and more storage on the same size device. The price of the transistor is being reduced by more than 50% every year. https://vi.wikipedia.org/wiki/Định_luật_Moore"
+  },
+  {
+    "num": 50,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Định luật Moore không ngừng nghỉ",
+    "image": "slide_images/c1/slide_50.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Định luật Moore không ngừng nghỉ",
+        "en": "The Nonstop Moore’s Law"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Định luật Moore không ngừng nghỉ Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "The Nonstop Moore’s Law Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 51,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Chuyên chở",
+    "image": "slide_images/c1/slide_51.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Chuyên chở",
+        "en": "Transport"
+      },
+      {
+        "type": "bullet",
+        "vi": "Robot trong sản xuất",
+        "en": "Robotics in manufacturing"
+      },
+      {
+        "type": "bullet",
+        "vi": "Giảm thời gian di chuyển bằng cách phân tích lưu lượng truy cập",
+        "en": "Reducing travel times by analyzing traffic"
+      },
+      {
+        "type": "bullet",
+        "vi": "Kiểm tra an toàn tự động trong nhà máy",
+        "en": "Automated safety checks in factories"
+      },
+      {
+        "type": "bullet",
+        "vi": "Ứng dụng chia sẻ chuyến đi - định giá,",
+        "en": "Ride-sharing apps-determining the price,"
+      },
+      {
+        "type": "bullet",
+        "vi": "Dự đoán chuỗi cung ứng vận tải tự động",
+        "en": "Autonomous haulage supply chain prediction"
+      },
+      {
+        "type": "bullet",
+        "vi": "Tuyển dụng phong phú",
+        "en": "Enriched recruitment"
+      },
+      {
+        "type": "bullet",
+        "vi": "Xe tự hành",
+        "en": "Autonomous vehicles"
+      },
+      {
+        "type": "bullet",
+        "vi": "Bảng chấm công tự động (ví dụ: Đai đen) Trí tuệ nhân tạo & Lái tự động | Tesla Pepper robot hình người và có thể lập trình | Nơi làm việc Robotics của SoftBank",
+        "en": "Automated timesheets(e.g., Blackbelt) Artificial Intelligence & Autopilot | Tesla Pepper the humanoid and programmable robot | SoftBank Robotics Workplace"
+      }
+    ],
+    "raw_text_vi": "Chuyên chở Robot trong sản xuất Giảm thời gian di chuyển bằng cách phân tích lưu lượng truy cập Kiểm tra an toàn tự động trong nhà máy Ứng dụng chia sẻ chuyến đi - định giá, Dự đoán chuỗi cung ứng vận tải tự động Tuyển dụng phong phú Xe tự hành Bảng chấm công tự động (ví dụ: Đai đen) Trí tuệ nhân tạo & Lái tự động | Tesla Pepper robot hình người và có thể lập trình | Nơi làm việc Robotics của SoftBank",
+    "raw_text_en": "Transport Robotics in manufacturing Reducing travel times by analyzing traffic Automated safety checks in factories Ride-sharing apps-determining the price, Autonomous haulage supply chain prediction Enriched recruitment Autonomous vehicles Automated timesheets(e.g., Blackbelt) Artificial Intelligence & Autopilot | Tesla Pepper the humanoid and programmable robot | SoftBank Robotics Workplace"
+  },
+  {
+    "num": 52,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Giáo dục",
+    "image": "slide_images/c1/slide_52.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Giáo dục",
+        "en": "Education"
+      },
+      {
+        "type": "bullet",
+        "vi": "Công nghệ thiết bị đeo để phân tích hiệu suất",
+        "en": "Wearable tech to analyze performance"
+      },
+      {
+        "type": "bullet",
+        "vi": "Trình kiểm tra đạo văn",
+        "en": "Plagiarism checkers"
+      },
+      {
+        "type": "bullet",
+        "vi": "Bán vé thông minh",
+        "en": "Smart ticketing"
+      },
+      {
+        "type": "bullet",
+        "vi": "Tự động chấm điểm",
+        "en": "Automated grading"
+      },
+      {
+        "type": "bullet",
+        "vi": "Video nổi bật tự động",
+        "en": "Automated video highlights"
+      },
+      {
+        "type": "bullet",
+        "vi": "Giao diện học tập kỹ thuật số tùy chỉnh",
+        "en": "Customized digital learning interfaces"
+      },
+      {
+        "type": "bullet",
+        "vi": "Trọng tài thị giác máy tính",
+        "en": "Computer vision referee"
+      },
+      {
+        "type": "bullet",
+        "vi": "Giáo viên hoặc giảng viên ảo Năm tác động của AI đối với ngành giáo dục -Wavel Sport",
+        "en": "Virtual teachers or lecturers Five Impacts of AI on the Education Sector -Wavel Sport"
+      }
+    ],
+    "raw_text_vi": "Giáo dục Công nghệ thiết bị đeo để phân tích hiệu suất Trình kiểm tra đạo văn Bán vé thông minh Tự động chấm điểm Video nổi bật tự động Giao diện học tập kỹ thuật số tùy chỉnh Trọng tài thị giác máy tính Giáo viên hoặc giảng viên ảo Năm tác động của AI đối với ngành giáo dục -Wavel Sport",
+    "raw_text_en": "Education Wearable tech to analyze performance Plagiarism checkers Smart ticketing Automated grading Automated video highlights Customized digital learning interfaces Computer vision referee Virtual teachers or lecturers Five Impacts of AI on the Education Sector -Wavel Sport"
+  },
+  {
+    "num": 53,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Chăm sóc sức khỏe",
+    "image": "slide_images/c1/slide_53.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Chăm sóc sức khỏe",
+        "en": "Healthcare"
+      },
+      {
+        "type": "bullet",
+        "vi": "Máy gặt robot",
+        "en": "Robot harvesters"
+      },
+      {
+        "type": "bullet",
+        "vi": "Robot phẫu thuật tự động",
+        "en": "Autonomous surgical robots"
+      },
+      {
+        "type": "bullet",
+        "vi": "Thị giác máy tính để giám sát cây trồng và đất đai",
+        "en": "Computer vision to monitor crop and soil"
+      },
+      {
+        "type": "bullet",
+        "vi": "Tự động nhận dạng bệnh và chẩn đoán sức khỏe",
+        "en": "Automatic disease identificationand health diagnosis"
+      },
+      {
+        "type": "bullet",
+        "vi": "Phân tích dự báo môi trường",
+        "en": "Predictive analysis for environmental"
+      },
+      {
+        "type": "bullet",
+        "vi": "Dự báo dịch bệnh tác động đến cây trồng Greeneye giúp nông dân giảm hóa chất và chi phí | Blog NVIDIA",
+        "en": "Epidemic outbreak prediction impacts on crops Greeneye Helps Farmers Reduce Chemicals and Costs | NVIDIA Blog"
+      },
+      {
+        "type": "bullet",
+        "vi": "Lưu trữ Trang 1 | Blog NVIDIA Nông nghiệp",
+        "en": "Archives Page 1 | NVIDIA Blog Agriculture"
+      }
+    ],
+    "raw_text_vi": "Chăm sóc sức khỏe Máy gặt robot Robot phẫu thuật tự động Thị giác máy tính để giám sát cây trồng và đất đai Tự động nhận dạng bệnh và chẩn đoán sức khỏe Phân tích dự báo môi trường Dự báo dịch bệnh tác động đến cây trồng Greeneye giúp nông dân giảm hóa chất và chi phí | Blog NVIDIA Lưu trữ Trang 1 | Blog NVIDIA Nông nghiệp",
+    "raw_text_en": "Healthcare Robot harvesters Autonomous surgical robots Computer vision to monitor crop and soil Automatic disease identificationand health diagnosis Predictive analysis for environmental Epidemic outbreak prediction impacts on crops Greeneye Helps Farmers Reduce Chemicals and Costs | NVIDIA Blog Archives Page 1 | NVIDIA Blog Agriculture"
+  },
+  {
+    "num": 54,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Sự giải trí",
+    "image": "slide_images/c1/slide_54.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Sự giải trí",
+        "en": "Entertainment"
+      },
+      {
+        "type": "bullet",
+        "vi": "Trợ lý cá nhân",
+        "en": "Personal assistants"
+      },
+      {
+        "type": "bullet",
+        "vi": "Đề xuất âm nhạc (Spotify, Apple Music,",
+        "en": "Music suggestions (Spotify, Apple Music,"
+      },
+      {
+        "type": "bullet",
+        "vi": "Tự động đặt hàng nhạc Google Play)",
+        "en": "Automatic goods ordering Google Play music)"
+      },
+      {
+        "type": "bullet",
+        "vi": "An ninh gia đình",
+        "en": "Home security"
+      },
+      {
+        "type": "bullet",
+        "vi": "Tạo nhạc tự động",
+        "en": "Automatic music creation"
+      },
+      {
+        "type": "bullet",
+        "vi": "Kiểm soát nhiệt độ và ánh sáng",
+        "en": "Temperature and light control"
+      },
+      {
+        "type": "bullet",
+        "vi": "Đề xuất phim và truyền hình (Netfix, Amazon Prime, Hulu) Spotify –Web Player Bixby | Ứng dụng -Trang web chính thức của Samsung Galaxy Nhà thông minh",
+        "en": "Film and TV suggestions (Netfix, Amazon Prime, Hulu) Spotify –Web Player Bixby | Apps -The Official Samsung Galaxy Site Smart homes"
+      }
+    ],
+    "raw_text_vi": "Sự giải trí Trợ lý cá nhân Đề xuất âm nhạc (Spotify, Apple Music, Tự động đặt hàng nhạc Google Play) An ninh gia đình Tạo nhạc tự động Kiểm soát nhiệt độ và ánh sáng Đề xuất phim và truyền hình (Netfix, Amazon Prime, Hulu) Spotify –Web Player Bixby | Ứng dụng -Trang web chính thức của Samsung Galaxy Nhà thông minh",
+    "raw_text_en": "Entertainment Personal assistants Music suggestions (Spotify, Apple Music, Automatic goods ordering Google Play music) Home security Automatic music creation Temperature and light control Film and TV suggestions (Netfix, Amazon Prime, Hulu) Spotify –Web Player Bixby | Apps -The Official Samsung Galaxy Site Smart homes"
+  },
+  {
+    "num": 55,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Phòng thủ",
+    "image": "slide_images/c1/slide_55.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Phòng thủ",
+        "en": "Defence"
+      },
+      {
+        "type": "bullet",
+        "vi": "Máy bay không người lái (UAV)",
+        "en": "Unmanned Aerial Vehicles (UAVs)"
+      },
+      {
+        "type": "bullet",
+        "vi": "Phát hiện dân sự",
+        "en": "Civilian detection"
+      },
+      {
+        "type": "bullet",
+        "vi": "Ra quyết định tự chủ",
+        "en": "Autonomous decision making"
+      },
+      {
+        "type": "bullet",
+        "vi": "",
+        "en": "Target identification"
+      },
+      {
+        "type": "bullet",
+        "vi": "Chẩn đoán và bảo trì hệ thống vũ khí Xe tăng robot tự động của Nga vượt qua cột mốc mới (và ra mắt bầy máy bay không người lái) (forbes.com) AI trong máy bay không người lái và máy bay không người lái quân sự - Các ứng dụng hiện tại | Đội quân nghiên cứu trí tuệ nhân tạo của Emerj mua 9.000 máy bay không người lái mini, suy nghĩ lại về robot mặt đất - Breaking Defense",
+        "en": "Diagnosis and maintenance of weapons systems Russia’s Autonomous Robot Tank Passes New Milestone (And Launches Drone Swarm) (forbes.com) AI in Military Drones and UAVs – Current Applications | Emerj Artificial Intelligence Research Army Buys 9,000 Mini-Drones, Rethinks Ground Robots - Breaking Defense"
+      }
+    ],
+    "raw_text_vi": "Phòng thủ Máy bay không người lái (UAV) Phát hiện dân sự Ra quyết định tự chủ  Chẩn đoán và bảo trì hệ thống vũ khí Xe tăng robot tự động của Nga vượt qua cột mốc mới (và ra mắt bầy máy bay không người lái) (forbes.com) AI trong máy bay không người lái và máy bay không người lái quân sự - Các ứng dụng hiện tại | Đội quân nghiên cứu trí tuệ nhân tạo của Emerj mua 9.000 máy bay không người lái mini, suy nghĩ lại về robot mặt đất - Breaking Defense",
+    "raw_text_en": "Defence Unmanned Aerial Vehicles (UAVs) Civilian detection Autonomous decision making Target identification Diagnosis and maintenance of weapons systems Russia’s Autonomous Robot Tank Passes New Milestone (And Launches Drone Swarm) (forbes.com) AI in Military Drones and UAVs – Current Applications | Emerj Artificial Intelligence Research Army Buys 9,000 Mini-Drones, Rethinks Ground Robots - Breaking Defense"
+  },
+  {
+    "num": 56,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Công nghệ người máy",
+    "image": "slide_images/c1/slide_56.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Giao thông vận tải tự động Mục tiêu là đưa tất cả các phương tiện giao thông vận tải trở thành AI và robot sẽ giúp chúng ta vượt qua những hạn chế về thể chất và nhận thức tự động hóa trong tương lai, bao gồm cả các chi robot có khả năng giao tiếp với não của chúng ta Giải quyết vấn đề biến đổi khí hậu Sử dụng dữ liệu lớn, AI và IoT một ngày nào đó có thể xác định xu hướng và sử dụng thông tin đó để đưa ra giải pháp cho các vấn đề lớn nhất của thế giới như biến đổi khí hậu Dự đoán tương lai Học máy sử dụng quá khứ để đưa ra dự đoán về tương lai. Nó sẽ có thể dự đoán những điều thân mật như ai sẽ bắt đầu hẹn hò hay ai sẽ ly hôn.",
+        "en": "Automatic transportation The goal is for all transportation to become AI and robotics will help us overcome our automated in the future cognitive and physical limitations, including robotic limbs capable of communicating with our brains Solving climate change Using big data, AI and IoT could one day identify trends and use that information to present solutions to the world’s biggest problems like climate change Predicting the future Machine learning uses the past to make predictions about the future. It will be able to predict things as intimate as who will start dating or who will get divorced."
+      },
+      {
+        "type": "paragraph",
+        "vi": "Công nghệ người máy",
+        "en": "Cyborg technology"
+      }
+    ],
+    "raw_text_vi": "Giao thông vận tải tự động Mục tiêu là đưa tất cả các phương tiện giao thông vận tải trở thành AI và robot sẽ giúp chúng ta vượt qua những hạn chế về thể chất và nhận thức tự động hóa trong tương lai, bao gồm cả các chi robot có khả năng giao tiếp với não của chúng ta Giải quyết vấn đề biến đổi khí hậu Sử dụng dữ liệu lớn, AI và IoT một ngày nào đó có thể xác định xu hướng và sử dụng thông tin đó để đưa ra giải pháp cho các vấn đề lớn nhất của thế giới như biến đổi khí hậu Dự đoán tương lai Học máy sử dụng quá khứ để đưa ra dự đoán về tương lai. Nó sẽ có thể dự đoán những điều thân mật như ai sẽ bắt đầu hẹn hò hay ai sẽ ly hôn. Công nghệ người máy",
+    "raw_text_en": "Automatic transportation The goal is for all transportation to become AI and robotics will help us overcome our automated in the future cognitive and physical limitations, including robotic limbs capable of communicating with our brains Solving climate change Using big data, AI and IoT could one day identify trends and use that information to present solutions to the world’s biggest problems like climate change Predicting the future Machine learning uses the past to make predictions about the future. It will be able to predict things as intimate as who will start dating or who will get divorced. Cyborg technology"
+  },
+  {
+    "num": 57,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_57.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Hệ thống này có khả năng thu thập, phân tích và trình bày dữ liệu trên Giao diện người dùng đồ họa (GUI), được lập trình bằng LabVIEW. It also allows the user to get the updated sensor information online based on Google Spreadsheets application, via Internet connectivity, or at any time through the SMS gateway service and sends alert message promptly enabling user interventions when needed.",
+        "en": "This system is capable of collecting, analyzing and presenting data on a Graphical User Interface (GUI), programmed with LabVIEW. It also allows the user to get the updated sensor information online based on Google Spreadsheets application, via Internet connectivity, or at any time through the SMS gateway service and sends alert message promptly enabling user interventions when needed."
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Hệ thống này có khả năng thu thập, phân tích và trình bày dữ liệu trên Giao diện người dùng đồ họa (GUI), được lập trình bằng LabVIEW. It also allows the user to get the updated sensor information online based on Google Spreadsheets application, via Internet connectivity, or at any time through the SMS gateway service and sends alert message promptly enabling user interventions when needed. Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "This system is capable of collecting, analyzing and presenting data on a Graphical User Interface (GUI), programmed with LabVIEW. It also allows the user to get the updated sensor information online based on Google Spreadsheets application, via Internet connectivity, or at any time through the SMS gateway service and sends alert message promptly enabling user interventions when needed. Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 58,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "/012\"# G($)*+H 34 !\"#$%F -*%.I0.\"#1F+*0)F%.\"$$(#203#(1 N0S(F\" @4OB H!?",
+    "image": "slide_images/c1/slide_58.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "!\"#$%& '()*+H-.",
+        "en": "!\"#$%& '()*+H-."
+      },
+      {
+        "type": "paragraph",
+        "vi": "/012\"# G($)*+H 34 !\"#$%F -*%.I0.\"#1F+*0)F%.\"$$(#203#(1 N0S(F\" @4OB H!?",
+        "en": "/012\"# G($)*+H 34 !\"#$%F -*%.I0.\"#1F+*0)F%.\"$$(#203#(1 N0S(F\" @4OB H!?"
+      },
+      {
+        "type": "paragraph",
+        "vi": "78(910:;",
+        "en": "78(910:;"
+      },
+      {
+        "type": "paragraph",
+        "vi": "@4OB !L?0MNN0L\"+5\"F0 <=H2\"# 4G6 @4OB T(2-\" )L ?6@ AB(C+060!\"F(\"$0B?M6NFGH0I+3#.8J+5O GOPNQNRL 4#5F%(504))",
+        "en": "@4OB !L?0MNN0L\"+5\"F0 <=H2\"# 4G6 @4OB T(2-\"\" )L ?6@ AB(C+060!\"F(\"$0B?M6NFGH0I+3#.8J+5O GOPNQNRL 4#5F%(504))"
+      },
+      {
+        "type": "bullet",
+        "vi": "%+F5 6%#1F%*0+.13+1%F",
+        "en": "%+F5 6%#1F%*0+.13+1%F"
+      }
+    ],
+    "raw_text_vi": "!\"#$%& '()*+H-. /012\"# G($)*+H 34 !\"#$%F -*%.I0.\"#1F+*0)F%.\"$$(#203#(1 N0S(F\" @4OB H!? 78(910:; @4OB !L?0MNN0L\"+5\"F0 <=H2\"# 4G6 @4OB T(2-\" )L ?6@ AB(C+060!\"F(\"$0B?M6NFGH0I+3#.8J+5O GOPNQNRL 4#5F%(504)) %+F5 6%#1F%*0+.13+1%F",
+    "raw_text_en": "!\"#$%& '()*+H-. /012\"# G($)*+H 34 !\"#$%F -*%.I0.\"#1F+*0)F%.\"$$(#203#(1 N0S(F\" @4OB H!? 78(910:; @4OB !L?0MNN0L\"+5\"F0 <=H2\"# 4G6 @4OB T(2-\"\" )L ?6@ AB(C+060!\"F(\"$0B?M6NFGH0I+3#.8J+5O GOPNQNRL 4#5F%(504)) %+F5 6%#1F%*0+.13+1%F"
+  },
+  {
+    "num": 59,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_59.jpg",
+    "elements": [
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 60,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_60.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "ORing, NCU (National Central University), and Chunghwa Telecom Join Hands on 5G Smart Manufacturing ORing / News / Press Release (oringnet.com) The Department of Mechanical Engineering has established a smart factory based on Industry 4.0 under the support of Jing-Yang Jou, President of NCU, to develop laser, discharge, and electrochemical machining technologies. The smart factory has integrated a variety of smart technologies including AI, big data analytics, and edge computing. Edge computing là gì? Mô hình kiến trúc trong Edge computing (bizflycloud.vn)",
+        "en": "ORing, NCU (National Central University), and Chunghwa Telecom Join Hands on 5G Smart Manufacturing ORing / News / Press Release (oringnet.com) The Department of Mechanical Engineering has established a smart factory based on Industry 4.0 under the support of Jing-Yang Jou, President of NCU, to develop laser, discharge, and electrochemical machining technologies. The smart factory has integrated a variety of smart technologies including AI, big data analytics, and edge computing. Edge computing là gì? Mô hình kiến trúc trong Edge computing (bizflycloud.vn)"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "ORing, NCU (National Central University), and Chunghwa Telecom Join Hands on 5G Smart Manufacturing ORing / News / Press Release (oringnet.com) The Department of Mechanical Engineering has established a smart factory based on Industry 4.0 under the support of Jing-Yang Jou, President of NCU, to develop laser, discharge, and electrochemical machining technologies. The smart factory has integrated a variety of smart technologies including AI, big data analytics, and edge computing. Edge computing là gì? Mô hình kiến trúc trong Edge computing (bizflycloud.vn) Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "ORing, NCU (National Central University), and Chunghwa Telecom Join Hands on 5G Smart Manufacturing ORing / News / Press Release (oringnet.com) The Department of Mechanical Engineering has established a smart factory based on Industry 4.0 under the support of Jing-Yang Jou, President of NCU, to develop laser, discharge, and electrochemical machining technologies. The smart factory has integrated a variety of smart technologies including AI, big data analytics, and edge computing. Edge computing là gì? Mô hình kiến trúc trong Edge computing (bizflycloud.vn) Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 61,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "Kiểm tra quang học tự động",
+    "image": "slide_images/c1/slide_61.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "Kiểm tra quang học tự động",
+        "en": "Automated optical inspection"
+      },
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Kiểm tra quang học tự động Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Automated optical inspection Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 62,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_62.jpg",
+    "elements": [
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 63,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_63.jpg",
+    "elements": [
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 64,
+    "chapter": "c1",
+    "section": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "title": "1.1. Tổng quan về công nghệ Internet vạn vật",
+    "image": "slide_images/c1/slide_64.jpg",
+    "elements": [
+      {
+        "type": "note",
+        "vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+        "en": "Slide contains technical diagrams and detailed illustrations."
+      }
+    ],
+    "raw_text_vi": "Slide chứa sơ đồ kỹ thuật và hình ảnh minh họa chi tiết.",
+    "raw_text_en": "Slide contains technical diagrams and detailed illustrations."
+  },
+  {
+    "num": 65,
+    "chapter": "c1",
+    "section": "1.2. Xu thế ứng dụng IoTs và các công nghệ liên quan cho đô",
+    "title": "thị thông minh ở Việt Nam",
+    "image": "slide_images/c1/slide_65.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "thị thông minh ở Việt Nam",
+        "en": "thị thông minh ở Việt Nam"
+      },
+      {
+        "type": "bullet",
+        "vi": "Công nghệ IoTs/5G và kỹ thuật xử lý dữ liệu lớn (Big Data), trí tuệ nhân tạo",
+        "en": "Công nghệ IoTs/5G và kỹ thuật xử lý dữ liệu lớn (Big Data), trí tuệ nhân tạo"
+      },
+      {
+        "type": "bullet",
+        "vi": "đóng vai trò quan trọng trong việc tạo ra những đổi mới độ t phá trong CNTT và truyền thông, và các lĩnh vực ứng dụng liên quan.",
+        "en": "đóng vai trò quan trọng trong việc tạo ra những đổi mới độ t phá trong CNTT và truyền thông, và các lĩnh vực ứng dụng liên quan."
+      },
+      {
+        "type": "bullet",
+        "vi": "Thành phốthông minh là một trong những ứng dụng như vậy, đã thu hút được sự chú ý lớn từ các chính phủ, cộng đồ ng ngành học thuật và CNTT tại nhiều quốc gia. Đặc biệt, Big Data/AI và IoT/5G cung cấp các công cụ và công nghệ cho phép quan trọng để thúc đẩy sự chuyển đổi của các thành phốlớn trên toàn thế giới thành những nơi đáng số ng, làm việc và tận hưở ng.",
+        "en": "Thành phốthông minh là một trong những ứng dụng như vậy, đã thu hút được sự chú ý lớn từ các chính phủ, cộng đồ ng ngành học thuật và CNTT tại nhiều quốc gia. Đặc biệt, Big Data/AI và IoT/5G cung cấp các công cụ và công nghệ cho phép quan trọng để thúc đẩy sự chuyển đổi của các thành phốlớn trên toàn thế giới thành những nơi đáng số ng, làm việc và tận hưở ng."
+      }
+    ],
+    "raw_text_vi": "thị thông minh ở Việt Nam Công nghệ IoTs/5G và kỹ thuật xử lý dữ liệu lớn (Big Data), trí tuệ nhân tạo đóng vai trò quan trọng trong việc tạo ra những đổi mới độ t phá trong CNTT và truyền thông, và các lĩnh vực ứng dụng liên quan. Thành phốthông minh là một trong những ứng dụng như vậy, đã thu hút được sự chú ý lớn từ các chính phủ, cộng đồ ng ngành học thuật và CNTT tại nhiều quốc gia. Đặc biệt, Big Data/AI và IoT/5G cung cấp các công cụ và công nghệ cho phép quan trọng để thúc đẩy sự chuyển đổi của các thành phốlớn trên toàn thế giới thành những nơi đáng số ng, làm việc và tận hưở ng.",
+    "raw_text_en": "thị thông minh ở Việt Nam Công nghệ IoTs/5G và kỹ thuật xử lý dữ liệu lớn (Big Data), trí tuệ nhân tạo đóng vai trò quan trọng trong việc tạo ra những đổi mới độ t phá trong CNTT và truyền thông, và các lĩnh vực ứng dụng liên quan. Thành phốthông minh là một trong những ứng dụng như vậy, đã thu hút được sự chú ý lớn từ các chính phủ, cộng đồ ng ngành học thuật và CNTT tại nhiều quốc gia. Đặc biệt, Big Data/AI và IoT/5G cung cấp các công cụ và công nghệ cho phép quan trọng để thúc đẩy sự chuyển đổi của các thành phốlớn trên toàn thế giới thành những nơi đáng số ng, làm việc và tận hưở ng."
+  },
+  {
+    "num": 66,
+    "chapter": "c1",
+    "section": "1.2. Xu thế ứng dụng IoTs và các công nghệ liên quan cho đô",
+    "title": "thị thông minh ở Việt Nam",
+    "image": "slide_images/c1/slide_66.jpg",
+    "elements": [
+      {
+        "type": "title",
+        "vi": "thị thông minh ở Việt Nam",
+        "en": "thị thông minh ở Việt Nam"
+      },
+      {
+        "type": "bullet",
+        "vi": "Các công nghệ IoTs/5G mới, một khi được tích hợp đúng vào cơ sở hạ tầng thành phốthông minh (Smart Cities), có thể hỗ trợsố lượng lớn kết nối không dây từ các loại thiết bị không dây khác nhau (ví dụ: cảm biến, máy ảnh, thiết bị AR/VR, xe thông minh) thông qua môi trường mạng có tốc độ cao, truyền dữ liệu cực kỳđáng tin cậy và độ trễthấp.",
+        "en": "Các công nghệ IoTs/5G mới, một khi được tích hợp đúng vào cơ sở hạtầng thành phốthông minh (Smart Cities), có thể hỗtrợsố lượng lớn kết nối không dây từ các loại thiết bị không dây khác nhau (ví dụ: cảm biến, máy ảnh, thiết bị AR/VR, xe thông minh) thông qua môi trường mạng có tốc độ cao, truyền dữ liệu cực kỳđáng tin cậy và độ trễthấp."
+      },
+      {
+        "type": "bullet",
+        "vi": "Tại VN, mặc dù còn nhiều bất cập, song hiện nay, các đô thị ở VN đang phát triển theo hướng tiếp cận với nhiều mô hình tiên tiến theo xu thế hội nhập quốc tế, tạo ra nhiều tiền đề về ứng dụng và phát triển CNTT, truyền thông để phát triển đô thị thông minh và quản lý thông minh.",
+        "en": "Tại VN, mặc dù còn nhiều bất cập, song hiện nay, các đô thị ởVN đang phát triển theo hướng tiếp cận với nhiều mô hình tiên tiến theo xu thế hội nhập quốc tế, tạo ra nhiều tiền đề vềứng dụng và phát triển CNTT, truyền thông để phát triển đô thị thông minh và quản lý thông minh."
+      }
+    ],
+    "raw_text_vi": "thị thông minh ở Việt Nam Các công nghệ IoTs/5G mới, một khi được tích hợp đúng vào cơ sở hạ tầng thành phốthông minh (Smart Cities), có thể hỗ trợsố lượng lớn kết nối không dây từ các loại thiết bị không dây khác nhau (ví dụ: cảm biến, máy ảnh, thiết bị AR/VR, xe thông minh) thông qua môi trường mạng có tốc độ cao, truyền dữ liệu cực kỳđáng tin cậy và độ trễthấp. Tại VN, mặc dù còn nhiều bất cập, song hiện nay, các đô thị ở VN đang phát triển theo hướng tiếp cận với nhiều mô hình tiên tiến theo xu thế hội nhập quốc tế, tạo ra nhiều tiền đề về ứng dụng và phát triển CNTT, truyền thông để phát triển đô thị thông minh và quản lý thông minh.",
+    "raw_text_en": "thị thông minh ở Việt Nam Các công nghệ IoTs/5G mới, một khi được tích hợp đúng vào cơ sở hạtầng thành phốthông minh (Smart Cities), có thể hỗtrợsố lượng lớn kết nối không dây từ các loại thiết bị không dây khác nhau (ví dụ: cảm biến, máy ảnh, thiết bị AR/VR, xe thông minh) thông qua môi trường mạng có tốc độ cao, truyền dữ liệu cực kỳđáng tin cậy và độ trễthấp. Tại VN, mặc dù còn nhiều bất cập, song hiện nay, các đô thị ởVN đang phát triển theo hướng tiếp cận với nhiều mô hình tiên tiến theo xu thế hội nhập quốc tế, tạo ra nhiều tiền đề vềứng dụng và phát triển CNTT, truyền thông để phát triển đô thị thông minh và quản lý thông minh."
+  },
+  {
+    "num": 67,
+    "chapter": "c1",
+    "section": "",
+    "title": "Cảm ơn bạn đã lắng nghe!",
+    "image": "slide_images/c1/slide_67.jpg",
+    "elements": [
+      {
+        "type": "paragraph",
+        "vi": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ CẦN THƠ",
+        "en": "CAN THO UNIVERSITY OF TECHNOLOGY"
+      },
+      {
+        "type": "title",
+        "vi": "Cảm ơn bạn đã lắng nghe!",
+        "en": "Thanks for your listening!"
+      }
+    ],
+    "raw_text_vi": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ CẦN THƠ Cảm ơn bạn đã lắng nghe!",
+    "raw_text_en": "CAN THO UNIVERSITY OF TECHNOLOGY Thanks for your listening!"
+  }
+]

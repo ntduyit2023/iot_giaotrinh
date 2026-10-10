@@ -1,0 +1,909 @@
+[
+  {
+    "num": 2,
+    "chapter": "c4",
+    "section": "4. Tổng quan",
+    "title": "Tổng quan các nền tảng phần cứng và phần mềm IoT",
+    "image": "slide_images/c4/slide_2.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "4.1: Mạng cảm biến không dây (Wireless sensor networks)",
+        "en": "4.1: Mạng cảm biến không dây (Wireless sensor networks)"
+      },
+      {
+        "type": "bullet",
+        "vi": "4.2: Phân loại mạng cảm biến không dây (Class of wireless sensor networks)",
+        "en": "4.2: Phân loại mạng cảm biến không dây (Class of wireless sensor networks)"
+      },
+      {
+        "type": "bullet",
+        "vi": "4.3: Vai trò của mã nguồn mở trong IoT (The role of Open source in IoT)",
+        "en": "4.3: Vai trò của mã nguồn mở trong IoT (The role of Open source in IoT)"
+      },
+      {
+        "type": "bullet",
+        "vi": "4.4: Các nền tảng phần cứng IoT thông dụng",
+        "en": "4.4: Các nền tảng phần cứng IoT thông dụng"
+      },
+      {
+        "type": "bullet",
+        "vi": "4.5: Các nền tảng phần mềm IoT thông dụng",
+        "en": "4.5: Các nền tảng phần mềm IoT thông dụng"
+      }
+    ],
+    "raw_text_vi": "4.1: Mạng cảm biến không dây (Wireless sensor networks) 4.2: Phân loại mạng cảm biến không dây (Class of wireless sensor networks) 4.3: Vai trò của mã nguồn mở trong IoT (The role of Open source in IoT) 4.4: Các nền tảng phần cứng IoT thông dụng 4.5: Các nền tảng phần mềm IoT thông dụng",
+    "raw_text_en": "4.1: Mạng cảm biến không dây (Wireless sensor networks) 4.2: Phân loại mạng cảm biến không dây (Class of wireless sensor networks) 4.3: Vai trò của mã nguồn mở trong IoT (The role of Open source in IoT) 4.4: Các nền tảng phần cứng IoT thông dụng 4.5: Các nền tảng phần mềm IoT thông dụng"
+  },
+  {
+    "num": 3,
+    "chapter": "c4",
+    "section": "4.1. Mạng cảm biến không dây",
+    "title": "Mạng cảm biến không dây (WSN)",
+    "image": "slide_images/c4/slide_3.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Mạng cảm biến không dây (WSN - Wireless Sensor Networks), như tên cho thấy, là một mô hình mạng sử dụng các cảm biến phân bố theo không gian để thu thập thông tin liên quan đến môi trường xung quanh và gửi dữ liệu về trung tâm.",
+        "en": "Mạng cảm biến không dây (WSN - Wireless Sensor Networks), như tên cho thấy, là một mô hình mạng sử dụng các cảm biến phân bố theo không gian để thu thập thông tin liên quan đến môi trường xung quanh và gửi dữ liệu về trung tâm."
+      },
+      {
+        "type": "bullet",
+        "vi": "Tại đây, các cảm biến không phải là thiết bị độc lập mà là sự kết hợp của cảm biến, bộ xử lý và thiết bị vô tuyến (được gọi là các nút cảm biến — Sensor Nodes) — cảm nhận môi trường và truyền đạt dữ liệu cảm nhận không dây đến một địa điểm ở xa kết nối tới mạng đường trục.",
+        "en": "Tại đây, các cảm biến không phải là thiết bị độc lập mà là sự kết hợp của cảm biến, bộ xử lý và thiết bị vô tuyến (được gọi là các nút cảm biến — Sensor Nodes) — cảm nhận môi trường và truyền đạt dữ liệu cảm nhận không dây đến một địa điểm ở xa kết nối tới mạng đường trục."
+      }
+    ],
+    "raw_text_vi": "Mạng cảm biến không dây (WSN - Wireless Sensor Networks), như tên cho thấy, là một mô hình mạng sử dụng các cảm biến phân bố theo không gian để thu thập thông tin liên quan đến môi trường xung quanh và gửi dữ liệu về trung tâm. Tại đây, các cảm biến không phải là thiết bị độc lập mà là sự kết hợp của cảm biến, bộ xử lý và thiết bị vô tuyến (được gọi là các nút cảm biến — Sensor Nodes) — cảm nhận môi trường và truyền đạt dữ liệu cảm nhận không dây đến một địa điểm ở xa kết nối tới mạng đường trục.",
+    "raw_text_en": "Mạng cảm biến không dây (WSN - Wireless Sensor Networks), như tên cho thấy, là một mô hình mạng sử dụng các cảm biến phân bố theo không gian để thu thập thông tin liên quan đến môi trường xung quanh và gửi dữ liệu về trung tâm. Tại đây, các cảm biến không phải là thiết bị độc lập mà là sự kết hợp của cảm biến, bộ xử lý và thiết bị vô tuyến (được gọi là các nút cảm biến — Sensor Nodes) — cảm nhận môi trường và truyền đạt dữ liệu cảm nhận không dây đến một địa điểm ở xa kết nối tới mạng đường trục."
+  },
+  {
+    "num": 4,
+    "chapter": "c4",
+    "section": "4.1. Mạng cảm biến không dây",
+    "title": "Các thành phần điển hình của nút mạng WSN",
+    "image": "slide_images/c4/slide_4.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Kiến trúc cấu tạo của một nút mạng cảm biến (Sensor Node): gồm Cảm biến (Sensors), Bộ chuyển đổi ADC, Vi xử lý (Processor), Bộ nhớ (Memory), Bộ thu phát vô tuyến (Transceiver) và Nguồn năng lượng (Power Unit).",
+        "en": "Kiến trúc cấu tạo của một nút mạng cảm biến (Sensor Node): gồm Cảm biến (Sensors), Bộ chuyển đổi ADC, Vi xử lý (Processor), Bộ nhớ (Memory), Bộ thu phát vô tuyến (Transceiver) và Nguồn năng lượng (Power Unit)."
+      }
+    ],
+    "raw_text_vi": "Kiến trúc cấu tạo của một nút mạng cảm biến (Sensor Node): gồm Cảm biến (Sensors), Bộ chuyển đổi ADC, Vi xử lý (Processor), Bộ nhớ (Memory), Bộ thu phát vô tuyến (Transceiver) và Nguồn năng lượng (Power Unit).",
+    "raw_text_en": "Kiến trúc cấu tạo của một nút mạng cảm biến (Sensor Node): gồm Cảm biến (Sensors), Bộ chuyển đổi ADC, Vi xử lý (Processor), Bộ nhớ (Memory), Bộ thu phát vô tuyến (Transceiver) và Nguồn năng lượng (Power Unit)."
+  },
+  {
+    "num": 5,
+    "chapter": "c4",
+    "section": "4.1. Mạng cảm biến không dây",
+    "title": "Mô hình triển khai mạng WSN điển hình",
+    "image": "slide_images/c4/slide_5.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Mô hình triển khai WSN: Các nút cảm biến (Sensor Nodes) phân tán thu thập dữ liệu từ môi trường, truyền dữ liệu qua các nút chuyển tiếp (Relay Nodes) về trạm gốc (Base Station / Sink Node) và kết nối tới máy chủ Internet.",
+        "en": "Mô hình triển khai WSN: Các nút cảm biến (Sensor Nodes) phân tán thu thập dữ liệu từ môi trường, truyền dữ liệu qua các nút chuyển tiếp (Relay Nodes) về trạm gốc (Base Station / Sink Node) và kết nối tới máy chủ Internet."
+      }
+    ],
+    "raw_text_vi": "Mô hình triển khai WSN: Các nút cảm biến (Sensor Nodes) phân tán thu thập dữ liệu từ môi trường, truyền dữ liệu qua các nút chuyển tiếp (Relay Nodes) về trạm gốc (Base Station / Sink Node) và kết nối tới máy chủ Internet.",
+    "raw_text_en": "Mô hình triển khai WSN: Các nút cảm biến (Sensor Nodes) phân tán thu thập dữ liệu từ môi trường, truyền dữ liệu qua các nút chuyển tiếp (Relay Nodes) về trạm gốc (Base Station / Sink Node) và kết nối tới máy chủ Internet."
+  },
+  {
+    "num": 6,
+    "chapter": "c4",
+    "section": "4.1. Mạng cảm biến không dây",
+    "title": "Đặc điểm của mạng WSN: Dung sai lỗi & Khả năng mở rộng",
+    "image": "slide_images/c4/slide_6.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Dung sai lỗi (Fault Tolerance): Sự cố hoặc lỗi xảy ra tại một số nút WSN không làm sập toàn bộ hệ thống WSN, cũng như không cản trở việc truyền dữ liệu từ các nút không bị lỗi đến vị trí trung tâm.",
+        "en": "Dung sai lỗi (Fault Tolerance): Sự cố hoặc lỗi xảy ra tại một số nút WSN không làm sập toàn bộ hệ thống WSN, cũng như không cản trở việc truyền dữ liệu từ các nút không bị lỗi đến vị trí trung tâm."
+      },
+      {
+        "type": "bullet",
+        "vi": "Khả năng mở rộng (Scalability): Hệ thống WSN phải hỗ trợ mở rộng quy mô khi tăng hoặc giảm số lượng nút cảm biến trong tương lai mà không làm thay đổi toàn bộ kiến trúc hạ tầng.",
+        "en": "Khả năng mở rộng (Scalability): Hệ thống WSN phải hỗ trợ mở rộng quy mô khi tăng hoặc giảm số lượng nút cảm biến trong tương lai mà không làm thay đổi toàn bộ kiến trúc hạ tầng."
+      }
+    ],
+    "raw_text_vi": "Dung sai lỗi (Fault Tolerance): Sự cố hoặc lỗi xảy ra tại một số nút WSN không làm sập toàn bộ hệ thống WSN, cũng như không cản trở việc truyền dữ liệu từ các nút không bị lỗi đến vị trí trung tâm. Khả năng mở rộng (Scalability): Hệ thống WSN phải hỗ trợ mở rộng quy mô khi tăng hoặc giảm số lượng nút cảm biến trong tương lai mà không làm thay đổi toàn bộ kiến trúc hạ tầng.",
+    "raw_text_en": "Dung sai lỗi (Fault Tolerance): Sự cố hoặc lỗi xảy ra tại một số nút WSN không làm sập toàn bộ hệ thống WSN, cũng như không cản trở việc truyền dữ liệu từ các nút không bị lỗi đến vị trí trung tâm. Khả năng mở rộng (Scalability): Hệ thống WSN phải hỗ trợ mở rộng quy mô khi tăng hoặc giảm số lượng nút cảm biến trong tương lai mà không làm thay đổi toàn bộ kiến trúc hạ tầng."
+  },
+  {
+    "num": 7,
+    "chapter": "c4",
+    "section": "4.1. Mạng cảm biến không dây",
+    "title": "Đặc điểm của mạng WSN: Tuổi thọ & Bảo mật",
+    "image": "slide_images/c4/slide_7.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Tuổi thọ dài (Long Lifetime): Chu kỳ hoạt động hoặc chu kỳ bổ sung năng lượng phải đủ dài cho các ứng dụng quy mô lớn, nhất là tại môi trường khắc nghiệt, xa xôi khó thay pin.",
+        "en": "Tuổi thọ dài (Long Lifetime): Chu kỳ hoạt động hoặc chu kỳ bổ sung năng lượng phải đủ dài cho các ứng dụng quy mô lớn, nhất là tại môi trường khắc nghiệt, xa xôi khó thay pin."
+      },
+      {
+        "type": "bullet",
+        "vi": "Bảo mật (Security): Vấn đề bảo mật nếu không được quan tâm có thể làm tổn hại toàn bộ hệ thống đến tận máy chủ; bảo mật phải được xử lý hợp lý để ngăn chặn xâm nhập và duy trì tính toàn vẹn dữ liệu.",
+        "en": "Bảo mật (Security): Vấn đề bảo mật nếu không được quan tâm có thể làm tổn hại toàn bộ hệ thống đến tận máy chủ; bảo mật phải được xử lý hợp lý để ngăn chặn xâm nhập và duy trì tính toàn vẹn dữ liệu."
+      }
+    ],
+    "raw_text_vi": "Tuổi thọ dài (Long Lifetime): Chu kỳ hoạt động hoặc chu kỳ bổ sung năng lượng phải đủ dài cho các ứng dụng quy mô lớn, nhất là tại môi trường khắc nghiệt, xa xôi khó thay pin. Bảo mật (Security): Vấn đề bảo mật nếu không được quan tâm có thể làm tổn hại toàn bộ hệ thống đến tận máy chủ; bảo mật phải được xử lý hợp lý để ngăn chặn xâm nhập và duy trì tính toàn vẹn dữ liệu.",
+    "raw_text_en": "Tuổi thọ dài (Long Lifetime): Chu kỳ hoạt động hoặc chu kỳ bổ sung năng lượng phải đủ dài cho các ứng dụng quy mô lớn, nhất là tại môi trường khắc nghiệt, xa xôi khó thay pin. Bảo mật (Security): Vấn đề bảo mật nếu không được quan tâm có thể làm tổn hại toàn bộ hệ thống đến tận máy chủ; bảo mật phải được xử lý hợp lý để ngăn chặn xâm nhập và duy trì tính toàn vẹn dữ liệu."
+  },
+  {
+    "num": 8,
+    "chapter": "c4",
+    "section": "4.1. Mạng cảm biến không dây",
+    "title": "Đặc điểm của mạng WSN: Khả năng lập trình & Giá thành",
+    "image": "slide_images/c4/slide_8.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Khả năng lập trình (Programmability): Đảm bảo tính linh hoạt, cho phép tái sử dụng nút WSN cho các ứng dụng khác thông qua việc thay đổi cảm biến và cập nhật phần mềm.",
+        "en": "Khả năng lập trình (Programmability): Đảm bảo tính linh hoạt, cho phép tái sử dụng nút WSN cho các ứng dụng khác thông qua việc thay đổi cảm biến và cập nhật phần mềm."
+      },
+      {
+        "type": "bullet",
+        "vi": "Khả năng chi trả / Giá thành (Affordability): Vì WSN cần số lượng lớn từ hàng chục đến hàng trăm nút, chi phí hợp lý của các nút đóng vai trò quyết định khả năng ứng dụng thực tế.",
+        "en": "Khả năng chi trả / Giá thành (Affordability): Vì WSN cần số lượng lớn từ hàng chục đến hàng trăm nút, chi phí hợp lý của các nút đóng vai trò quyết định khả năng ứng dụng thực tế."
+      }
+    ],
+    "raw_text_vi": "Khả năng lập trình (Programmability): Đảm bảo tính linh hoạt, cho phép tái sử dụng nút WSN cho các ứng dụng khác thông qua việc thay đổi cảm biến và cập nhật phần mềm. Khả năng chi trả / Giá thành (Affordability): Vì WSN cần số lượng lớn từ hàng chục đến hàng trăm nút, chi phí hợp lý của các nút đóng vai trò quyết định khả năng ứng dụng thực tế.",
+    "raw_text_en": "Khả năng lập trình (Programmability): Đảm bảo tính linh hoạt, cho phép tái sử dụng nút WSN cho các ứng dụng khác thông qua việc thay đổi cảm biến và cập nhật phần mềm. Khả năng chi trả / Giá thành (Affordability): Vì WSN cần số lượng lớn từ hàng chục đến hàng trăm nút, chi phí hợp lý của các nút đóng vai trò quyết định khả năng ứng dụng thực tế."
+  },
+  {
+    "num": 9,
+    "chapter": "c4",
+    "section": "4.1. Mạng cảm biến không dây",
+    "title": "Đặc điểm của mạng WSN: Tính không đồng nhất & Di động",
+    "image": "slide_images/c4/slide_9.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Tính không đồng nhất (Heterogeneity): WSN phải hỗ trợ nhiều loại cảm biến và giải pháp khác nhau; nếu thiếu tính đa dạng, mạng sẽ bị phụ thuộc cứng nhắc vào một ứng dụng cụ thể.",
+        "en": "Tính không đồng nhất (Heterogeneity): WSN phải hỗ trợ nhiều loại cảm biến và giải pháp khác nhau; nếu thiếu tính đa dạng, mạng sẽ bị phụ thuộc cứng nhắc vào một ứng dụng cụ thể."
+      },
+      {
+        "type": "bullet",
+        "vi": "Tính di động (Mobility): Hỗ trợ các nút có khả năng di chuyển linh hoạt, đảm bảo việc triển khai nhanh chóng trong mọi môi trường địa hình.",
+        "en": "Tính di động (Mobility): Hỗ trợ các nút có khả năng di chuyển linh hoạt, đảm bảo việc triển khai nhanh chóng trong mọi môi trường địa hình."
+      }
+    ],
+    "raw_text_vi": "Tính không đồng nhất (Heterogeneity): WSN phải hỗ trợ nhiều loại cảm biến và giải pháp khác nhau; nếu thiếu tính đa dạng, mạng sẽ bị phụ thuộc cứng nhắc vào một ứng dụng cụ thể. Tính di động (Mobility): Hỗ trợ các nút có khả năng di chuyển linh hoạt, đảm bảo việc triển khai nhanh chóng trong mọi môi trường địa hình.",
+    "raw_text_en": "Tính không đồng nhất (Heterogeneity): WSN phải hỗ trợ nhiều loại cảm biến và giải pháp khác nhau; nếu thiếu tính đa dạng, mạng sẽ bị phụ thuộc cứng nhắc vào một ứng dụng cụ thể. Tính di động (Mobility): Hỗ trợ các nút có khả năng di chuyển linh hoạt, đảm bảo việc triển khai nhanh chóng trong mọi môi trường địa hình."
+  },
+  {
+    "num": 10,
+    "chapter": "c4",
+    "section": "4.2. Phân loại mạng cảm biến không dây",
+    "title": "Các lĩnh vực ứng dụng của mạng WSN (Phần 1)",
+    "image": "slide_images/c4/slide_10.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Ứng dụng quân sự (Military): Phát hiện đối phương, phương tiện cơ giới, cảnh báo xâm nhập và kiểm soát vũ khí.",
+        "en": "Ứng dụng quân sự (Military): Phát hiện đối phương, phương tiện cơ giới, cảnh báo xâm nhập và kiểm soát vũ khí."
+      },
+      {
+        "type": "bullet",
+        "vi": "Ứng dụng y tế (Health): Giám sát bệnh nhân tại bệnh viện, xe cấp cứu, thiết bị đeo theo dõi sức khỏe thu nhỏ (wearable devices).",
+        "en": "Ứng dụng y tế (Health): Giám sát bệnh nhân tại bệnh viện, xe cấp cứu, thiết bị đeo theo dõi sức khỏe thu nhỏ (wearable devices)."
+      },
+      {
+        "type": "bullet",
+        "vi": "Ứng dụng môi trường (Environmental): Giám sát ô nhiễm môi trường, cảnh báo cháy rừng, theo dõi đời sống hoang dã.",
+        "en": "Ứng dụng môi trường (Environmental): Giám sát ô nhiễm môi trường, cảnh báo cháy rừng, theo dõi đời sống hoang dã."
+      },
+      {
+        "type": "bullet",
+        "vi": "Ứng dụng gia đình (Home): Hệ thống tự động hóa nhà ở và nhà thông minh (Smart Home).",
+        "en": "Ứng dụng gia đình (Home): Hệ thống tự động hóa nhà ở và nhà thông minh (Smart Home)."
+      }
+    ],
+    "raw_text_vi": "Ứng dụng quân sự (Military): Phát hiện đối phương, phương tiện cơ giới, cảnh báo xâm nhập và kiểm soát vũ khí. Ứng dụng y tế (Health): Giám sát bệnh nhân tại bệnh viện, xe cấp cứu, thiết bị đeo theo dõi sức khỏe thu nhỏ (wearable devices). Ứng dụng môi trường (Environmental): Giám sát ô nhiễm môi trường, cảnh báo cháy rừng, theo dõi đời sống hoang dã. Ứng dụng gia đình (Home): Hệ thống tự động hóa nhà ở và nhà thông minh (Smart Home).",
+    "raw_text_en": "Ứng dụng quân sự (Military): Phát hiện đối phương, phương tiện cơ giới, cảnh báo xâm nhập và kiểm soát vũ khí. Ứng dụng y tế (Health): Giám sát bệnh nhân tại bệnh viện, xe cấp cứu, thiết bị đeo theo dõi sức khỏe thu nhỏ (wearable devices). Ứng dụng môi trường (Environmental): Giám sát ô nhiễm môi trường, cảnh báo cháy rừng, theo dõi đời sống hoang dã. Ứng dụng gia đình (Home): Hệ thống tự động hóa nhà ở và nhà thông minh (Smart Home)."
+  },
+  {
+    "num": 11,
+    "chapter": "c4",
+    "section": "4.2. Phân loại mạng cảm biến không dây",
+    "title": "Các lĩnh vực ứng dụng của mạng WSN (Phần 2)",
+    "image": "slide_images/c4/slide_11.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Ứng dụng thương mại (Commercial): Giám sát chuỗi cung ứng, theo dõi hàng hóa lưu kho, quản lý kho vận thông minh, theo dõi đội xe vận tải và phân tích môi trường dịch vụ thương mại.",
+        "en": "Ứng dụng thương mại (Commercial): Giám sát chuỗi cung ứng, theo dõi hàng hóa lưu kho, quản lý kho vận thông minh, theo dõi đội xe vận tải và phân tích môi trường dịch vụ thương mại."
+      }
+    ],
+    "raw_text_vi": "Ứng dụng thương mại (Commercial): Giám sát chuỗi cung ứng, theo dõi hàng hóa lưu kho, quản lý kho vận thông minh, theo dõi đội xe vận tải và phân tích môi trường dịch vụ thương mại.",
+    "raw_text_en": "Ứng dụng thương mại (Commercial): Giám sát chuỗi cung ứng, theo dõi hàng hóa lưu kho, quản lý kho vận thông minh, theo dõi đội xe vận tải và phân tích môi trường dịch vụ thương mại."
+  },
+  {
+    "num": 12,
+    "chapter": "c4",
+    "section": "4.2. Phân loại mạng cảm biến không dây",
+    "title": "Phân loại mạng cảm biến WSN theo môi trường hoạt động",
+    "image": "slide_images/c4/slide_12.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Mạng WSN có thể được phân loại thành 5 lĩnh vực chính theo môi trường: Trên mặt đất (Terrestrial), Dưới lòng đất (Underground), Dưới nước (Underwater), Đa phương tiện (Multimedia) và Di động (Mobile).",
+        "en": "Mạng WSN có thể được phân loại thành 5 lĩnh vực chính theo môi trường: Trên mặt đất (Terrestrial), Dưới lòng đất (Underground), Dưới nước (Underwater), Đa phương tiện (Multimedia) và Di động (Mobile)."
+      }
+    ],
+    "raw_text_vi": "Mạng WSN có thể được phân loại thành 5 lĩnh vực chính theo môi trường: Trên mặt đất (Terrestrial), Dưới lòng đất (Underground), Dưới nước (Underwater), Đa phương tiện (Multimedia) và Di động (Mobile).",
+    "raw_text_en": "Mạng WSN có thể được phân loại thành 5 lĩnh vực chính theo môi trường: Trên mặt đất (Terrestrial), Dưới lòng đất (Underground), Dưới nước (Underwater), Đa phương tiện (Multimedia) và Di động (Mobile)."
+  },
+  {
+    "num": 13,
+    "chapter": "c4",
+    "section": "4.2. Phân loại mạng cảm biến không dây",
+    "title": "Mạng cảm biến WSN trên mặt đất (Terrestrial WSN)",
+    "image": "slide_images/c4/slide_13.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Bao gồm hàng trăm đến hàng nghìn nút cảm biến được triển khai trên bề mặt đất theo mô hình có cấu trúc (được xếp đặt trước) hoặc phi cấu trúc (rải ngẫu nhiên, ví dụ thả từ máy bay).",
+        "en": "Bao gồm hàng trăm đến hàng nghìn nút cảm biến được triển khai trên bề mặt đất theo mô hình có cấu trúc (được xếp đặt trước) hoặc phi cấu trúc (rải ngẫu nhiên, ví dụ thả từ máy bay)."
+      }
+    ],
+    "raw_text_vi": "Bao gồm hàng trăm đến hàng nghìn nút cảm biến được triển khai trên bề mặt đất theo mô hình có cấu trúc (được xếp đặt trước) hoặc phi cấu trúc (rải ngẫu nhiên, ví dụ thả từ máy bay).",
+    "raw_text_en": "Bao gồm hàng trăm đến hàng nghìn nút cảm biến được triển khai trên bề mặt đất theo mô hình có cấu trúc (được xếp đặt trước) hoặc phi cấu trúc (rải ngẫu nhiên, ví dụ thả từ máy bay)."
+  },
+  {
+    "num": 14,
+    "chapter": "c4",
+    "section": "4.2. Phân loại mạng cảm biến không dây",
+    "title": "Mạng cảm biến WSN dưới lòng đất (Underground WSN)",
+    "image": "slide_images/c4/slide_14.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Bao gồm các nút cảm biến được chôn dưới mặt đất để theo dõi độ ẩm, địa chấn, rò rỉ đường ống; tín hiệu vô tuyến bị suy hao nhanh trong môi trường đất và đá.",
+        "en": "Bao gồm các nút cảm biến được chôn dưới mặt đất để theo dõi độ ẩm, địa chấn, rò rỉ đường ống; tín hiệu vô tuyến bị suy hao nhanh trong môi trường đất và đá."
+      }
+    ],
+    "raw_text_vi": "Bao gồm các nút cảm biến được chôn dưới mặt đất để theo dõi độ ẩm, địa chấn, rò rỉ đường ống; tín hiệu vô tuyến bị suy hao nhanh trong môi trường đất và đá.",
+    "raw_text_en": "Bao gồm các nút cảm biến được chôn dưới mặt đất để theo dõi độ ẩm, địa chấn, rò rỉ đường ống; tín hiệu vô tuyến bị suy hao nhanh trong môi trường đất và đá."
+  },
+  {
+    "num": 15,
+    "chapter": "c4",
+    "section": "4.2. Phân loại mạng cảm biến không dây",
+    "title": "Mạng cảm biến WSN dưới nước (Underwater WSN)",
+    "image": "slide_images/c4/slide_15.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Bao gồm các nút cảm biến và phương tiện tự hành dưới nước; sử dụng sóng âm (acoustic waves) để truyền tin do sóng vô tuyến bị nước hấp thụ rất mạnh.",
+        "en": "Bao gồm các nút cảm biến và phương tiện tự hành dưới nước; sử dụng sóng âm (acoustic waves) để truyền tin do sóng vô tuyến bị nước hấp thụ rất mạnh."
+      }
+    ],
+    "raw_text_vi": "Bao gồm các nút cảm biến và phương tiện tự hành dưới nước; sử dụng sóng âm (acoustic waves) để truyền tin do sóng vô tuyến bị nước hấp thụ rất mạnh.",
+    "raw_text_en": "Bao gồm các nút cảm biến và phương tiện tự hành dưới nước; sử dụng sóng âm (acoustic waves) để truyền tin do sóng vô tuyến bị nước hấp thụ rất mạnh."
+  },
+  {
+    "num": 16,
+    "chapter": "c4",
+    "section": "4.2. Phân loại mạng cảm biến không dây",
+    "title": "Mạng cảm biến WSN đa phương tiện và di động",
+    "image": "slide_images/c4/slide_16.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "WSN đa phương tiện (Multimedia WSN): Trang bị camera, micro thu nhận hình ảnh, âm thanh và video phục vụ giám sát nâng cao.",
+        "en": "WSN đa phương tiện (Multimedia WSN): Trang bị camera, micro thu nhận hình ảnh, âm thanh và video phục vụ giám sát nâng cao."
+      },
+      {
+        "type": "bullet",
+        "vi": "WSN di động (Mobile WSN): Các nút cảm biến gắn trên vật thể chuyển động (xe cộ, robot, người) có khả năng tự động cấu hình lại mạng khi di chuyển.",
+        "en": "WSN di động (Mobile WSN): Các nút cảm biến gắn trên vật thể chuyển động (xe cộ, robot, người) có khả năng tự động cấu hình lại mạng khi di chuyển."
+      }
+    ],
+    "raw_text_vi": "WSN đa phương tiện (Multimedia WSN): Trang bị camera, micro thu nhận hình ảnh, âm thanh và video phục vụ giám sát nâng cao. WSN di động (Mobile WSN): Các nút cảm biến gắn trên vật thể chuyển động (xe cộ, robot, người) có khả năng tự động cấu hình lại mạng khi di chuyển.",
+    "raw_text_en": "WSN đa phương tiện (Multimedia WSN): Trang bị camera, micro thu nhận hình ảnh, âm thanh và video phục vụ giám sát nâng cao. WSN di động (Mobile WSN): Các nút cảm biến gắn trên vật thể chuyển động (xe cộ, robot, người) có khả năng tự động cấu hình lại mạng khi di chuyển."
+  },
+  {
+    "num": 17,
+    "chapter": "c4",
+    "section": "4.3. Mã nguồn mở trong IoT",
+    "title": "Khái niệm mã nguồn mở trong phát triển IoT",
+    "image": "slide_images/c4/slide_17.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Mã nguồn mở (Open Source) là việc công khai mã nguồn hoặc bản thiết kế phần cứng cùng giấy phép cho phép tái sử dụng, chỉnh sửa, cải tiến và thương mại hóa.",
+        "en": "Mã nguồn mở (Open Source) là việc công khai mã nguồn hoặc bản thiết kế phần cứng cùng giấy phép cho phép tái sử dụng, chỉnh sửa, cải tiến và thương mại hóa."
+      },
+      {
+        "type": "bullet",
+        "vi": "Tiêu chí giấy phép thuận lợi: Tự do phân phối lại, cho phép tạo tác phẩm phái sinh, tính toàn vẹn mã nguồn của tác giả gốc và không phân biệt đối xử đối với người dùng hay nhóm người dùng.",
+        "en": "Tiêu chí giấy phép thuận lợi: Tự do phân phối lại, cho phép tạo tác phẩm phái sinh, tính toàn vẹn mã nguồn của tác giả gốc và không phân biệt đối xử đối với người dùng hay nhóm người dùng."
+      }
+    ],
+    "raw_text_vi": "Mã nguồn mở (Open Source) là việc công khai mã nguồn hoặc bản thiết kế phần cứng cùng giấy phép cho phép tái sử dụng, chỉnh sửa, cải tiến và thương mại hóa. Tiêu chí giấy phép thuận lợi: Tự do phân phối lại, cho phép tạo tác phẩm phái sinh, tính toàn vẹn mã nguồn của tác giả gốc và không phân biệt đối xử đối với người dùng hay nhóm người dùng.",
+    "raw_text_en": "Mã nguồn mở (Open Source) là việc công khai mã nguồn hoặc bản thiết kế phần cứng cùng giấy phép cho phép tái sử dụng, chỉnh sửa, cải tiến và thương mại hóa. Tiêu chí giấy phép thuận lợi: Tự do phân phối lại, cho phép tạo tác phẩm phái sinh, tính toàn vẹn mã nguồn của tác giả gốc và không phân biệt đối xử đối với người dùng hay nhóm người dùng."
+  },
+  {
+    "num": 18,
+    "chapter": "c4",
+    "section": "4.3. Mã nguồn mở trong IoT",
+    "title": "Vai trò của cộng đồng trong dự án nguồn mở IoT",
+    "image": "slide_images/c4/slide_18.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Bất kỳ hệ thống nào cũng có thể phát hành theo giấy phép nguồn mở, tuy nhiên thành công của dự án gắn liền với cộng đồng quan tâm và đóng góp phát triển.",
+        "en": "Bất kỳ hệ thống nào cũng có thể phát hành theo giấy phép nguồn mở, tuy nhiên thành công của dự án gắn liền với cộng đồng quan tâm và đóng góp phát triển."
+      },
+      {
+        "type": "bullet",
+        "vi": "Cộng đồng hỗ trợ phản hồi lỗi, cải tiến tính năng và xây dựng hệ sinh thái tài liệu phong phú.",
+        "en": "Cộng đồng hỗ trợ phản hồi lỗi, cải tiến tính năng và xây dựng hệ sinh thái tài liệu phong phú."
+      }
+    ],
+    "raw_text_vi": "Bất kỳ hệ thống nào cũng có thể phát hành theo giấy phép nguồn mở, tuy nhiên thành công của dự án gắn liền với cộng đồng quan tâm và đóng góp phát triển. Cộng đồng hỗ trợ phản hồi lỗi, cải tiến tính năng và xây dựng hệ sinh thái tài liệu phong phú.",
+    "raw_text_en": "Bất kỳ hệ thống nào cũng có thể phát hành theo giấy phép nguồn mở, tuy nhiên thành công của dự án gắn liền với cộng đồng quan tâm và đóng góp phát triển. Cộng đồng hỗ trợ phản hồi lỗi, cải tiến tính năng và xây dựng hệ sinh thái tài liệu phong phú."
+  },
+  {
+    "num": 19,
+    "chapter": "c4",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Nền tảng vi điều khiển Arduino",
+    "image": "slide_images/c4/slide_19.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Arduino cung cấp hệ thống bo mạch đa dạng từ đơn giản phục vụ thiết bị đeo đến các máy in 3D và robot tự hành.",
+        "en": "Arduino cung cấp hệ thống bo mạch đa dạng từ đơn giản phục vụ thiết bị đeo đến các máy in 3D và robot tự hành."
+      },
+      {
+        "type": "bullet",
+        "vi": "Cộng đồng lớn mạnh giúp sinh viên và kỹ sư tiếp cận kho thư viện phong phú, hướng dẫn chi tiết trực tuyến.",
+        "en": "Cộng đồng lớn mạnh giúp sinh viên và kỹ sư tiếp cận kho thư viện phong phú, hướng dẫn chi tiết trực tuyến."
+      },
+      {
+        "type": "bullet",
+        "vi": "Các dòng tiêu biểu: Arduino Uno, Arduino Mega, Arduino Yun, bo mạch tích hợp Wi-Fi và Ethernet.",
+        "en": "Các dòng tiêu biểu: Arduino Uno, Arduino Mega, Arduino Yun, bo mạch tích hợp Wi-Fi và Ethernet."
+      }
+    ],
+    "raw_text_vi": "Arduino cung cấp hệ thống bo mạch đa dạng từ đơn giản phục vụ thiết bị đeo đến các máy in 3D và robot tự hành. Cộng đồng lớn mạnh giúp sinh viên và kỹ sư tiếp cận kho thư viện phong phú, hướng dẫn chi tiết trực tuyến. Các dòng tiêu biểu: Arduino Uno, Arduino Mega, Arduino Yun, bo mạch tích hợp Wi-Fi và Ethernet.",
+    "raw_text_en": "Arduino cung cấp hệ thống bo mạch đa dạng từ đơn giản phục vụ thiết bị đeo đến các máy in 3D và robot tự hành. Cộng đồng lớn mạnh giúp sinh viên và kỹ sư tiếp cận kho thư viện phong phú, hướng dẫn chi tiết trực tuyến. Các dòng tiêu biểu: Arduino Uno, Arduino Mega, Arduino Yun, bo mạch tích hợp Wi-Fi và Ethernet."
+  },
+  {
+    "num": 20,
+    "chapter": "c4",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Đặc tả phần cứng Arduino Uno / Mega",
+    "image": "slide_images/c4/slide_20.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Sử dụng vi điều khiển ATmega, tần số thạch anh 16 MHz, tiết kiệm năng lượng.",
+        "en": "Sử dụng vi điều khiển ATmega, tần số thạch anh 16 MHz, tiết kiệm năng lượng."
+      },
+      {
+        "type": "bullet",
+        "vi": "Tích hợp các chân Digital I/O (hỗ trợ điều chế độ rộng xung PWM), các ngõ vào tương tự Analog, cổng nạp kết nối USB máy tính và jack nguồn ngoài.",
+        "en": "Tích hợp các chân Digital I/O (hỗ trợ điều chế độ rộng xung PWM), các ngõ vào tương tự Analog, cổng nạp kết nối USB máy tính và jack nguồn ngoài."
+      }
+    ],
+    "raw_text_vi": "Sử dụng vi điều khiển ATmega, tần số thạch anh 16 MHz, tiết kiệm năng lượng. Tích hợp các chân Digital I/O (hỗ trợ điều chế độ rộng xung PWM), các ngõ vào tương tự Analog, cổng nạp kết nối USB máy tính và jack nguồn ngoài.",
+    "raw_text_en": "Sử dụng vi điều khiển ATmega, tần số thạch anh 16 MHz, tiết kiệm năng lượng. Tích hợp các chân Digital I/O (hỗ trợ điều chế độ rộng xung PWM), các ngõ vào tương tự Analog, cổng nạp kết nối USB máy tính và jack nguồn ngoài."
+  },
+  {
+    "num": 21,
+    "chapter": "c4",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Nền tảng nhúng GizmoSphere",
+    "image": "slide_images/c4/slide_21.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "GizmoSphere là nền tảng phát triển mã nguồn mở dành cho cộng đồng thiết kế hệ thống nhúng.",
+        "en": "GizmoSphere là nền tảng phát triển mã nguồn mở dành cho cộng đồng thiết kế hệ thống nhúng."
+      },
+      {
+        "type": "bullet",
+        "vi": "Gizmo 2 tích hợp vi xử lý AMD G-Series SOC, cung cấp hiệu năng tính toán cao và đồ họa mạnh mẽ cho các thiết bị IoT thông minh.",
+        "en": "Gizmo 2 tích hợp vi xử lý AMD G-Series SOC, cung cấp hiệu năng tính toán cao và đồ họa mạnh mẽ cho các thiết bị IoT thông minh."
+      }
+    ],
+    "raw_text_vi": "GizmoSphere là nền tảng phát triển mã nguồn mở dành cho cộng đồng thiết kế hệ thống nhúng. Gizmo 2 tích hợp vi xử lý AMD G-Series SOC, cung cấp hiệu năng tính toán cao và đồ họa mạnh mẽ cho các thiết bị IoT thông minh.",
+    "raw_text_en": "GizmoSphere là nền tảng phát triển mã nguồn mở dành cho cộng đồng thiết kế hệ thống nhúng. Gizmo 2 tích hợp vi xử lý AMD G-Series SOC, cung cấp hiệu năng tính toán cao và đồ họa mạnh mẽ cho các thiết bị IoT thông minh."
+  },
+  {
+    "num": 22,
+    "chapter": "c4",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Hệ thống mô-đun xếp chồng Tinkerforge",
+    "image": "slide_images/c4/slide_22.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Tinkerforge là hệ thống các khối vi điều khiển dạng module có thể gắn xếp chồng lên nhau (Bricks & Bricklets).",
+        "en": "Tinkerforge là hệ thống các khối vi điều khiển dạng module có thể gắn xếp chồng lên nhau (Bricks & Bricklets)."
+      },
+      {
+        "type": "bullet",
+        "vi": "Cho phép điều khiển động cơ và đọc cảm biến bằng nhiều ngôn ngữ: C, C++, C#, Java, Python, PHP, Ruby qua USB hoặc Wi-Fi.",
+        "en": "Cho phép điều khiển động cơ và đọc cảm biến bằng nhiều ngôn ngữ: C, C++, C#, Java, Python, PHP, Ruby qua USB hoặc Wi-Fi."
+      },
+      {
+        "type": "bullet",
+        "vi": "Toàn bộ phần cứng được cấp phép theo tiêu chuẩn mở CERN OHL.",
+        "en": "Toàn bộ phần cứng được cấp phép theo tiêu chuẩn mở CERN OHL."
+      }
+    ],
+    "raw_text_vi": "Tinkerforge là hệ thống các khối vi điều khiển dạng module có thể gắn xếp chồng lên nhau (Bricks & Bricklets). Cho phép điều khiển động cơ và đọc cảm biến bằng nhiều ngôn ngữ: C, C++, C#, Java, Python, PHP, Ruby qua USB hoặc Wi-Fi. Toàn bộ phần cứng được cấp phép theo tiêu chuẩn mở CERN OHL.",
+    "raw_text_en": "Tinkerforge là hệ thống các khối vi điều khiển dạng module có thể gắn xếp chồng lên nhau (Bricks & Bricklets). Cho phép điều khiển động cơ và đọc cảm biến bằng nhiều ngôn ngữ: C, C++, C#, Java, Python, PHP, Ruby qua USB hoặc Wi-Fi. Toàn bộ phần cứng được cấp phép theo tiêu chuẩn mở CERN OHL."
+  },
+  {
+    "num": 23,
+    "chapter": "c4",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Máy tính nhúng BeagleBoard & BeagleBone",
+    "image": "slide_images/c4/slide_23.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Máy tính nhúng kích thước chỉ bằng thẻ tín dụng, có khả năng chạy hệ điều hành Linux và Android.",
+        "en": "Máy tính nhúng kích thước chỉ bằng thẻ tín dụng, có khả năng chạy hệ điều hành Linux và Android."
+      },
+      {
+        "type": "bullet",
+        "vi": "Mức tiêu thụ năng lượng thấp, thiết kế mở hoàn toàn, lý tưởng cho các giải pháp gateway IoT và tính toán biên.",
+        "en": "Mức tiêu thụ năng lượng thấp, thiết kế mở hoàn toàn, lý tưởng cho các giải pháp gateway IoT và tính toán biên."
+      }
+    ],
+    "raw_text_vi": "Máy tính nhúng kích thước chỉ bằng thẻ tín dụng, có khả năng chạy hệ điều hành Linux và Android. Mức tiêu thụ năng lượng thấp, thiết kế mở hoàn toàn, lý tưởng cho các giải pháp gateway IoT và tính toán biên.",
+    "raw_text_en": "Máy tính nhúng kích thước chỉ bằng thẻ tín dụng, có khả năng chạy hệ điều hành Linux và Android. Mức tiêu thụ năng lượng thấp, thiết kế mở hoàn toàn, lý tưởng cho các giải pháp gateway IoT và tính toán biên."
+  },
+  {
+    "num": 24,
+    "chapter": "c4",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Máy tính biên Raspberry Pi",
+    "image": "slide_images/c4/slide_24.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Raspberry Pi là máy tính biên (Edge Device) được sử dụng phổ biến nhất để xây dựng giải pháp IoT trong cộng đồng Maker và kỹ sư.",
+        "en": "Raspberry Pi là máy tính biên (Edge Device) được sử dụng phổ biến nhất để xây dựng giải pháp IoT trong cộng đồng Maker và kỹ sư."
+      },
+      {
+        "type": "bullet",
+        "vi": "Giá thành rẻ, khả năng tính toán mạnh mẽ, bộ nhớ RAM lớn, hỗ trợ hệ điều hành Linux hoàn chỉnh, cổng GPIO đa dạng cùng Wi-Fi và Bluetooth tích hợp sẵn.",
+        "en": "Giá thành rẻ, khả năng tính toán mạnh mẽ, bộ nhớ RAM lớn, hỗ trợ hệ điều hành Linux hoàn chỉnh, cổng GPIO đa dạng cùng Wi-Fi và Bluetooth tích hợp sẵn."
+      }
+    ],
+    "raw_text_vi": "Raspberry Pi là máy tính biên (Edge Device) được sử dụng phổ biến nhất để xây dựng giải pháp IoT trong cộng đồng Maker và kỹ sư. Giá thành rẻ, khả năng tính toán mạnh mẽ, bộ nhớ RAM lớn, hỗ trợ hệ điều hành Linux hoàn chỉnh, cổng GPIO đa dạng cùng Wi-Fi và Bluetooth tích hợp sẵn.",
+    "raw_text_en": "Raspberry Pi là máy tính biên (Edge Device) được sử dụng phổ biến nhất để xây dựng giải pháp IoT trong cộng đồng Maker và kỹ sư. Giá thành rẻ, khả năng tính toán mạnh mẽ, bộ nhớ RAM lớn, hỗ trợ hệ điều hành Linux hoàn chỉnh, cổng GPIO đa dạng cùng Wi-Fi và Bluetooth tích hợp sẵn."
+  },
+  {
+    "num": 25,
+    "chapter": "c4",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Ngăn xếp kiến trúc phần cứng IoT (Hardware Stack)",
+    "image": "slide_images/c4/slide_25.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Tầng cảm biến & truyền động (Sensors & Actuators): Tương tác trực tiếp với thế giới vật lý ở đáy ngăn xếp.",
+        "en": "Tầng cảm biến & truyền động (Sensors & Actuators): Tương tác trực tiếp với thế giới vật lý ở đáy ngăn xếp."
+      },
+      {
+        "type": "bullet",
+        "vi": "Tầng xử lý dữ liệu (Microcontroller / Processor): Đọc tín hiệu cảm biến, thực thi thuật toán điều khiển.",
+        "en": "Tầng xử lý dữ liệu (Microcontroller / Processor): Đọc tín hiệu cảm biến, thực thi thuật toán điều khiển."
+      },
+      {
+        "type": "bullet",
+        "vi": "Tầng truyền thông (Communication): Truyền tải dữ liệu không dây lên cổng Gateway hoặc dịch vụ Cloud.",
+        "en": "Tầng truyền thông (Communication): Truyền tải dữ liệu không dây lên cổng Gateway hoặc dịch vụ Cloud."
+      }
+    ],
+    "raw_text_vi": "Tầng cảm biến & truyền động (Sensors & Actuators): Tương tác trực tiếp với thế giới vật lý ở đáy ngăn xếp. Tầng xử lý dữ liệu (Microcontroller / Processor): Đọc tín hiệu cảm biến, thực thi thuật toán điều khiển. Tầng truyền thông (Communication): Truyền tải dữ liệu không dây lên cổng Gateway hoặc dịch vụ Cloud.",
+    "raw_text_en": "Tầng cảm biến & truyền động (Sensors & Actuators): Tương tác trực tiếp với thế giới vật lý ở đáy ngăn xếp. Tầng xử lý dữ liệu (Microcontroller / Processor): Đọc tín hiệu cảm biến, thực thi thuật toán điều khiển. Tầng truyền thông (Communication): Truyền tải dữ liệu không dây lên cổng Gateway hoặc dịch vụ Cloud."
+  },
+  {
+    "num": 26,
+    "chapter": "c4",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Máy tính AI biên NVIDIA Jetson Nano",
+    "image": "slide_images/c4/slide_26.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "NVIDIA Jetson Nano là nền tảng phát triển tính toán biên AI mạnh mẽ cho các ứng dụng IoT và thị giác máy tính.",
+        "en": "NVIDIA Jetson Nano là nền tảng phát triển tính toán biên AI mạnh mẽ cho các ứng dụng IoT và thị giác máy tính."
+      },
+      {
+        "type": "bullet",
+        "vi": "Trang bị CPU ARM Cortex-A57 1.43 GHz và GPU NVIDIA Maxwell 128 nhân, cho phép chạy song song nhiều mạng nơ-ron học sâu.",
+        "en": "Trang bị CPU ARM Cortex-A57 1.43 GHz và GPU NVIDIA Maxwell 128 nhân, cho phép chạy song song nhiều mạng nơ-ron học sâu."
+      }
+    ],
+    "raw_text_vi": "NVIDIA Jetson Nano là nền tảng phát triển tính toán biên AI mạnh mẽ cho các ứng dụng IoT và thị giác máy tính. Trang bị CPU ARM Cortex-A57 1.43 GHz và GPU NVIDIA Maxwell 128 nhân, cho phép chạy song song nhiều mạng nơ-ron học sâu.",
+    "raw_text_en": "NVIDIA Jetson Nano là nền tảng phát triển tính toán biên AI mạnh mẽ cho các ứng dụng IoT và thị giác máy tính. Trang bị CPU ARM Cortex-A57 1.43 GHz và GPU NVIDIA Maxwell 128 nhân, cho phép chạy song song nhiều mạng nơ-ron học sâu."
+  },
+  {
+    "num": 27,
+    "chapter": "c4",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Mô-đun Wi-Fi ESP8266 giá rẻ",
+    "image": "slide_images/c4/slide_27.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "ESP8266 là vi điều khiển SoC tích hợp Wi-Fi giá rẻ do Espressif Systems sản xuất, mở ra cuộc cách mạng cho thiết bị IoT tự chế.",
+        "en": "ESP8266 là vi điều khiển SoC tích hợp Wi-Fi giá rẻ do Espressif Systems sản xuất, mở ra cuộc cách mạng cho thiết bị IoT tự chế."
+      },
+      {
+        "type": "bullet",
+        "vi": "Có thể hoạt động độc lập để chạy chương trình hoặc đóng vai trò mô-đun truyền thông Wi-Fi cho các bo mạch khác.",
+        "en": "Có thể hoạt động độc lập để chạy chương trình hoặc đóng vai trò mô-đun truyền thông Wi-Fi cho các bo mạch khác."
+      }
+    ],
+    "raw_text_vi": "ESP8266 là vi điều khiển SoC tích hợp Wi-Fi giá rẻ do Espressif Systems sản xuất, mở ra cuộc cách mạng cho thiết bị IoT tự chế. Có thể hoạt động độc lập để chạy chương trình hoặc đóng vai trò mô-đun truyền thông Wi-Fi cho các bo mạch khác.",
+    "raw_text_en": "ESP8266 là vi điều khiển SoC tích hợp Wi-Fi giá rẻ do Espressif Systems sản xuất, mở ra cuộc cách mạng cho thiết bị IoT tự chế. Có thể hoạt động độc lập để chạy chương trình hoặc đóng vai trò mô-đun truyền thông Wi-Fi cho các bo mạch khác."
+  },
+  {
+    "num": 28,
+    "chapter": "c4",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Vi điều khiển kết nối kép ESP32 DevKit",
+    "image": "slide_images/c4/slide_28.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "ESP32 là vi điều khiển SoC thế hệ mới kế thừa ESP8266, tích hợp cả Wi-Fi 802.11 b/g/n và Bluetooth (BLE).",
+        "en": "ESP32 là vi điều khiển SoC thế hệ mới kế thừa ESP8266, tích hợp cả Wi-Fi 802.11 b/g/n và Bluetooth (BLE)."
+      },
+      {
+        "type": "bullet",
+        "vi": "Sở hữu CPU 32-bit lõi kép Xtensa LX6, bộ nhớ RAM lớn, nhiều chân ADC, DAC, PWM, cảm biến cảm ứng điện dung, bảo mật phần cứng cao.",
+        "en": "Sở hữu CPU 32-bit lõi kép Xtensa LX6, bộ nhớ RAM lớn, nhiều chân ADC, DAC, PWM, cảm biến cảm ứng điện dung, bảo mật phần cứng cao."
+      }
+    ],
+    "raw_text_vi": "ESP32 là vi điều khiển SoC thế hệ mới kế thừa ESP8266, tích hợp cả Wi-Fi 802.11 b/g/n và Bluetooth (BLE). Sở hữu CPU 32-bit lõi kép Xtensa LX6, bộ nhớ RAM lớn, nhiều chân ADC, DAC, PWM, cảm biến cảm ứng điện dung, bảo mật phần cứng cao.",
+    "raw_text_en": "ESP32 là vi điều khiển SoC thế hệ mới kế thừa ESP8266, tích hợp cả Wi-Fi 802.11 b/g/n và Bluetooth (BLE). Sở hữu CPU 32-bit lõi kép Xtensa LX6, bộ nhớ RAM lớn, nhiều chân ADC, DAC, PWM, cảm biến cảm ứng điện dung, bảo mật phần cứng cao."
+  },
+  {
+    "num": 29,
+    "chapter": "c4",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Nền tảng phát triển thiết bị Zerynth IoT",
+    "image": "slide_images/c4/slide_29.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Zerynth cung cấp bộ công cụ phần cứng và phần mềm hoàn chỉnh giúp lập trình nhúng bằng Python.",
+        "en": "Zerynth cung cấp bộ công cụ phần cứng và phần mềm hoàn chỉnh giúp lập trình nhúng bằng Python."
+      },
+      {
+        "type": "bullet",
+        "vi": "Giúp đơn giản hóa và tăng tốc quá trình chuyển đổi từ mẫu thử nghiệm (prototype) sang sản phẩm thương mại.",
+        "en": "Giúp đơn giản hóa và tăng tốc quá trình chuyển đổi từ mẫu thử nghiệm (prototype) sang sản phẩm thương mại."
+      }
+    ],
+    "raw_text_vi": "Zerynth cung cấp bộ công cụ phần cứng và phần mềm hoàn chỉnh giúp lập trình nhúng bằng Python. Giúp đơn giản hóa và tăng tốc quá trình chuyển đổi từ mẫu thử nghiệm (prototype) sang sản phẩm thương mại.",
+    "raw_text_en": "Zerynth cung cấp bộ công cụ phần cứng và phần mềm hoàn chỉnh giúp lập trình nhúng bằng Python. Giúp đơn giản hóa và tăng tốc quá trình chuyển đổi từ mẫu thử nghiệm (prototype) sang sản phẩm thương mại."
+  },
+  {
+    "num": 30,
+    "chapter": "c4",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Hệ điều hành nhúng Zerynth OS",
+    "image": "slide_images/c4/slide_30.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Zerynth OS là hệ điều hành thời gian thực (RTOS) đa luồng, hỗ trợ lập trình bằng Python trên các vi điều khiển 32-bit phổ biến.",
+        "en": "Zerynth OS là hệ điều hành thời gian thực (RTOS) đa luồng, hỗ trợ lập trình bằng Python trên các vi điều khiển 32-bit phổ biến."
+      },
+      {
+        "type": "bullet",
+        "vi": "Hỗ trợ kết nối bảo mật tới các dịch vụ Cloud IoT hàng đầu như AWS IoT, Google Cloud IoT, Microsoft Azure.",
+        "en": "Hỗ trợ kết nối bảo mật tới các dịch vụ Cloud IoT hàng đầu như AWS IoT, Google Cloud IoT, Microsoft Azure."
+      }
+    ],
+    "raw_text_vi": "Zerynth OS là hệ điều hành thời gian thực (RTOS) đa luồng, hỗ trợ lập trình bằng Python trên các vi điều khiển 32-bit phổ biến. Hỗ trợ kết nối bảo mật tới các dịch vụ Cloud IoT hàng đầu như AWS IoT, Google Cloud IoT, Microsoft Azure.",
+    "raw_text_en": "Zerynth OS là hệ điều hành thời gian thực (RTOS) đa luồng, hỗ trợ lập trình bằng Python trên các vi điều khiển 32-bit phổ biến. Hỗ trợ kết nối bảo mật tới các dịch vụ Cloud IoT hàng đầu như AWS IoT, Google Cloud IoT, Microsoft Azure."
+  },
+  {
+    "num": 31,
+    "chapter": "c4",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Thiết bị đeo IoT hỗ trợ người bệnh Alzheimer",
+    "image": "slide_images/c4/slide_31.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Ứng dụng thiết bị đeo thông minh (Wearables) tích hợp cảm biến vị trí GPS và sinh hiệu cho người bệnh suy giảm trí nhớ.",
+        "en": "Ứng dụng thiết bị đeo thông minh (Wearables) tích hợp cảm biến vị trí GPS và sinh hiệu cho người bệnh suy giảm trí nhớ."
+      },
+      {
+        "type": "bullet",
+        "vi": "Gửi cảnh báo tức thời cho gia đình và nhân viên y tế khi người bệnh đi ra ngoài vùng an toàn hoặc gặp sự cố bất thường.",
+        "en": "Gửi cảnh báo tức thời cho gia đình và nhân viên y tế khi người bệnh đi ra ngoài vùng an toàn hoặc gặp sự cố bất thường."
+      }
+    ],
+    "raw_text_vi": "Ứng dụng thiết bị đeo thông minh (Wearables) tích hợp cảm biến vị trí GPS và sinh hiệu cho người bệnh suy giảm trí nhớ. Gửi cảnh báo tức thời cho gia đình và nhân viên y tế khi người bệnh đi ra ngoài vùng an toàn hoặc gặp sự cố bất thường.",
+    "raw_text_en": "Ứng dụng thiết bị đeo thông minh (Wearables) tích hợp cảm biến vị trí GPS và sinh hiệu cho người bệnh suy giảm trí nhớ. Gửi cảnh báo tức thời cho gia đình và nhân viên y tế khi người bệnh đi ra ngoài vùng an toàn hoặc gặp sự cố bất thường."
+  },
+  {
+    "num": 32,
+    "chapter": "c4",
+    "section": "4.4. Các nền tảng phần cứng",
+    "title": "Kính thực tế ảo nguồn mở Relativity VR",
+    "image": "slide_images/c4/slide_32.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Dự án kính thực tế ảo mã nguồn mở hỗ trợ nền tảng SteamVR và công nghệ theo dõi chuyển động cơ thể.",
+        "en": "Dự án kính thực tế ảo mã nguồn mở hỗ trợ nền tảng SteamVR và công nghệ theo dõi chuyển động cơ thể."
+      },
+      {
+        "type": "bullet",
+        "vi": "Chứng minh khả năng tạo ra các thiết bị công nghệ cao với chi phí thấp nhờ cộng đồng phần cứng mở.",
+        "en": "Chứng minh khả năng tạo ra các thiết bị công nghệ cao với chi phí thấp nhờ cộng đồng phần cứng mở."
+      }
+    ],
+    "raw_text_vi": "Dự án kính thực tế ảo mã nguồn mở hỗ trợ nền tảng SteamVR và công nghệ theo dõi chuyển động cơ thể. Chứng minh khả năng tạo ra các thiết bị công nghệ cao với chi phí thấp nhờ cộng đồng phần cứng mở.",
+    "raw_text_en": "Dự án kính thực tế ảo mã nguồn mở hỗ trợ nền tảng SteamVR và công nghệ theo dõi chuyển động cơ thể. Chứng minh khả năng tạo ra các thiết bị công nghệ cao với chi phí thấp nhờ cộng đồng phần cứng mở."
+  },
+  {
+    "num": 33,
+    "chapter": "c4",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Tổng quan giao thức MQTT",
+    "image": "slide_images/c4/slide_33.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "MQTT (Message Queuing Telemetry Transport) được thiết kế chủ yếu để kết nối các thiết bị hạn chế tài nguyên trên đường truyền băng thông thấp.",
+        "en": "MQTT (Message Queuing Telemetry Transport) được thiết kế chủ yếu để kết nối các thiết bị hạn chế tài nguyên trên đường truyền băng thông thấp."
+      },
+      {
+        "type": "bullet",
+        "vi": "Mặc dù ra đời từ lâu, MQTT chỉ thực sự bùng nổ và trở thành chuẩn mực truyền thông khi làn sóng IoT và M2M phát triển mạnh mẽ.",
+        "en": "Mặc dù ra đời từ lâu, MQTT chỉ thực sự bùng nổ và trở thành chuẩn mực truyền thông khi làn sóng IoT và M2M phát triển mạnh mẽ."
+      }
+    ],
+    "raw_text_vi": "MQTT (Message Queuing Telemetry Transport) được thiết kế chủ yếu để kết nối các thiết bị hạn chế tài nguyên trên đường truyền băng thông thấp. Mặc dù ra đời từ lâu, MQTT chỉ thực sự bùng nổ và trở thành chuẩn mực truyền thông khi làn sóng IoT và M2M phát triển mạnh mẽ.",
+    "raw_text_en": "MQTT (Message Queuing Telemetry Transport) được thiết kế chủ yếu để kết nối các thiết bị hạn chế tài nguyên trên đường truyền băng thông thấp. Mặc dù ra đời từ lâu, MQTT chỉ thực sự bùng nổ và trở thành chuẩn mực truyền thông khi làn sóng IoT và M2M phát triển mạnh mẽ."
+  },
+  {
+    "num": 34,
+    "chapter": "c4",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Mô hình Publish / Subscribe của MQTT",
+    "image": "slide_images/c4/slide_34.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "MQTT hoạt động theo mô hình Xuất bản / Đăng ký (Publish/Subscribe), độ tin cậy cao và tối ưu cho môi trường mạng chập chờn.",
+        "en": "MQTT hoạt động theo mô hình Xuất bản / Đăng ký (Publish/Subscribe), độ tin cậy cao và tối ưu cho môi trường mạng chập chờn."
+      },
+      {
+        "type": "bullet",
+        "vi": "Các thành phần chính:",
+        "en": "Các thành phần chính:"
+      },
+      {
+        "type": "bullet",
+        "vi": "Client: Các thiết bị IoT đóng vai trò gửi (Publish) hoặc nhận (Subscribe) dữ liệu.",
+        "en": "Client: Các thiết bị IoT đóng vai trò gửi (Publish) hoặc nhận (Subscribe) dữ liệu."
+      },
+      {
+        "type": "bullet",
+        "vi": "Broker: Máy chủ trung tâm điều phối tiếp nhận và chuyển tiếp thông điệp.",
+        "en": "Broker: Máy chủ trung tâm điều phối tiếp nhận và chuyển tiếp thông điệp."
+      },
+      {
+        "type": "bullet",
+        "vi": "Topic: Tên chủ đề định tuyến thông điệp.",
+        "en": "Topic: Tên chủ đề định tuyến thông điệp."
+      },
+      {
+        "type": "bullet",
+        "vi": "Message: Dữ liệu thực tế truyền đi.",
+        "en": "Message: Dữ liệu thực tế truyền đi."
+      }
+    ],
+    "raw_text_vi": "MQTT hoạt động theo mô hình Xuất bản / Đăng ký (Publish/Subscribe), độ tin cậy cao và tối ưu cho môi trường mạng chập chờn. Các thành phần chính: Client: Các thiết bị IoT đóng vai trò gửi (Publish) hoặc nhận (Subscribe) dữ liệu. Broker: Máy chủ trung tâm điều phối tiếp nhận và chuyển tiếp thông điệp. Topic: Tên chủ đề định tuyến thông điệp. Message: Dữ liệu thực tế truyền đi.",
+    "raw_text_en": "MQTT hoạt động theo mô hình Xuất bản / Đăng ký (Publish/Subscribe), độ tin cậy cao và tối ưu cho môi trường mạng chập chờn. Các thành phần chính: Client: Các thiết bị IoT đóng vai trò gửi (Publish) hoặc nhận (Subscribe) dữ liệu. Broker: Máy chủ trung tâm điều phối tiếp nhận và chuyển tiếp thông điệp. Topic: Tên chủ đề định tuyến thông điệp. Message: Dữ liệu thực tế truyền đi."
+  },
+  {
+    "num": 35,
+    "chapter": "c4",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Kiến trúc Client - Broker trong MQTT",
+    "image": "slide_images/c4/slide_35.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Khác với mô hình Client-Server truyền thống, các thiết bị Client trong MQTT không giao tiếp trực tiếp với nhau.",
+        "en": "Khác với mô hình Client-Server truyền thống, các thiết bị Client trong MQTT không giao tiếp trực tiếp với nhau."
+      },
+      {
+        "type": "bullet",
+        "vi": "Máy chủ Broker là trung gian chịu trách nhiệm xử lý các yêu cầu nhận và phân phối dữ liệu chính xác tới các Client quan tâm.",
+        "en": "Máy chủ Broker là trung gian chịu trách nhiệm xử lý các yêu cầu nhận và phân phối dữ liệu chính xác tới các Client quan tâm."
+      }
+    ],
+    "raw_text_vi": "Khác với mô hình Client-Server truyền thống, các thiết bị Client trong MQTT không giao tiếp trực tiếp với nhau. Máy chủ Broker là trung gian chịu trách nhiệm xử lý các yêu cầu nhận và phân phối dữ liệu chính xác tới các Client quan tâm.",
+    "raw_text_en": "Khác với mô hình Client-Server truyền thống, các thiết bị Client trong MQTT không giao tiếp trực tiếp với nhau. Máy chủ Broker là trung gian chịu trách nhiệm xử lý các yêu cầu nhận và phân phối dữ liệu chính xác tới các Client quan tâm."
+  },
+  {
+    "num": 36,
+    "chapter": "c4",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Quy trình truyền tin ví dụ trong MQTT",
+    "image": "slide_images/c4/slide_36.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Thiết bị cảm biến đo nhiệt độ và Publish gói tin lên Broker với chủ đề topic 'temp'.",
+        "en": "Thiết bị cảm biến đo nhiệt độ và Publish gói tin lên Broker với chủ đề topic 'temp'."
+      },
+      {
+        "type": "bullet",
+        "vi": "Ứng dụng trên điện thoại di động đăng ký (Subscribe) chủ đề 'temp' sẽ ngay lập tức nhận được thông báo giá trị nhiệt độ vừa cập nhật từ Broker.",
+        "en": "Ứng dụng trên điện thoại di động đăng ký (Subscribe) chủ đề 'temp' sẽ ngay lập tức nhận được thông báo giá trị nhiệt độ vừa cập nhật từ Broker."
+      }
+    ],
+    "raw_text_vi": "Thiết bị cảm biến đo nhiệt độ và Publish gói tin lên Broker với chủ đề topic 'temp'. Ứng dụng trên điện thoại di động đăng ký (Subscribe) chủ đề 'temp' sẽ ngay lập tức nhận được thông báo giá trị nhiệt độ vừa cập nhật từ Broker.",
+    "raw_text_en": "Thiết bị cảm biến đo nhiệt độ và Publish gói tin lên Broker với chủ đề topic 'temp'. Ứng dụng trên điện thoại di động đăng ký (Subscribe) chủ đề 'temp' sẽ ngay lập tức nhận được thông báo giá trị nhiệt độ vừa cập nhật từ Broker."
+  },
+  {
+    "num": 37,
+    "chapter": "c4",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Sơ đồ kiến trúc kết nối mạng MQTT",
+    "image": "slide_images/c4/slide_37.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Sơ đồ minh họa trực quan luồng dữ liệu kết nối từ các nút Publisher (cảm biến), qua máy chủ MQTT Broker và truyền đến các Subscriber (ứng dụng di động, máy chủ giám sát).",
+        "en": "Sơ đồ minh họa trực quan luồng dữ liệu kết nối từ các nút Publisher (cảm biến), qua máy chủ MQTT Broker và truyền đến các Subscriber (ứng dụng di động, máy chủ giám sát)."
+      }
+    ],
+    "raw_text_vi": "Sơ đồ minh họa trực quan luồng dữ liệu kết nối từ các nút Publisher (cảm biến), qua máy chủ MQTT Broker và truyền đến các Subscriber (ứng dụng di động, máy chủ giám sát).",
+    "raw_text_en": "Sơ đồ minh họa trực quan luồng dữ liệu kết nối từ các nút Publisher (cảm biến), qua máy chủ MQTT Broker và truyền đến các Subscriber (ứng dụng di động, máy chủ giám sát)."
+  },
+  {
+    "num": 38,
+    "chapter": "c4",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Các phần mềm triển khai MQTT Broker",
+    "image": "slide_images/c4/slide_38.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Có nhiều phần mềm máy chủ triển khai giao thức MQTT, trong đó Mosquitto Broker là giải pháp mã nguồn mở phổ biến và thông dụng nhất.",
+        "en": "Có nhiều phần mềm máy chủ triển khai giao thức MQTT, trong đó Mosquitto Broker là giải pháp mã nguồn mở phổ biến và thông dụng nhất."
+      }
+    ],
+    "raw_text_vi": "Có nhiều phần mềm máy chủ triển khai giao thức MQTT, trong đó Mosquitto Broker là giải pháp mã nguồn mở phổ biến và thông dụng nhất.",
+    "raw_text_en": "Có nhiều phần mềm máy chủ triển khai giao thức MQTT, trong đó Mosquitto Broker là giải pháp mã nguồn mở phổ biến và thông dụng nhất."
+  },
+  {
+    "num": 39,
+    "chapter": "c4",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Đặc điểm máy chủ Mosquitto Broker",
+    "image": "slide_images/c4/slide_39.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Mosquitto là broker thông điệp nguồn mở gọn nhẹ, thích hợp chạy trên mọi phần cứng từ Arduino, ESP8266, ESP32, Raspberry Pi tới máy chủ Cloud.",
+        "en": "Mosquitto là broker thông điệp nguồn mở gọn nhẹ, thích hợp chạy trên mọi phần cứng từ Arduino, ESP8266, ESP32, Raspberry Pi tới máy chủ Cloud."
+      },
+      {
+        "type": "bullet",
+        "vi": "Có thể triển khai Mosquitto trên nền tảng đám mây để kiểm soát các dự án IoT từ xa qua Internet (ví dụ: HiveMQ Cloud, ThingMQ, Heroku, CloudMQTT).",
+        "en": "Có thể triển khai Mosquitto trên nền tảng đám mây để kiểm soát các dự án IoT từ xa qua Internet (ví dụ: HiveMQ Cloud, ThingMQ, Heroku, CloudMQTT)."
+      }
+    ],
+    "raw_text_vi": "Mosquitto là broker thông điệp nguồn mở gọn nhẹ, thích hợp chạy trên mọi phần cứng từ Arduino, ESP8266, ESP32, Raspberry Pi tới máy chủ Cloud. Có thể triển khai Mosquitto trên nền tảng đám mây để kiểm soát các dự án IoT từ xa qua Internet (ví dụ: HiveMQ Cloud, ThingMQ, Heroku, CloudMQTT).",
+    "raw_text_en": "Mosquitto là broker thông điệp nguồn mở gọn nhẹ, thích hợp chạy trên mọi phần cứng từ Arduino, ESP8266, ESP32, Raspberry Pi tới máy chủ Cloud. Có thể triển khai Mosquitto trên nền tảng đám mây để kiểm soát các dự án IoT từ xa qua Internet (ví dụ: HiveMQ Cloud, ThingMQ, Heroku, CloudMQTT)."
+  },
+  {
+    "num": 40,
+    "chapter": "c4",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Nền tảng ứng dụng điều khiển Blynk IoT",
+    "image": "slide_images/c4/slide_40.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Blynk là nền tảng với ứng dụng trên iOS và Android cho phép điều khiển Arduino, Raspberry Pi, ESP8266, ESP32 qua Internet.",
+        "en": "Blynk là nền tảng với ứng dụng trên iOS và Android cho phép điều khiển Arduino, Raspberry Pi, ESP8266, ESP32 qua Internet."
+      },
+      {
+        "type": "bullet",
+        "vi": "Cung cấp bảng điều khiển kỹ thuật số dạng kéo thả các Widget (nút bấm, thanh trượt, biểu đồ) để xây dựng giao diện ứng dụng nhanh chóng.",
+        "en": "Cung cấp bảng điều khiển kỹ thuật số dạng kéo thả các Widget (nút bấm, thanh trượt, biểu đồ) để xây dựng giao diện ứng dụng nhanh chóng."
+      },
+      {
+        "type": "bullet",
+        "vi": "Blynk không bó hẹp ở một phần cứng cụ thể, hỗ trợ kết nối linh hoạt qua Wi-Fi, Ethernet, Bluetooth hoặc mạng di động.",
+        "en": "Blynk không bó hẹp ở một phần cứng cụ thể, hỗ trợ kết nối linh hoạt qua Wi-Fi, Ethernet, Bluetooth hoặc mạng di động."
+      }
+    ],
+    "raw_text_vi": "Blynk là nền tảng với ứng dụng trên iOS và Android cho phép điều khiển Arduino, Raspberry Pi, ESP8266, ESP32 qua Internet. Cung cấp bảng điều khiển kỹ thuật số dạng kéo thả các Widget (nút bấm, thanh trượt, biểu đồ) để xây dựng giao diện ứng dụng nhanh chóng. Blynk không bó hẹp ở một phần cứng cụ thể, hỗ trợ kết nối linh hoạt qua Wi-Fi, Ethernet, Bluetooth hoặc mạng di động.",
+    "raw_text_en": "Blynk là nền tảng với ứng dụng trên iOS và Android cho phép điều khiển Arduino, Raspberry Pi, ESP8266, ESP32 qua Internet. Cung cấp bảng điều khiển kỹ thuật số dạng kéo thả các Widget (nút bấm, thanh trượt, biểu đồ) để xây dựng giao diện ứng dụng nhanh chóng. Blynk không bó hẹp ở một phần cứng cụ thể, hỗ trợ kết nối linh hoạt qua Wi-Fi, Ethernet, Bluetooth hoặc mạng di động."
+  },
+  {
+    "num": 41,
+    "chapter": "c4",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Các tính năng và ứng dụng của Blynk",
+    "image": "slide_images/c4/slide_41.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Triển khai hệ thống nhà thông minh (Smart Home), điều khiển và giám sát thiết bị từ xa qua Internet.",
+        "en": "Triển khai hệ thống nhà thông minh (Smart Home), điều khiển và giám sát thiết bị từ xa qua Internet."
+      },
+      {
+        "type": "bullet",
+        "vi": "Hệ thống Widget phong phú: Nút ấn, hiển thị giá trị, thanh kéo điều khiển GPIO vi điều khiển để đóng cắt relay, điều khiển thiết bị trong nhà.",
+        "en": "Hệ thống Widget phong phú: Nút ấn, hiển thị giá trị, thanh kéo điều khiển GPIO vi điều khiển để đóng cắt relay, điều khiển thiết bị trong nhà."
+      },
+      {
+        "type": "bullet",
+        "vi": "Hỗ trợ kết nối ở bất kỳ đâu có mạng Internet và chia sẻ bảng điều khiển cho nhiều người dùng chung.",
+        "en": "Hỗ trợ kết nối ở bất kỳ đâu có mạng Internet và chia sẻ bảng điều khiển cho nhiều người dùng chung."
+      }
+    ],
+    "raw_text_vi": "Triển khai hệ thống nhà thông minh (Smart Home), điều khiển và giám sát thiết bị từ xa qua Internet. Hệ thống Widget phong phú: Nút ấn, hiển thị giá trị, thanh kéo điều khiển GPIO vi điều khiển để đóng cắt relay, điều khiển thiết bị trong nhà. Hỗ trợ kết nối ở bất kỳ đâu có mạng Internet và chia sẻ bảng điều khiển cho nhiều người dùng chung.",
+    "raw_text_en": "Triển khai hệ thống nhà thông minh (Smart Home), điều khiển và giám sát thiết bị từ xa qua Internet. Hệ thống Widget phong phú: Nút ấn, hiển thị giá trị, thanh kéo điều khiển GPIO vi điều khiển để đóng cắt relay, điều khiển thiết bị trong nhà. Hỗ trợ kết nối ở bất kỳ đâu có mạng Internet và chia sẻ bảng điều khiển cho nhiều người dùng chung."
+  },
+  {
+    "num": 42,
+    "chapter": "c4",
+    "section": "4.5. Các nền tảng phần mềm",
+    "title": "Cơ chế hoạt động của Blynk qua Cloud Token",
+    "image": "slide_images/c4/slide_42.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Thiết bị phần cứng (Arduino, ESP8266, ESP32) điều khiển tải qua relay lắp vào các chân GPIO và kết nối mạng lên Blynk Cloud.",
+        "en": "Thiết bị phần cứng (Arduino, ESP8266, ESP32) điều khiển tải qua relay lắp vào các chân GPIO và kết nối mạng lên Blynk Cloud."
+      },
+      {
+        "type": "bullet",
+        "vi": "Ứng dụng Blynk trên smartphone giao tiếp với phần cứng thông qua mã Auth Token duy nhất được cấp trong quá trình tạo dự án.",
+        "en": "Ứng dụng Blynk trên smartphone giao tiếp với phần cứng thông qua mã Auth Token duy nhất được cấp trong quá trình tạo dự án."
+      }
+    ],
+    "raw_text_vi": "Thiết bị phần cứng (Arduino, ESP8266, ESP32) điều khiển tải qua relay lắp vào các chân GPIO và kết nối mạng lên Blynk Cloud. Ứng dụng Blynk trên smartphone giao tiếp với phần cứng thông qua mã Auth Token duy nhất được cấp trong quá trình tạo dự án.",
+    "raw_text_en": "Thiết bị phần cứng (Arduino, ESP8266, ESP32) điều khiển tải qua relay lắp vào các chân GPIO và kết nối mạng lên Blynk Cloud. Ứng dụng Blynk trên smartphone giao tiếp với phần cứng thông qua mã Auth Token duy nhất được cấp trong quá trình tạo dự án."
+  },
+  {
+    "num": 43,
+    "chapter": "c4",
+    "section": "4. Tổng kết",
+    "title": "Tổng kết Chương 4",
+    "image": "slide_images/c4/slide_43.jpg",
+    "elements": [
+      {
+        "type": "bullet",
+        "vi": "Kết thúc chương 4: Các nền tảng phần cứng và phần mềm IoT thông dụng.",
+        "en": "Kết thúc chương 4: Các nền tảng phần cứng và phần mềm IoT thông dụng."
+      },
+      {
+        "type": "bullet",
+        "vi": "Cảm ơn các bạn đã theo dõi bài giảng!",
+        "en": "Cảm ơn các bạn đã theo dõi bài giảng!"
+      }
+    ],
+    "raw_text_vi": "Kết thúc chương 4: Các nền tảng phần cứng và phần mềm IoT thông dụng. Cảm ơn các bạn đã theo dõi bài giảng!",
+    "raw_text_en": "Kết thúc chương 4: Các nền tảng phần cứng và phần mềm IoT thông dụng. Cảm ơn các bạn đã theo dõi bài giảng!"
+  }
+]
